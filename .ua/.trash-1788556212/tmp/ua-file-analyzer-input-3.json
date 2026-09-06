@@ -1,0 +1,173 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "language": "javascript",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementReports.jsx",
+      "language": "javascript",
+      "sizeLines": 248,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "language": "javascript",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Applicants.jsx",
+      "language": "javascript",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "language": "javascript",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/CreateJob.jsx",
+      "language": "javascript",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "language": "javascript",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Notifications.jsx",
+      "language": "javascript",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/Profile.jsx",
+      "language": "javascript",
+      "sizeLines": 671,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentApplications.jsx",
+      "language": "javascript",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentInterviews.jsx",
+      "language": "javascript",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "language": "javascript",
+      "sizeLines": 400,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentJobs.jsx",
+      "language": "javascript",
+      "sizeLines": 597,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentResume.jsx",
+      "language": "javascript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentSettings.jsx",
+      "language": "javascript",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "frontend/src/pages/Placement/PlacementRecords.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementReports.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementStudents.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/Applicants.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/CompanyProfile.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/CreateJob.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/ManageJobs.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/Notifications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/RecruiterDashboard.jsx": [],
+    "frontend/src/pages/Recruiter/RecruiterLayout.jsx": [],
+    "frontend/src/pages/Student/Profile.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentApplications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentDashboard.jsx": [],
+    "frontend/src/pages/Student/StudentInterviews.jsx": [],
+    "frontend/src/pages/Student/StudentJobDetails.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentJobs.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentLayout.jsx": [],
+    "frontend/src/pages/Student/StudentNotifications.jsx": [],
+    "frontend/src/pages/Student/StudentResume.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentSettings.jsx": []
+  }
+}

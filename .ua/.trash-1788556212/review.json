@@ -1,0 +1,26 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'document:frontend/README.md' has no edges (orphan)",
+    "Node 'config:frontend/package.json' has no edges (orphan)",
+    "Node 'file:frontend/eslint.config.js' has no edges (orphan)",
+    "Node 'file:frontend/vite.config.js' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 895,
+    "totalEdges": 984,
+    "totalLayers": 10,
+    "tourSteps": 7,
+    "nodeTypes": {
+      "file": 120,
+      "function": 697,
+      "class": 76,
+      "document": 1,
+      "config": 1
+    },
+    "edgeTypes": {
+      "contains": 773,
+      "imports": 211
+    }
+  }
+}

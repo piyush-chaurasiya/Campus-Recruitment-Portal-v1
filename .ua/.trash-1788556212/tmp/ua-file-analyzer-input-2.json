@@ -1,0 +1,207 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentAcademicController.java",
+      "language": "java",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentResumeController.java",
+      "language": "java",
+      "sizeLines": 242,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "language": "java",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "language": "java",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "language": "java",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminUserResponse.java",
+      "language": "java",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "language": "java",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "language": "java",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "language": "java",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "language": "java",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "language": "java",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java",
+      "language": "java",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java",
+      "language": "java",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java",
+      "language": "java",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/DataInitializer.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileInitializer.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentAcademicController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentResumeController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminUserResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/DataInitializer.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileInitializer.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ]
+  }
+}

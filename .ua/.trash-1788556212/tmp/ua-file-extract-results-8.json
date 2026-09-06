@@ -1,0 +1,772 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 6,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "RecruiterProfileController",
+          "startLine": 16,
+          "endLine": 20,
+          "params": [
+            "profileService"
+          ]
+        },
+        {
+          "name": "getProfile",
+          "startLine": 22,
+          "endLine": 29,
+          "params": [
+            "authentication"
+          ]
+        },
+        {
+          "name": "updateProfile",
+          "startLine": 31,
+          "endLine": 40,
+          "params": [
+            "request",
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RecruiterProfileController",
+          "startLine": 10,
+          "endLine": 41,
+          "methods": [
+            "RecruiterProfileController",
+            "getProfile",
+            "updateProfile"
+          ],
+          "properties": [
+            "profileService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterProfileController",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "getProfile",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "updateProfile",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "RecruiterProfileController",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getProfile",
+          "callee": "profileService.getProfile",
+          "lineNumber": 26
+        },
+        {
+          "caller": "getProfile",
+          "callee": "authentication.getName",
+          "lineNumber": 27
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileService.updateProfile",
+          "lineNumber": 36
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "authentication.getName",
+          "lineNumber": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 8,
+      "classes": [
+        {
+          "name": "RecruiterProfileRepository",
+          "startLine": 8,
+          "endLine": 12,
+          "methods": [
+            "findByUserEmail"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterProfileRepository",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "UpdateRecruiterProfileRequest",
+          "startLine": 11,
+          "endLine": 12,
+          "params": []
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "setCompanyName",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "companyName"
+          ]
+        },
+        {
+          "name": "getWebsite",
+          "startLine": 22,
+          "endLine": 24,
+          "params": []
+        },
+        {
+          "name": "setWebsite",
+          "startLine": 26,
+          "endLine": 28,
+          "params": [
+            "website"
+          ]
+        },
+        {
+          "name": "getIndustry",
+          "startLine": 30,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "setIndustry",
+          "startLine": 34,
+          "endLine": 36,
+          "params": [
+            "industry"
+          ]
+        },
+        {
+          "name": "getLocation",
+          "startLine": 38,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "setLocation",
+          "startLine": 42,
+          "endLine": 44,
+          "params": [
+            "location"
+          ]
+        },
+        {
+          "name": "getDescription",
+          "startLine": 46,
+          "endLine": 48,
+          "params": []
+        },
+        {
+          "name": "setDescription",
+          "startLine": 50,
+          "endLine": 52,
+          "params": [
+            "description"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "UpdateRecruiterProfileRequest",
+          "startLine": 3,
+          "endLine": 53,
+          "methods": [
+            "UpdateRecruiterProfileRequest",
+            "getCompanyName",
+            "setCompanyName",
+            "getWebsite",
+            "setWebsite",
+            "getIndustry",
+            "setIndustry",
+            "getLocation",
+            "setLocation",
+            "getDescription",
+            "setDescription"
+          ],
+          "properties": [
+            "companyName",
+            "website",
+            "industry",
+            "location",
+            "description"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UpdateRecruiterProfileRequest",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "setCompanyName",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getWebsite",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "setWebsite",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "getIndustry",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "setIndustry",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "getLocation",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "setLocation",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "getDescription",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "setDescription",
+          "line": 50,
+          "isDefault": false
+        },
+        {
+          "name": "UpdateRecruiterProfileRequest",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 12,
+        "functionCount": 11,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 57,
+      "functions": [
+        {
+          "name": "getId",
+          "startLine": 25,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "getUser",
+          "startLine": 29,
+          "endLine": 31,
+          "params": []
+        },
+        {
+          "name": "setUser",
+          "startLine": 33,
+          "endLine": 35,
+          "params": [
+            "user"
+          ]
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 37,
+          "endLine": 39,
+          "params": []
+        },
+        {
+          "name": "setCompanyName",
+          "startLine": 41,
+          "endLine": 43,
+          "params": [
+            "companyName"
+          ]
+        },
+        {
+          "name": "getWebsite",
+          "startLine": 45,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "setWebsite",
+          "startLine": 49,
+          "endLine": 51,
+          "params": [
+            "website"
+          ]
+        },
+        {
+          "name": "getIndustry",
+          "startLine": 53,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "setIndustry",
+          "startLine": 57,
+          "endLine": 59,
+          "params": [
+            "industry"
+          ]
+        },
+        {
+          "name": "getLocation",
+          "startLine": 61,
+          "endLine": 63,
+          "params": []
+        },
+        {
+          "name": "setLocation",
+          "startLine": 65,
+          "endLine": 67,
+          "params": [
+            "location"
+          ]
+        },
+        {
+          "name": "getDescription",
+          "startLine": 69,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "setDescription",
+          "startLine": 73,
+          "endLine": 75,
+          "params": [
+            "description"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RecruiterProfile",
+          "startLine": 5,
+          "endLine": 76,
+          "methods": [
+            "getId",
+            "getUser",
+            "setUser",
+            "getCompanyName",
+            "setCompanyName",
+            "getWebsite",
+            "setWebsite",
+            "getIndustry",
+            "setIndustry",
+            "getLocation",
+            "setLocation",
+            "getDescription",
+            "setDescription"
+          ],
+          "properties": [
+            "id",
+            "user",
+            "companyName",
+            "website",
+            "industry",
+            "location",
+            "description"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getId",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "getUser",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "setUser",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "setCompanyName",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "getWebsite",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "setWebsite",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "getIndustry",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "setIndustry",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "getLocation",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "setLocation",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "getDescription",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "setDescription",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "RecruiterProfile",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 14,
+        "functionCount": 13,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 8,
+      "classes": [
+        {
+          "name": "RecruiterProfileRepository",
+          "startLine": 8,
+          "endLine": 12,
+          "methods": [
+            "findByUserEmail"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterProfileRepository",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "RecruiterProfileService",
+          "startLine": 18,
+          "endLine": 24,
+          "params": [
+            "profileRepository",
+            "userRepository"
+          ]
+        },
+        {
+          "name": "getProfile",
+          "startLine": 26,
+          "endLine": 31,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "updateProfile",
+          "startLine": 33,
+          "endLine": 50,
+          "params": [
+            "email",
+            "request"
+          ]
+        },
+        {
+          "name": "getOrCreate",
+          "startLine": 52,
+          "endLine": 73,
+          "params": [
+            "email"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RecruiterProfileService",
+          "startLine": 12,
+          "endLine": 74,
+          "methods": [
+            "RecruiterProfileService",
+            "getProfile",
+            "updateProfile",
+            "getOrCreate"
+          ],
+          "properties": [
+            "profileRepository",
+            "userRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterProfileService",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getProfile",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "updateProfile",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "RecruiterProfileService",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getProfile",
+          "callee": "getOrCreate",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getProfile",
+          "callee": "RecruiterProfileResponse.from",
+          "lineNumber": 30
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "getOrCreate",
+          "lineNumber": 38
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setCompanyName",
+          "lineNumber": 40
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getCompanyName",
+          "lineNumber": 40
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setWebsite",
+          "lineNumber": 41
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getWebsite",
+          "lineNumber": 41
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setIndustry",
+          "lineNumber": 42
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getIndustry",
+          "lineNumber": 42
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setLocation",
+          "lineNumber": 43
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getLocation",
+          "lineNumber": 43
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setDescription",
+          "lineNumber": 44
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getDescription",
+          "lineNumber": 44
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileRepository.save",
+          "lineNumber": 47
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "RecruiterProfileResponse.from",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "profileRepository\r\n                .findByUserEmail(email).orElseGet",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "profileRepository.findByUserEmail",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "userRepository\r\n                            .findByEmail(email).orElseThrow",
+          "lineNumber": 58
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 58
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "new RuntimeException",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "new RecruiterProfile",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "profile.setUser",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getOrCreate",
+          "callee": "profileRepository.save",
+          "lineNumber": 71
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "language": "java",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "language": "java",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "language": "java",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "language": "java",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "language": "java",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "language": "java",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ]
+  }
+}

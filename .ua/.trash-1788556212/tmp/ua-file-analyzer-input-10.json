@@ -1,0 +1,28 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "frontend/README.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "frontend/index.html",
+      "language": "html",
+      "sizeLines": 13,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/package.json",
+      "language": "json",
+      "sizeLines": 31,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "frontend/README.md": [],
+    "frontend/index.html": [],
+    "frontend/package.json": []
+  }
+}

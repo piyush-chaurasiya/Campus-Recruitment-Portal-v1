@@ -1,0 +1,54 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "language": "java",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "language": "java",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "language": "java",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java"
+    ]
+  }
+}

@@ -1,0 +1,1758 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "type": "file",
+      "name": "PlacementApplicationController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "summary": "PlacementApplicationController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:PlacementApplicationController",
+      "type": "function",
+      "name": "PlacementApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "summary": "Function PlacementApplicationController in PlacementApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:getAllApplications",
+      "type": "function",
+      "name": "getAllApplications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "summary": "Function getAllApplications in PlacementApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:updateStatus",
+      "type": "function",
+      "name": "updateStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "summary": "Function updateStatus in PlacementApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:PlacementApplicationController",
+      "type": "class",
+      "name": "PlacementApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "summary": "Class PlacementApplicationController in PlacementApplicationController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "type": "file",
+      "name": "RecruiterApplicationController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "summary": "RecruiterApplicationController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:RecruiterApplicationController",
+      "type": "function",
+      "name": "RecruiterApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "summary": "Function RecruiterApplicationController in RecruiterApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:getApplications",
+      "type": "function",
+      "name": "getApplications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "summary": "Function getApplications in RecruiterApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:updateStatus",
+      "type": "function",
+      "name": "updateStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "summary": "Function updateStatus in RecruiterApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:RecruiterApplicationController",
+      "type": "class",
+      "name": "RecruiterApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "summary": "Class RecruiterApplicationController in RecruiterApplicationController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "type": "file",
+      "name": "StudentApplicationController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "summary": "StudentApplicationController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:StudentApplicationController",
+      "type": "function",
+      "name": "StudentApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "summary": "Function StudentApplicationController in StudentApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:apply",
+      "type": "function",
+      "name": "apply",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "summary": "Function apply in StudentApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:getMyApplications",
+      "type": "function",
+      "name": "getMyApplications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "summary": "Function getMyApplications in StudentApplicationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:StudentApplicationController",
+      "type": "class",
+      "name": "StudentApplicationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "summary": "Class StudentApplicationController in StudentApplicationController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "type": "file",
+      "name": "ApplicationResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "ApplicationResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:ApplicationResponse",
+      "type": "function",
+      "name": "ApplicationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function ApplicationResponse in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:from",
+      "type": "function",
+      "name": "from",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function from in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getId in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getJobId",
+      "type": "function",
+      "name": "getJobId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getJobId in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getJobTitle",
+      "type": "function",
+      "name": "getJobTitle",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getJobTitle in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getCompanyName",
+      "type": "function",
+      "name": "getCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getCompanyName in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getStatus in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getAppliedAt",
+      "type": "function",
+      "name": "getAppliedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getAppliedAt in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getUpdatedAt",
+      "type": "function",
+      "name": "getUpdatedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getUpdatedAt in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getRemarks",
+      "type": "function",
+      "name": "getRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Function getRemarks in ApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:ApplicationResponse",
+      "type": "class",
+      "name": "ApplicationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "summary": "Class ApplicationResponse in ApplicationResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "type": "file",
+      "name": "PlacementApplicationResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "PlacementApplicationResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:PlacementApplicationResponse",
+      "type": "function",
+      "name": "PlacementApplicationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function PlacementApplicationResponse in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:from",
+      "type": "function",
+      "name": "from",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function from in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getId in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getJobId",
+      "type": "function",
+      "name": "getJobId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getJobId in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getJobTitle",
+      "type": "function",
+      "name": "getJobTitle",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getJobTitle in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getCompanyName",
+      "type": "function",
+      "name": "getCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getCompanyName in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentId",
+      "type": "function",
+      "name": "getStudentId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getStudentId in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentName",
+      "type": "function",
+      "name": "getStudentName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getStudentName in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentEmail",
+      "type": "function",
+      "name": "getStudentEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getStudentEmail in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getBranch",
+      "type": "function",
+      "name": "getBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getBranch in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getCgpa",
+      "type": "function",
+      "name": "getCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getCgpa in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getBacklogs",
+      "type": "function",
+      "name": "getBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getBacklogs in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getHasResume",
+      "type": "function",
+      "name": "getHasResume",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getHasResume in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getStatus in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getAppliedAt",
+      "type": "function",
+      "name": "getAppliedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getAppliedAt in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getUpdatedAt",
+      "type": "function",
+      "name": "getUpdatedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getUpdatedAt in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getRemarks",
+      "type": "function",
+      "name": "getRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Function getRemarks in PlacementApplicationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:PlacementApplicationResponse",
+      "type": "class",
+      "name": "PlacementApplicationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "summary": "Class PlacementApplicationResponse in PlacementApplicationResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "type": "file",
+      "name": "UpdateApplicationStatusRequest.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "UpdateApplicationStatusRequest class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:UpdateApplicationStatusRequest",
+      "type": "function",
+      "name": "UpdateApplicationStatusRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Function UpdateApplicationStatusRequest in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Function getStatus in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:setStatus",
+      "type": "function",
+      "name": "setStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Function setStatus in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:getRemarks",
+      "type": "function",
+      "name": "getRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Function getRemarks in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:setRemarks",
+      "type": "function",
+      "name": "setRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Function setRemarks in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:UpdateApplicationStatusRequest",
+      "type": "class",
+      "name": "UpdateApplicationStatusRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "summary": "Class UpdateApplicationStatusRequest in UpdateApplicationStatusRequest.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "type": "file",
+      "name": "ApplicationStatus.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "summary": "ApplicationStatus class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java:ApplicationStatus",
+      "type": "class",
+      "name": "ApplicationStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "summary": "Class ApplicationStatus in ApplicationStatus.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "type": "file",
+      "name": "JobApplication.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "JobApplication class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java providing core application logic.",
+      "tags": [
+        "code",
+        "entry-point",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:prePersist",
+      "type": "function",
+      "name": "prePersist",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function prePersist in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:preUpdate",
+      "type": "function",
+      "name": "preUpdate",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function preUpdate in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getId in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getJob",
+      "type": "function",
+      "name": "getJob",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getJob in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setJob",
+      "type": "function",
+      "name": "setJob",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function setJob in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getStudent",
+      "type": "function",
+      "name": "getStudent",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getStudent in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setStudent",
+      "type": "function",
+      "name": "setStudent",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function setStudent in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getStatus in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setStatus",
+      "type": "function",
+      "name": "setStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function setStatus in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getAppliedAt",
+      "type": "function",
+      "name": "getAppliedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getAppliedAt in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getUpdatedAt",
+      "type": "function",
+      "name": "getUpdatedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getUpdatedAt in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getRemarks",
+      "type": "function",
+      "name": "getRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function getRemarks in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setRemarks",
+      "type": "function",
+      "name": "setRemarks",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Function setRemarks in JobApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:JobApplication",
+      "type": "class",
+      "name": "JobApplication",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "summary": "Class JobApplication in JobApplication.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "type": "file",
+      "name": "JobApplicationRepository.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "summary": "JobApplicationRepository class in backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java providing core application logic.",
+      "tags": [
+        "code",
+        "database",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java:JobApplicationRepository",
+      "type": "class",
+      "name": "JobApplicationRepository",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "summary": "Class JobApplicationRepository in JobApplicationRepository.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "type": "file",
+      "name": "JobApplicationService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "JobApplicationService class in backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:JobApplicationService",
+      "type": "function",
+      "name": "JobApplicationService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function JobApplicationService in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:apply",
+      "type": "function",
+      "name": "apply",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function apply in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getMyApplications",
+      "type": "function",
+      "name": "getMyApplications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function getMyApplications in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getApplicationsForRecruiter",
+      "type": "function",
+      "name": "getApplicationsForRecruiter",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function getApplicationsForRecruiter in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getAllApplicationsForPlacement",
+      "type": "function",
+      "name": "getAllApplicationsForPlacement",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function getAllApplicationsForPlacement in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getApplicationsForRecruiter",
+      "type": "function",
+      "name": "getApplicationsForRecruiter",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function getApplicationsForRecruiter in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:updateStatus",
+      "type": "function",
+      "name": "updateStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function updateStatus in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:updateStatusAsRecruiter",
+      "type": "function",
+      "name": "updateStatusAsRecruiter",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Function updateStatusAsRecruiter in JobApplicationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:JobApplicationService",
+      "type": "class",
+      "name": "JobApplicationService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "summary": "Class JobApplicationService in JobApplicationService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:PlacementApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:getAllApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:updateStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java:PlacementApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:RecruiterApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:getApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:updateStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java:RecruiterApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:StudentApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:apply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:getMyApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java:StudentApplicationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:ApplicationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:from",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getJobId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getJobTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getAppliedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getUpdatedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:getRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java:ApplicationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:PlacementApplicationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:from",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getJobId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getJobTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStudentEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getHasResume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getAppliedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getUpdatedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:getRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java:PlacementApplicationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:UpdateApplicationStatusRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:getStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:setStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:getRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:setRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java:UpdateApplicationStatusRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java:ApplicationStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:prePersist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:preUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getStudent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setStudent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getAppliedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getUpdatedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:getRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:setRemarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java:JobApplication",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java:JobApplicationRepository",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:JobApplicationService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:apply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getMyApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getApplicationsForRecruiter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getAllApplicationsForPlacement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:getApplicationsForRecruiter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:updateStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:updateStatusAsRecruiter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java:JobApplicationService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

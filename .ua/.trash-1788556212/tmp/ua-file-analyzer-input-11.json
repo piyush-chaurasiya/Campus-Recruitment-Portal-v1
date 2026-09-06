@@ -1,0 +1,175 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": ".DS_Store",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.gitattributes",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.mvn/wrapper/maven-wrapper.properties",
+      "language": "properties",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/mvnw",
+      "language": "unknown",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/mvnw.cmd",
+      "language": "batch",
+      "sizeLines": 189,
+      "fileCategory": "script"
+    },
+    {
+      "path": "backEnd/pom.xml",
+      "language": "xml",
+      "sizeLines": 104,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/src/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "language": "java",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/resources/application.properties",
+      "language": "properties",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/App.css",
+      "language": "css",
+      "sizeLines": 184,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "language": "css",
+      "sizeLines": 8,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "language": "javascript",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "language": "javascript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    ".DS_Store": [],
+    "backEnd/.DS_Store": [],
+    "backEnd/.gitattributes": [],
+    "backEnd/.mvn/wrapper/maven-wrapper.properties": [],
+    "backEnd/mvnw": [],
+    "backEnd/mvnw.cmd": [],
+    "backEnd/pom.xml": [],
+    "backEnd/src/.DS_Store": [],
+    "backEnd/src/main/.DS_Store": [],
+    "backEnd/src/main/java/.DS_Store": [],
+    "backEnd/src/main/java/com/.DS_Store": [],
+    "backEnd/src/main/java/com/myanatomy/.DS_Store": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java": [],
+    "backEnd/src/main/resources/application.properties": [],
+    "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java": [],
+    "frontend/eslint.config.js": [],
+    "frontend/src/App.css": [],
+    "frontend/src/index.css": [],
+    "frontend/src/pages/Recruiter/Interviews.jsx": [],
+    "frontend/vite.config.js": []
+  }
+}

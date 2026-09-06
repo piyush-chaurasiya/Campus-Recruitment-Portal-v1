@@ -1,0 +1,75 @@
+[
+  {
+    "order": 1,
+    "title": "Project Overview & Documentation",
+    "description": "Start here to understand the campus placement portal architecture, backend Spring Boot setup, and frontend React configuration.",
+    "nodeIds": [
+      "document:frontend/README.md",
+      "config:frontend/package.json"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Frontend Application Bootstrap & Routing",
+    "description": "The client-side single-page application mounts via main.jsx and configures all authenticated routes, dashboards, and role guards in App.jsx.",
+    "nodeIds": [
+      "file:frontend/src/main.jsx",
+      "file:frontend/src/App.jsx"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Frontend API Communication Layer",
+    "description": "Handles HTTP communication with the Spring Boot backend, manages authentication tokens, and standardizes Axios request/response interceptors.",
+    "nodeIds": [
+      "file:frontend/src/api/axios.jsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Backend Core & Security Infrastructure",
+    "description": "Spring Boot application entry point with JWT filter chain and security policy configurations enforcing role-based access control.",
+    "nodeIds": [
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java:JwtAuthenticationFilter",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java:doFilterInternal",
+      "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java:JwtAuthenticationFilter"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Backend REST Controllers & API Endpoints",
+    "description": "REST controllers that expose placement management, student profiles, job postings, and application processing endpoints.",
+    "nodeIds": [
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java:AdminAcademicVerificationController",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java:getPendingVerifications",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java:getVerificationById",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java:approveVerification"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Business Logic & Service Implementations",
+    "description": "Service interfaces and implementations encapsulating business rules, candidate eligibility checks, and placement drive workflows.",
+    "nodeIds": [
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java:AcademicVerificationService",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java:submitRequest",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java:getLatestRequest",
+      "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java:toResponse"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Data Persistence & Domain Entities",
+    "description": "JPA domain entities mapped to database tables alongside Spring Data repositories providing data access methods.",
+    "nodeIds": [
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java:AcademicVerificationRequestRepository",
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java:StudentProfileRepository",
+      "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ]
+  }
+]

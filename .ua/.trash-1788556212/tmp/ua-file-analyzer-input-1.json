@@ -1,0 +1,214 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "frontend/src/App.jsx",
+      "language": "javascript",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/axios.jsx",
+      "language": "javascript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/ProtectedRoute.jsx",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/common/ThemeToggle.jsx",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/context/ThemeContext.jsx",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "language": "javascript",
+      "sizeLines": 754,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "language": "javascript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "language": "javascript",
+      "sizeLines": 554,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "language": "javascript",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "language": "javascript",
+      "sizeLines": 977,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Login.jsx",
+      "language": "javascript",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "language": "javascript",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "language": "javascript",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "language": "javascript",
+      "sizeLines": 698,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "frontend/src/App.jsx": [
+      "frontend/src/components/ProtectedRoute.jsx",
+      "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "frontend/src/pages/Admin/AdminLayout.jsx",
+      "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "frontend/src/pages/Admin/AdminSettings.jsx",
+      "frontend/src/pages/Admin/AdminUsers.jsx",
+      "frontend/src/pages/Login.jsx",
+      "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "frontend/src/pages/Placement/PlacementReports.jsx",
+      "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "frontend/src/pages/Student/Profile.jsx",
+      "frontend/src/pages/Student/StudentApplications.jsx",
+      "frontend/src/pages/Student/StudentDashboard.jsx",
+      "frontend/src/pages/Student/StudentInterviews.jsx",
+      "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "frontend/src/pages/Student/StudentJobs.jsx",
+      "frontend/src/pages/Student/StudentLayout.jsx",
+      "frontend/src/pages/Student/StudentNotifications.jsx",
+      "frontend/src/pages/Student/StudentResume.jsx",
+      "frontend/src/pages/Student/StudentSettings.jsx"
+    ],
+    "frontend/src/api/axios.jsx": [],
+    "frontend/src/components/ProtectedRoute.jsx": [],
+    "frontend/src/components/common/ThemeToggle.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/context/ThemeContext.jsx": [],
+    "frontend/src/main.jsx": [
+      "frontend/src/App.jsx",
+      "frontend/src/context/ThemeContext.jsx",
+      "frontend/src/index.css"
+    ],
+    "frontend/src/pages/Admin/AdminAcademicVerification.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminAuditLogs.jsx": [],
+    "frontend/src/pages/Admin/AdminDashboard.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminJobVerification.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminLayout.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminNotifications.jsx": [],
+    "frontend/src/pages/Admin/AdminSettings.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminUsers.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Login.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementApplications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementCompanies.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementDashboard.jsx": [],
+    "frontend/src/pages/Placement/PlacementDrives.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementLayout.jsx": [],
+    "frontend/src/pages/Placement/PlacementNotifications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ]
+  }
+}

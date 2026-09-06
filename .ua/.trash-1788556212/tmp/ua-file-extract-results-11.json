@@ -1,0 +1,693 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [
+    ".DS_Store",
+    "backEnd/.DS_Store",
+    "backEnd/.gitattributes",
+    "backEnd/.mvn/wrapper/maven-wrapper.properties",
+    "backEnd/mvnw",
+    "backEnd/mvnw.cmd",
+    "backEnd/pom.xml",
+    "backEnd/src/.DS_Store",
+    "backEnd/src/main/.DS_Store",
+    "backEnd/src/main/java/.DS_Store",
+    "backEnd/src/main/java/com/.DS_Store",
+    "backEnd/src/main/java/com/myanatomy/.DS_Store",
+    "backEnd/src/main/resources/application.properties",
+    "frontend/src/App.css",
+    "frontend/src/index.css"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 9,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "args"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "SandboxproApplication",
+          "startLine": 6,
+          "endLine": 13,
+          "methods": [
+            "main"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "SandboxproApplication",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "SpringApplication.run",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "dashboard",
+          "startLine": 11,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentController",
+          "startLine": 7,
+          "endLine": 15,
+          "methods": [
+            "dashboard"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dashboard",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "StudentController",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "handleResponseStatusException",
+          "startLine": 15,
+          "endLine": 28,
+          "params": [
+            "ex"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "GlobalExceptionHandler",
+          "startLine": 12,
+          "endLine": 29,
+          "methods": [
+            "handleResponseStatusException"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "handleResponseStatusException",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "GlobalExceptionHandler",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "new HashMap<>",
+          "lineNumber": 19
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "response.put",
+          "lineNumber": 21
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getStatusCode().value",
+          "lineNumber": 21
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getStatusCode",
+          "lineNumber": 21
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "response.put",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getStatusCode().toString",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getStatusCode",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "response.put",
+          "lineNumber": 23
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getReason",
+          "lineNumber": 23
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ResponseEntity\n                .status(ex.getStatusCode()).body",
+          "lineNumber": 25
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 25
+        },
+        {
+          "caller": "handleResponseStatusException",
+          "callee": "ex.getStatusCode",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "passwordEncoder",
+          "startLine": 11,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PasswordConfig",
+          "startLine": 8,
+          "endLine": 15,
+          "methods": [
+            "passwordEncoder"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "passwordEncoder",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "PasswordConfig",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "passwordEncoder",
+          "callee": "new BCryptPasswordEncoder",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "SecurityConfig",
+          "startLine": 22,
+          "endLine": 24,
+          "params": [
+            "jwtFilter"
+          ]
+        },
+        {
+          "name": "corsConfigurationSource",
+          "startLine": 29,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "securityFilterChain",
+          "startLine": 47,
+          "endLine": 82,
+          "params": [
+            "http"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "SecurityConfig",
+          "startLine": 16,
+          "endLine": 83,
+          "methods": [
+            "SecurityConfig",
+            "corsConfigurationSource",
+            "securityFilterChain"
+          ],
+          "properties": [
+            "jwtFilter"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SecurityConfig",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "corsConfigurationSource",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "securityFilterChain",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "SecurityConfig",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "new CorsConfiguration",
+          "lineNumber": 31
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "configuration.setAllowedOrigins",
+          "lineNumber": 32
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "List.of",
+          "lineNumber": 32
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "configuration.setAllowedMethods",
+          "lineNumber": 38
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "List.of",
+          "lineNumber": 38
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "configuration.setAllowedHeaders",
+          "lineNumber": 39
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "List.of",
+          "lineNumber": 39
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "configuration.setAllowCredentials",
+          "lineNumber": 40
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "new UrlBasedCorsConfigurationSource",
+          "lineNumber": 42
+        },
+        {
+          "caller": "corsConfigurationSource",
+          "callee": "source.registerCorsConfiguration",
+          "lineNumber": 43
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable())\n\n                .cors(cors -> cors.configurationSource(corsConfigurationSource()))\n\n                .sessionManagement(session ->\n                        session.sessionCreationPolicy(\n                                SessionCreationPolicy.STATELESS))\n\n                .formLogin(form -> form.disable())\n\n                .httpBasic(basic -> basic.disable())\n\n                .authorizeHttpRequests(auth -> auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole(\"PLACEMENT_OFFICER\")\n                        .requestMatchers(\"/api/admin/**\").hasRole(\"ADMIN\")\n                        .anyRequest().authenticated()\n                ).addFilterBefore",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable())\n\n                .cors(cors -> cors.configurationSource(corsConfigurationSource()))\n\n                .sessionManagement(session ->\n                        session.sessionCreationPolicy(\n                                SessionCreationPolicy.STATELESS))\n\n                .formLogin(form -> form.disable())\n\n                .httpBasic(basic -> basic.disable()).authorizeHttpRequests",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable())\n\n                .cors(cors -> cors.configurationSource(corsConfigurationSource()))\n\n                .sessionManagement(session ->\n                        session.sessionCreationPolicy(\n                                SessionCreationPolicy.STATELESS))\n\n                .formLogin(form -> form.disable()).httpBasic",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable())\n\n                .cors(cors -> cors.configurationSource(corsConfigurationSource()))\n\n                .sessionManagement(session ->\n                        session.sessionCreationPolicy(\n                                SessionCreationPolicy.STATELESS)).formLogin",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable())\n\n                .cors(cors -> cors.configurationSource(corsConfigurationSource())).sessionManagement",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http\n                .csrf(csrf -> csrf.disable()).cors",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http.csrf",
+          "lineNumber": 51
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "csrf.disable",
+          "lineNumber": 52
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "cors.configurationSource",
+          "lineNumber": 54
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "corsConfigurationSource",
+          "lineNumber": 54
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "session.sessionCreationPolicy",
+          "lineNumber": 57
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "form.disable",
+          "lineNumber": 60
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "basic.disable",
+          "lineNumber": 62
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole(\"PLACEMENT_OFFICER\")\n                        .requestMatchers(\"/api/admin/**\").hasRole(\"ADMIN\")\n                        .anyRequest().authenticated",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole(\"PLACEMENT_OFFICER\")\n                        .requestMatchers(\"/api/admin/**\").hasRole(\"ADMIN\").anyRequest",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole(\"PLACEMENT_OFFICER\")\n                        .requestMatchers(\"/api/admin/**\").hasRole",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole(\"PLACEMENT_OFFICER\").requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\")\n                        .requestMatchers(\"/api/placement/**\").hasRole",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole(\"RECRUITER\").requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\")\n                        .requestMatchers(\"/api/recruiter/**\").hasRole",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole(\"STUDENT\").requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated()\n                        .requestMatchers(\"/api/student/**\").hasRole",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated().requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\")\n                        .requestMatchers(\"/api/jobs/**\").authenticated",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole(\"ADMIN\").requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll()\n                        .requestMatchers(\"/api/jobs/admin/**\").hasRole",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll().requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll()\n                        .requestMatchers(\"/api/auth/**\").permitAll",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll().requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth\n                        .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, \"/**\").permitAll",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "auth.requestMatchers",
+          "lineNumber": 64
+        },
+        {
+          "caller": "securityFilterChain",
+          "callee": "http.build",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "contextLoads",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "SandboxproApplicationTests",
+          "startLine": 6,
+          "endLine": 13,
+          "methods": [
+            "contextLoads"
+          ],
+          "properties": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 186,
+      "functions": [
+        {
+          "name": "Interviews",
+          "startLine": 3,
+          "endLine": 217,
+          "params": []
+        },
+        {
+          "name": "Input",
+          "startLine": 219,
+          "endLine": 237,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Interviews",
+          "callee": "useState",
+          "lineNumber": 4
+        },
+        {
+          "caller": "Interviews",
+          "callee": "setShowForm",
+          "lineNumber": 53
+        },
+        {
+          "caller": "Interviews",
+          "callee": "setShowForm",
+          "lineNumber": 112
+        },
+        {
+          "caller": "Interviews",
+          "callee": "alert",
+          "lineNumber": 120
+        },
+        {
+          "caller": "Interviews",
+          "callee": "setShowForm",
+          "lineNumber": 121
+        },
+        {
+          "caller": "Interviews",
+          "callee": "interviews.map",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

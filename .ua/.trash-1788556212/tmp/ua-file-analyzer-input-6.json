@@ -1,0 +1,83 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "language": "java",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "language": "java",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "language": "java",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "language": "java",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "language": "java",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "language": "java",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java"
+    ]
+  }
+}

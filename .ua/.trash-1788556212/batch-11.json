@@ -1,0 +1,445 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "type": "file",
+      "name": "SandboxproApplication.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "summary": "SandboxproApplication class in backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java providing core application logic.",
+      "tags": [
+        "code",
+        "entry-point",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "summary": "Function main in SandboxproApplication.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java:SandboxproApplication",
+      "type": "class",
+      "name": "SandboxproApplication",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "summary": "Class SandboxproApplication in SandboxproApplication.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "type": "file",
+      "name": "StudentController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "summary": "StudentController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java:dashboard",
+      "type": "function",
+      "name": "dashboard",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "summary": "Function dashboard in StudentController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java:StudentController",
+      "type": "class",
+      "name": "StudentController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "summary": "Class StudentController in StudentController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "type": "file",
+      "name": "GlobalExceptionHandler.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "summary": "GlobalExceptionHandler class in backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java:handleResponseStatusException",
+      "type": "function",
+      "name": "handleResponseStatusException",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "summary": "Function handleResponseStatusException in GlobalExceptionHandler.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java:GlobalExceptionHandler",
+      "type": "class",
+      "name": "GlobalExceptionHandler",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "summary": "Class GlobalExceptionHandler in GlobalExceptionHandler.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "type": "file",
+      "name": "PasswordConfig.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "summary": "PasswordConfig class in backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java providing core application logic.",
+      "tags": [
+        "code",
+        "config",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java:passwordEncoder",
+      "type": "function",
+      "name": "passwordEncoder",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "summary": "Function passwordEncoder in PasswordConfig.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java:PasswordConfig",
+      "type": "class",
+      "name": "PasswordConfig",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "summary": "Class PasswordConfig in PasswordConfig.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "type": "file",
+      "name": "SecurityConfig.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "summary": "SecurityConfig class in backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java providing core application logic.",
+      "tags": [
+        "code",
+        "config",
+        "security",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:SecurityConfig",
+      "type": "function",
+      "name": "SecurityConfig",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "summary": "Function SecurityConfig in SecurityConfig.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:corsConfigurationSource",
+      "type": "function",
+      "name": "corsConfigurationSource",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "summary": "Function corsConfigurationSource in SecurityConfig.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:securityFilterChain",
+      "type": "function",
+      "name": "securityFilterChain",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "summary": "Function securityFilterChain in SecurityConfig.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:SecurityConfig",
+      "type": "class",
+      "name": "SecurityConfig",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "summary": "Class SecurityConfig in SecurityConfig.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "type": "file",
+      "name": "SandboxproApplicationTests.java",
+      "filePath": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "summary": "SandboxproApplicationTests class in backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java:contextLoads",
+      "type": "function",
+      "name": "contextLoads",
+      "filePath": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "summary": "Function contextLoads in SandboxproApplicationTests.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java:SandboxproApplicationTests",
+      "type": "class",
+      "name": "SandboxproApplicationTests",
+      "filePath": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "summary": "Class SandboxproApplicationTests in SandboxproApplicationTests.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "frontend/eslint.config.js",
+      "summary": "Source file eslint.config.js handling javascript logic.",
+      "tags": [
+        "code",
+        "config",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/Interviews.jsx",
+      "type": "file",
+      "name": "Interviews.jsx",
+      "filePath": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "summary": "Interviews.jsx implements Interviews, Input functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/Interviews.jsx:Interviews",
+      "type": "function",
+      "name": "Interviews",
+      "filePath": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "summary": "Function Interviews in Interviews.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/Interviews.jsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "summary": "Function Input in Interviews.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/vite.config.js",
+      "type": "file",
+      "name": "vite.config.js",
+      "filePath": "frontend/vite.config.js",
+      "summary": "Source file vite.config.js handling javascript logic.",
+      "tags": [
+        "code",
+        "config",
+        "javascript"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java:SandboxproApplication",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java:dashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java:StudentController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java:handleResponseStatusException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java:GlobalExceptionHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java:passwordEncoder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java:PasswordConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:SecurityConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:corsConfigurationSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:securityFilterChain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java:SecurityConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "target": "function:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java:contextLoads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "target": "class:backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java:SandboxproApplicationTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Interviews.jsx",
+      "target": "function:frontend/src/pages/Recruiter/Interviews.jsx:Interviews",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Interviews.jsx",
+      "target": "function:frontend/src/pages/Recruiter/Interviews.jsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

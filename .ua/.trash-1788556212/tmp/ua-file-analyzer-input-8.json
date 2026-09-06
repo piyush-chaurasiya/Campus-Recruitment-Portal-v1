@@ -1,0 +1,62 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "language": "java",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "language": "java",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "language": "java",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ]
+  }
+}

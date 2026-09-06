@@ -1,0 +1,3714 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 14,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 356,
+      "nonEmptyLines": 264,
+      "functions": [
+        {
+          "name": "AdminController",
+          "startLine": 28,
+          "endLine": 38,
+          "params": [
+            "userRepository",
+            "passwordEncoder",
+            "jobRepository",
+            "jobApplicationRepository"
+          ]
+        },
+        {
+          "name": "dashboard",
+          "startLine": 42,
+          "endLine": 100,
+          "params": []
+        },
+        {
+          "name": "getUsers",
+          "startLine": 104,
+          "endLine": 113,
+          "params": []
+        },
+        {
+          "name": "createUser",
+          "startLine": 117,
+          "endLine": 205,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 209,
+          "endLine": 237,
+          "params": [
+            "id",
+            "enabled",
+            "authentication"
+          ]
+        },
+        {
+          "name": "updatePassword",
+          "startLine": 241,
+          "endLine": 285,
+          "params": [
+            "id",
+            "request"
+          ]
+        },
+        {
+          "name": "deleteUser",
+          "startLine": 289,
+          "endLine": 316,
+          "params": [
+            "id"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AdminController",
+          "startLine": 19,
+          "endLine": 356,
+          "methods": [
+            "AdminController",
+            "dashboard",
+            "getUsers",
+            "createUser",
+            "updateStatus",
+            "updatePassword",
+            "deleteUser"
+          ],
+          "properties": [
+            "userRepository",
+            "passwordEncoder",
+            "jobRepository",
+            "jobApplicationRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminController",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "dashboard",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "getUsers",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "createUser",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 209,
+          "isDefault": false
+        },
+        {
+          "name": "updatePassword",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "deleteUser",
+          "line": 289,
+          "isDefault": false
+        },
+        {
+          "name": "AdminController",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "dashboard",
+          "callee": "userRepository.findAll",
+          "lineNumber": 45
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.size",
+          "lineNumber": 47
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(u -> u.getRole() == Role.STUDENT).count",
+          "lineNumber": 49
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 49
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 49
+        },
+        {
+          "caller": "dashboard",
+          "callee": "u.getRole",
+          "lineNumber": 50
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(u -> u.getRole() == Role.RECRUITER).count",
+          "lineNumber": 53
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 53
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 53
+        },
+        {
+          "caller": "dashboard",
+          "callee": "u.getRole",
+          "lineNumber": 54
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(u -> u.getRole() == Role.PLACEMENT_OFFICER).count",
+          "lineNumber": 57
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 57
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 57
+        },
+        {
+          "caller": "dashboard",
+          "callee": "u.getRole",
+          "lineNumber": 58
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(u -> u.getRole() == Role.ADMIN).count",
+          "lineNumber": 61
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 61
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 61
+        },
+        {
+          "caller": "dashboard",
+          "callee": "u.getRole",
+          "lineNumber": 62
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(User::isEnabled).count",
+          "lineNumber": 65
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 65
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 65
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream()\n                .filter(u -> !u.isEnabled()).count",
+          "lineNumber": 69
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream().filter",
+          "lineNumber": 69
+        },
+        {
+          "caller": "dashboard",
+          "callee": "users.stream",
+          "lineNumber": 69
+        },
+        {
+          "caller": "dashboard",
+          "callee": "u.isEnabled",
+          "lineNumber": 70
+        },
+        {
+          "caller": "dashboard",
+          "callee": "jobRepository.count",
+          "lineNumber": 73
+        },
+        {
+          "caller": "dashboard",
+          "callee": "jobRepository.countByStatus",
+          "lineNumber": 76
+        },
+        {
+          "caller": "dashboard",
+          "callee": "jobRepository.countByStatus",
+          "lineNumber": 79
+        },
+        {
+          "caller": "dashboard",
+          "callee": "jobApplicationRepository.count",
+          "lineNumber": 82
+        },
+        {
+          "caller": "dashboard",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 84
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.ofEntries",
+          "lineNumber": 84
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 85
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 86
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 87
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 88
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 89
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 91
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 92
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 94
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 95
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 96
+        },
+        {
+          "caller": "dashboard",
+          "callee": "Map.entry",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getUsers",
+          "callee": "userRepository.findAll()\n                .stream()\n                .map(UserResponse::from).toList",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getUsers",
+          "callee": "userRepository.findAll()\n                .stream().map",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getUsers",
+          "callee": "userRepository.findAll().stream",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getUsers",
+          "callee": "userRepository.findAll",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getUsers",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 112
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.name.isBlank",
+          "lineNumber": 122
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 124
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 124
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 125
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.email.isBlank",
+          "lineNumber": 129
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 131
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 131
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 132
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.password.length",
+          "lineNumber": 136
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 139
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.role.isBlank",
+          "lineNumber": 146
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 148
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 148
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 149
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.email\n                .trim().toLowerCase",
+          "lineNumber": 152
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.email.trim",
+          "lineNumber": 152
+        },
+        {
+          "caller": "createUser",
+          "callee": "userRepository.existsByEmail",
+          "lineNumber": 156
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 158
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 158
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 159
+        },
+        {
+          "caller": "createUser",
+          "callee": "Role.valueOf",
+          "lineNumber": 169
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.role\n                            .trim().toUpperCase",
+          "lineNumber": 170
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.role.trim",
+          "lineNumber": 170
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 177
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 177
+        },
+        {
+          "caller": "createUser",
+          "callee": "Map.of",
+          "lineNumber": 178
+        },
+        {
+          "caller": "createUser",
+          "callee": "new User",
+          "lineNumber": 186
+        },
+        {
+          "caller": "createUser",
+          "callee": "user.setName",
+          "lineNumber": 188
+        },
+        {
+          "caller": "createUser",
+          "callee": "request.name.trim",
+          "lineNumber": 188
+        },
+        {
+          "caller": "createUser",
+          "callee": "user.setEmail",
+          "lineNumber": 189
+        },
+        {
+          "caller": "createUser",
+          "callee": "user.setPassword",
+          "lineNumber": 191
+        },
+        {
+          "caller": "createUser",
+          "callee": "passwordEncoder.encode",
+          "lineNumber": 192
+        },
+        {
+          "caller": "createUser",
+          "callee": "user.setRole",
+          "lineNumber": 197
+        },
+        {
+          "caller": "createUser",
+          "callee": "user.setEnabled",
+          "lineNumber": 198
+        },
+        {
+          "caller": "createUser",
+          "callee": "userRepository.save",
+          "lineNumber": 200
+        },
+        {
+          "caller": "createUser",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 202
+        },
+        {
+          "caller": "createUser",
+          "callee": "UserResponse.from",
+          "lineNumber": 203
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "userRepository.findById(id).orElseThrow",
+          "lineNumber": 215
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "userRepository.findById",
+          "lineNumber": 215
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "new RuntimeException",
+          "lineNumber": 217
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "target.getRole",
+          "lineNumber": 221
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "ResponseEntity.status(403).body",
+          "lineNumber": 223
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 223
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "Map.of",
+          "lineNumber": 224
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "target.setEnabled",
+          "lineNumber": 230
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "userRepository.save",
+          "lineNumber": 232
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 234
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "UserResponse.from",
+          "lineNumber": 235
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "userRepository.findById(id).orElseThrow",
+          "lineNumber": 246
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "userRepository.findById",
+          "lineNumber": 246
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "new RuntimeException",
+          "lineNumber": 248
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "target.getRole",
+          "lineNumber": 252
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "ResponseEntity.status(403).body",
+          "lineNumber": 254
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 254
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "Map.of",
+          "lineNumber": 255
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "request.password.length",
+          "lineNumber": 262
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 264
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 264
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "Map.of",
+          "lineNumber": 265
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "target.setPassword",
+          "lineNumber": 271
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "passwordEncoder.encode",
+          "lineNumber": 272
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "userRepository.save",
+          "lineNumber": 277
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 279
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "Map.of",
+          "lineNumber": 280
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "userRepository.findById(id).orElseThrow",
+          "lineNumber": 293
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "userRepository.findById",
+          "lineNumber": 293
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "new RuntimeException",
+          "lineNumber": 295
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "target.getRole",
+          "lineNumber": 299
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "ResponseEntity.status(403).body",
+          "lineNumber": 301
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 301
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "Map.of",
+          "lineNumber": 302
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "userRepository.delete",
+          "lineNumber": 308
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 310
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "Map.of",
+          "lineNumber": 311
+        },
+        {
+          "caller": "from",
+          "callee": "new UserResponse",
+          "lineNumber": 345
+        },
+        {
+          "caller": "from",
+          "callee": "user.getId",
+          "lineNumber": 347
+        },
+        {
+          "caller": "from",
+          "callee": "user.getName",
+          "lineNumber": 348
+        },
+        {
+          "caller": "from",
+          "callee": "user.getEmail",
+          "lineNumber": 349
+        },
+        {
+          "caller": "from",
+          "callee": "user.getRole().name",
+          "lineNumber": 350
+        },
+        {
+          "caller": "from",
+          "callee": "user.getRole",
+          "lineNumber": 350
+        },
+        {
+          "caller": "from",
+          "callee": "user.isEnabled",
+          "lineNumber": 351
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 8,
+        "functionCount": 7,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/JobController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 65,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "JobController",
+          "startLine": 17,
+          "endLine": 19,
+          "params": [
+            "jobService"
+          ]
+        },
+        {
+          "name": "getPublishedJobs",
+          "startLine": 22,
+          "endLine": 29,
+          "params": [
+            "userDetails"
+          ]
+        },
+        {
+          "name": "getJob",
+          "startLine": 32,
+          "endLine": 38,
+          "params": [
+            "id",
+            "userDetails"
+          ]
+        },
+        {
+          "name": "getAllJobs",
+          "startLine": 41,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "approveJob",
+          "startLine": 47,
+          "endLine": 52,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "rejectJob",
+          "startLine": 55,
+          "endLine": 64,
+          "params": [
+            "id",
+            "reason"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JobController",
+          "startLine": 11,
+          "endLine": 65,
+          "methods": [
+            "JobController",
+            "getPublishedJobs",
+            "getJob",
+            "getAllJobs",
+            "approveJob",
+            "rejectJob"
+          ],
+          "properties": [
+            "jobService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobController",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getPublishedJobs",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "getJob",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "getAllJobs",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "approveJob",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "rejectJob",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "JobController",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getPublishedJobs",
+          "callee": "jobService.getPublishedJobs",
+          "lineNumber": 26
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "userDetails.getUsername",
+          "lineNumber": 27
+        },
+        {
+          "caller": "getJob",
+          "callee": "jobService.getJob",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getAllJobs",
+          "callee": "jobService.getAllJobs",
+          "lineNumber": 43
+        },
+        {
+          "caller": "approveJob",
+          "callee": "jobService.approveJob",
+          "lineNumber": 51
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "jobService.rejectJob",
+          "lineNumber": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 7,
+        "functionCount": 6,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementJobController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "PlacementJobController",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "jobService"
+          ]
+        },
+        {
+          "name": "getAllJobs",
+          "startLine": 23,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "createJob",
+          "startLine": 28,
+          "endLine": 38,
+          "params": [
+            "request",
+            "authentication"
+          ]
+        },
+        {
+          "name": "approveJob",
+          "startLine": 40,
+          "endLine": 46,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "rejectJob",
+          "startLine": 49,
+          "endLine": 56,
+          "params": [
+            "id",
+            "reason"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlacementJobController",
+          "startLine": 12,
+          "endLine": 57,
+          "methods": [
+            "PlacementJobController",
+            "getAllJobs",
+            "createJob",
+            "approveJob",
+            "rejectJob"
+          ],
+          "properties": [
+            "jobService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlacementJobController",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getAllJobs",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "createJob",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "approveJob",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "rejectJob",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "PlacementJobController",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAllJobs",
+          "callee": "jobService.getAllJobs",
+          "lineNumber": 25
+        },
+        {
+          "caller": "createJob",
+          "callee": "jobService.createJob",
+          "lineNumber": 34
+        },
+        {
+          "caller": "createJob",
+          "callee": "authentication.getName",
+          "lineNumber": 36
+        },
+        {
+          "caller": "approveJob",
+          "callee": "jobService.approveJob",
+          "lineNumber": 45
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "jobService.rejectJob",
+          "lineNumber": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterJobController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "RecruiterJobController",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "jobService"
+          ]
+        },
+        {
+          "name": "getMyJobs",
+          "startLine": 22,
+          "endLine": 25,
+          "params": [
+            "authentication"
+          ]
+        },
+        {
+          "name": "createJob",
+          "startLine": 27,
+          "endLine": 36,
+          "params": [
+            "request",
+            "authentication"
+          ]
+        },
+        {
+          "name": "closeJob",
+          "startLine": 38,
+          "endLine": 41,
+          "params": [
+            "id"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RecruiterJobController",
+          "startLine": 12,
+          "endLine": 42,
+          "methods": [
+            "RecruiterJobController",
+            "getMyJobs",
+            "createJob",
+            "closeJob"
+          ],
+          "properties": [
+            "jobService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterJobController",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getMyJobs",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "createJob",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "closeJob",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "RecruiterJobController",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getMyJobs",
+          "callee": "jobService.getJobsByCreator",
+          "lineNumber": 24
+        },
+        {
+          "caller": "getMyJobs",
+          "callee": "authentication.getName",
+          "lineNumber": 24
+        },
+        {
+          "caller": "createJob",
+          "callee": "jobService.createJob",
+          "lineNumber": 32
+        },
+        {
+          "caller": "createJob",
+          "callee": "authentication.getName",
+          "lineNumber": 34
+        },
+        {
+          "caller": "closeJob",
+          "callee": "jobService.closeJob",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentJobController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "StudentJobController",
+          "startLine": 20,
+          "endLine": 22,
+          "params": [
+            "jobService"
+          ]
+        },
+        {
+          "name": "getJobs",
+          "startLine": 24,
+          "endLine": 31,
+          "params": [
+            "authentication"
+          ]
+        },
+        {
+          "name": "getJob",
+          "startLine": 33,
+          "endLine": 43,
+          "params": [
+            "id",
+            "userDetails"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentJobController",
+          "startLine": 14,
+          "endLine": 44,
+          "methods": [
+            "StudentJobController",
+            "getJobs",
+            "getJob"
+          ],
+          "properties": [
+            "jobService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentJobController",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "getJobs",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "getJob",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "StudentJobController",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getJobs",
+          "callee": "jobService.getPublishedJobs",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getJobs",
+          "callee": "authentication.getName",
+          "lineNumber": 29
+        },
+        {
+          "caller": "getJob",
+          "callee": "jobService.getJob",
+          "lineNumber": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 163,
+      "nonEmptyLines": 122,
+      "functions": [
+        {
+          "name": "CreateJobRequest",
+          "startLine": 32,
+          "endLine": 33,
+          "params": []
+        },
+        {
+          "name": "getTitle",
+          "startLine": 35,
+          "endLine": 37,
+          "params": []
+        },
+        {
+          "name": "setTitle",
+          "startLine": 39,
+          "endLine": 41,
+          "params": [
+            "title"
+          ]
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 43,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "setCompanyName",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "companyName"
+          ]
+        },
+        {
+          "name": "getDescription",
+          "startLine": 51,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "setDescription",
+          "startLine": 55,
+          "endLine": 57,
+          "params": [
+            "description"
+          ]
+        },
+        {
+          "name": "getLocation",
+          "startLine": 59,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "setLocation",
+          "startLine": 63,
+          "endLine": 65,
+          "params": [
+            "location"
+          ]
+        },
+        {
+          "name": "getJobType",
+          "startLine": 67,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "setJobType",
+          "startLine": 71,
+          "endLine": 73,
+          "params": [
+            "jobType"
+          ]
+        },
+        {
+          "name": "getWorkMode",
+          "startLine": 75,
+          "endLine": 77,
+          "params": []
+        },
+        {
+          "name": "setWorkMode",
+          "startLine": 79,
+          "endLine": 81,
+          "params": [
+            "workMode"
+          ]
+        },
+        {
+          "name": "getPaid",
+          "startLine": 83,
+          "endLine": 85,
+          "params": []
+        },
+        {
+          "name": "setPaid",
+          "startLine": 87,
+          "endLine": 89,
+          "params": [
+            "paid"
+          ]
+        },
+        {
+          "name": "getStipendOrSalary",
+          "startLine": 91,
+          "endLine": 93,
+          "params": []
+        },
+        {
+          "name": "setStipendOrSalary",
+          "startLine": 95,
+          "endLine": 97,
+          "params": [
+            "stipendOrSalary"
+          ]
+        },
+        {
+          "name": "getMinimumCgpa",
+          "startLine": 99,
+          "endLine": 101,
+          "params": []
+        },
+        {
+          "name": "setMinimumCgpa",
+          "startLine": 103,
+          "endLine": 105,
+          "params": [
+            "minimumCgpa"
+          ]
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "startLine": 107,
+          "endLine": 109,
+          "params": []
+        },
+        {
+          "name": "setMaximumBacklogs",
+          "startLine": 111,
+          "endLine": 113,
+          "params": [
+            "maximumBacklogs"
+          ]
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "startLine": 115,
+          "endLine": 117,
+          "params": []
+        },
+        {
+          "name": "setMinimumTenthPercentage",
+          "startLine": 119,
+          "endLine": 123,
+          "params": [
+            "minimumTenthPercentage"
+          ]
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "startLine": 125,
+          "endLine": 127,
+          "params": []
+        },
+        {
+          "name": "setMinimumTwelfthPercentage",
+          "startLine": 129,
+          "endLine": 133,
+          "params": [
+            "minimumTwelfthPercentage"
+          ]
+        },
+        {
+          "name": "getEligibleBranches",
+          "startLine": 135,
+          "endLine": 137,
+          "params": []
+        },
+        {
+          "name": "setEligibleBranches",
+          "startLine": 139,
+          "endLine": 143,
+          "params": [
+            "eligibleBranches"
+          ]
+        },
+        {
+          "name": "getApplicationDeadline",
+          "startLine": 145,
+          "endLine": 147,
+          "params": []
+        },
+        {
+          "name": "setApplicationDeadline",
+          "startLine": 149,
+          "endLine": 153,
+          "params": [
+            "applicationDeadline"
+          ]
+        },
+        {
+          "name": "getJoiningDate",
+          "startLine": 155,
+          "endLine": 157,
+          "params": []
+        },
+        {
+          "name": "setJoiningDate",
+          "startLine": 159,
+          "endLine": 162,
+          "params": [
+            "joiningDate"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "CreateJobRequest",
+          "startLine": 8,
+          "endLine": 163,
+          "methods": [
+            "CreateJobRequest",
+            "getTitle",
+            "setTitle",
+            "getCompanyName",
+            "setCompanyName",
+            "getDescription",
+            "setDescription",
+            "getLocation",
+            "setLocation",
+            "getJobType",
+            "setJobType",
+            "getWorkMode",
+            "setWorkMode",
+            "getPaid",
+            "setPaid",
+            "getStipendOrSalary",
+            "setStipendOrSalary",
+            "getMinimumCgpa",
+            "setMinimumCgpa",
+            "getMaximumBacklogs",
+            "setMaximumBacklogs",
+            "getMinimumTenthPercentage",
+            "setMinimumTenthPercentage",
+            "getMinimumTwelfthPercentage",
+            "setMinimumTwelfthPercentage",
+            "getEligibleBranches",
+            "setEligibleBranches",
+            "getApplicationDeadline",
+            "setApplicationDeadline",
+            "getJoiningDate",
+            "setJoiningDate"
+          ],
+          "properties": [
+            "title",
+            "companyName",
+            "description",
+            "location",
+            "jobType",
+            "workMode",
+            "paid",
+            "stipendOrSalary",
+            "minimumCgpa",
+            "maximumBacklogs",
+            "minimumTenthPercentage",
+            "minimumTwelfthPercentage",
+            "eligibleBranches",
+            "applicationDeadline",
+            "joiningDate"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CreateJobRequest",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "getTitle",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "setTitle",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "setCompanyName",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "getDescription",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "setDescription",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "getLocation",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "setLocation",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getJobType",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "setJobType",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "getWorkMode",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "setWorkMode",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "getPaid",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "setPaid",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "getStipendOrSalary",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "setStipendOrSalary",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumCgpa",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumCgpa",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "setMaximumBacklogs",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumTenthPercentage",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumTwelfthPercentage",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "getEligibleBranches",
+          "line": 135,
+          "isDefault": false
+        },
+        {
+          "name": "setEligibleBranches",
+          "line": 139,
+          "isDefault": false
+        },
+        {
+          "name": "getApplicationDeadline",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "setApplicationDeadline",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "getJoiningDate",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "setJoiningDate",
+          "line": 159,
+          "isDefault": false
+        },
+        {
+          "name": "CreateJobRequest",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 32,
+        "functionCount": 31,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 161,
+      "nonEmptyLines": 118,
+      "functions": [
+        {
+          "name": "JobResponse",
+          "startLine": 38,
+          "endLine": 39,
+          "params": []
+        },
+        {
+          "name": "from",
+          "startLine": 41,
+          "endLine": 76,
+          "params": [
+            "job"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 78,
+          "endLine": 80,
+          "params": []
+        },
+        {
+          "name": "getTitle",
+          "startLine": 82,
+          "endLine": 84,
+          "params": []
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 86,
+          "endLine": 88,
+          "params": []
+        },
+        {
+          "name": "getDescription",
+          "startLine": 90,
+          "endLine": 92,
+          "params": []
+        },
+        {
+          "name": "getLocation",
+          "startLine": 94,
+          "endLine": 96,
+          "params": []
+        },
+        {
+          "name": "getJobType",
+          "startLine": 98,
+          "endLine": 100,
+          "params": []
+        },
+        {
+          "name": "getWorkMode",
+          "startLine": 102,
+          "endLine": 104,
+          "params": []
+        },
+        {
+          "name": "getStatus",
+          "startLine": 106,
+          "endLine": 108,
+          "params": []
+        },
+        {
+          "name": "getPaid",
+          "startLine": 110,
+          "endLine": 112,
+          "params": []
+        },
+        {
+          "name": "getStipendOrSalary",
+          "startLine": 114,
+          "endLine": 116,
+          "params": []
+        },
+        {
+          "name": "getMinimumCgpa",
+          "startLine": 118,
+          "endLine": 120,
+          "params": []
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "startLine": 122,
+          "endLine": 124,
+          "params": []
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "startLine": 126,
+          "endLine": 128,
+          "params": []
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "startLine": 130,
+          "endLine": 132,
+          "params": []
+        },
+        {
+          "name": "getEligibleBranches",
+          "startLine": 134,
+          "endLine": 136,
+          "params": []
+        },
+        {
+          "name": "getApplicationDeadline",
+          "startLine": 138,
+          "endLine": 140,
+          "params": []
+        },
+        {
+          "name": "getJoiningDate",
+          "startLine": 142,
+          "endLine": 144,
+          "params": []
+        },
+        {
+          "name": "getEligible",
+          "startLine": 146,
+          "endLine": 148,
+          "params": []
+        },
+        {
+          "name": "getEligibilityReason",
+          "startLine": 150,
+          "endLine": 152,
+          "params": []
+        },
+        {
+          "name": "setEligible",
+          "startLine": 154,
+          "endLine": 156,
+          "params": [
+            "eligible"
+          ]
+        },
+        {
+          "name": "setEligibilityReason",
+          "startLine": 158,
+          "endLine": 160,
+          "params": [
+            "eligibilityReason"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JobResponse",
+          "startLine": 10,
+          "endLine": 161,
+          "methods": [
+            "JobResponse",
+            "from",
+            "getId",
+            "getTitle",
+            "getCompanyName",
+            "getDescription",
+            "getLocation",
+            "getJobType",
+            "getWorkMode",
+            "getStatus",
+            "getPaid",
+            "getStipendOrSalary",
+            "getMinimumCgpa",
+            "getMaximumBacklogs",
+            "getMinimumTenthPercentage",
+            "getMinimumTwelfthPercentage",
+            "getEligibleBranches",
+            "getApplicationDeadline",
+            "getJoiningDate",
+            "getEligible",
+            "getEligibilityReason",
+            "setEligible",
+            "setEligibilityReason"
+          ],
+          "properties": [
+            "id",
+            "title",
+            "companyName",
+            "description",
+            "location",
+            "jobType",
+            "workMode",
+            "status",
+            "paid",
+            "stipendOrSalary",
+            "minimumCgpa",
+            "maximumBacklogs",
+            "minimumTenthPercentage",
+            "minimumTwelfthPercentage",
+            "eligibleBranches",
+            "applicationDeadline",
+            "joiningDate",
+            "eligible",
+            "eligibilityReason"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobResponse",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "from",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "getTitle",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "getDescription",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "getLocation",
+          "line": 94,
+          "isDefault": false
+        },
+        {
+          "name": "getJobType",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "getWorkMode",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "getPaid",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "getStipendOrSalary",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumCgpa",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "getEligibleBranches",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "getApplicationDeadline",
+          "line": 138,
+          "isDefault": false
+        },
+        {
+          "name": "getJoiningDate",
+          "line": 142,
+          "isDefault": false
+        },
+        {
+          "name": "getEligible",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "getEligibilityReason",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "setEligible",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "setEligibilityReason",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "JobResponse",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new JobResponse",
+          "lineNumber": 43
+        },
+        {
+          "caller": "from",
+          "callee": "job.getId",
+          "lineNumber": 45
+        },
+        {
+          "caller": "from",
+          "callee": "job.getTitle",
+          "lineNumber": 46
+        },
+        {
+          "caller": "from",
+          "callee": "job.getCompanyName",
+          "lineNumber": 47
+        },
+        {
+          "caller": "from",
+          "callee": "job.getDescription",
+          "lineNumber": 48
+        },
+        {
+          "caller": "from",
+          "callee": "job.getLocation",
+          "lineNumber": 49
+        },
+        {
+          "caller": "from",
+          "callee": "job.getJobType",
+          "lineNumber": 51
+        },
+        {
+          "caller": "from",
+          "callee": "job.getWorkMode",
+          "lineNumber": 52
+        },
+        {
+          "caller": "from",
+          "callee": "job.getStatus",
+          "lineNumber": 53
+        },
+        {
+          "caller": "from",
+          "callee": "job.getPaid",
+          "lineNumber": 55
+        },
+        {
+          "caller": "from",
+          "callee": "job.getStipendOrSalary",
+          "lineNumber": 56
+        },
+        {
+          "caller": "from",
+          "callee": "job.getMinimumCgpa",
+          "lineNumber": 58
+        },
+        {
+          "caller": "from",
+          "callee": "job.getMaximumBacklogs",
+          "lineNumber": 59
+        },
+        {
+          "caller": "from",
+          "callee": "job.getMinimumTenthPercentage",
+          "lineNumber": 61
+        },
+        {
+          "caller": "from",
+          "callee": "job.getMinimumTwelfthPercentage",
+          "lineNumber": 64
+        },
+        {
+          "caller": "from",
+          "callee": "job.getEligibleBranches",
+          "lineNumber": 67
+        },
+        {
+          "caller": "from",
+          "callee": "job.getApplicationDeadline",
+          "lineNumber": 70
+        },
+        {
+          "caller": "from",
+          "callee": "job.getJoiningDate",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 24,
+        "functionCount": 23,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 212,
+      "nonEmptyLines": 152,
+      "functions": [
+        {
+          "name": "Job",
+          "startLine": 57,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "prePersist",
+          "startLine": 60,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 69,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "getTitle",
+          "startLine": 73,
+          "endLine": 75,
+          "params": []
+        },
+        {
+          "name": "setTitle",
+          "startLine": 77,
+          "endLine": 79,
+          "params": [
+            "title"
+          ]
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 81,
+          "endLine": 83,
+          "params": []
+        },
+        {
+          "name": "setCompanyName",
+          "startLine": 85,
+          "endLine": 87,
+          "params": [
+            "companyName"
+          ]
+        },
+        {
+          "name": "getDescription",
+          "startLine": 89,
+          "endLine": 91,
+          "params": []
+        },
+        {
+          "name": "setDescription",
+          "startLine": 93,
+          "endLine": 95,
+          "params": [
+            "description"
+          ]
+        },
+        {
+          "name": "getLocation",
+          "startLine": 97,
+          "endLine": 99,
+          "params": []
+        },
+        {
+          "name": "setLocation",
+          "startLine": 101,
+          "endLine": 103,
+          "params": [
+            "location"
+          ]
+        },
+        {
+          "name": "getJobType",
+          "startLine": 105,
+          "endLine": 107,
+          "params": []
+        },
+        {
+          "name": "setJobType",
+          "startLine": 109,
+          "endLine": 111,
+          "params": [
+            "jobType"
+          ]
+        },
+        {
+          "name": "getWorkMode",
+          "startLine": 113,
+          "endLine": 115,
+          "params": []
+        },
+        {
+          "name": "setWorkMode",
+          "startLine": 117,
+          "endLine": 119,
+          "params": [
+            "workMode"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 121,
+          "endLine": 123,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 125,
+          "endLine": 127,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getPaid",
+          "startLine": 129,
+          "endLine": 131,
+          "params": []
+        },
+        {
+          "name": "setPaid",
+          "startLine": 133,
+          "endLine": 135,
+          "params": [
+            "paid"
+          ]
+        },
+        {
+          "name": "getStipendOrSalary",
+          "startLine": 137,
+          "endLine": 139,
+          "params": []
+        },
+        {
+          "name": "setStipendOrSalary",
+          "startLine": 141,
+          "endLine": 143,
+          "params": [
+            "stipendOrSalary"
+          ]
+        },
+        {
+          "name": "getMinimumCgpa",
+          "startLine": 145,
+          "endLine": 147,
+          "params": []
+        },
+        {
+          "name": "setMinimumCgpa",
+          "startLine": 149,
+          "endLine": 151,
+          "params": [
+            "minimumCgpa"
+          ]
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "startLine": 153,
+          "endLine": 155,
+          "params": []
+        },
+        {
+          "name": "setMaximumBacklogs",
+          "startLine": 157,
+          "endLine": 159,
+          "params": [
+            "maximumBacklogs"
+          ]
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "startLine": 161,
+          "endLine": 163,
+          "params": []
+        },
+        {
+          "name": "setMinimumTenthPercentage",
+          "startLine": 165,
+          "endLine": 167,
+          "params": [
+            "minimumTenthPercentage"
+          ]
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "startLine": 169,
+          "endLine": 171,
+          "params": []
+        },
+        {
+          "name": "setMinimumTwelfthPercentage",
+          "startLine": 173,
+          "endLine": 175,
+          "params": [
+            "minimumTwelfthPercentage"
+          ]
+        },
+        {
+          "name": "getEligibleBranches",
+          "startLine": 177,
+          "endLine": 179,
+          "params": []
+        },
+        {
+          "name": "setEligibleBranches",
+          "startLine": 181,
+          "endLine": 183,
+          "params": [
+            "eligibleBranches"
+          ]
+        },
+        {
+          "name": "getApplicationDeadline",
+          "startLine": 185,
+          "endLine": 187,
+          "params": []
+        },
+        {
+          "name": "setApplicationDeadline",
+          "startLine": 189,
+          "endLine": 191,
+          "params": [
+            "applicationDeadline"
+          ]
+        },
+        {
+          "name": "getJoiningDate",
+          "startLine": 193,
+          "endLine": 195,
+          "params": []
+        },
+        {
+          "name": "setJoiningDate",
+          "startLine": 197,
+          "endLine": 199,
+          "params": [
+            "joiningDate"
+          ]
+        },
+        {
+          "name": "getCreatedAt",
+          "startLine": 201,
+          "endLine": 203,
+          "params": []
+        },
+        {
+          "name": "getCreatedBy",
+          "startLine": 205,
+          "endLine": 207,
+          "params": []
+        },
+        {
+          "name": "setCreatedBy",
+          "startLine": 209,
+          "endLine": 211,
+          "params": [
+            "createdBy"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "Job",
+          "startLine": 7,
+          "endLine": 212,
+          "methods": [
+            "Job",
+            "prePersist",
+            "getId",
+            "getTitle",
+            "setTitle",
+            "getCompanyName",
+            "setCompanyName",
+            "getDescription",
+            "setDescription",
+            "getLocation",
+            "setLocation",
+            "getJobType",
+            "setJobType",
+            "getWorkMode",
+            "setWorkMode",
+            "getStatus",
+            "setStatus",
+            "getPaid",
+            "setPaid",
+            "getStipendOrSalary",
+            "setStipendOrSalary",
+            "getMinimumCgpa",
+            "setMinimumCgpa",
+            "getMaximumBacklogs",
+            "setMaximumBacklogs",
+            "getMinimumTenthPercentage",
+            "setMinimumTenthPercentage",
+            "getMinimumTwelfthPercentage",
+            "setMinimumTwelfthPercentage",
+            "getEligibleBranches",
+            "setEligibleBranches",
+            "getApplicationDeadline",
+            "setApplicationDeadline",
+            "getJoiningDate",
+            "setJoiningDate",
+            "getCreatedAt",
+            "getCreatedBy",
+            "setCreatedBy"
+          ],
+          "properties": [
+            "id",
+            "title",
+            "companyName",
+            "description",
+            "location",
+            "jobType",
+            "workMode",
+            "status",
+            "paid",
+            "stipendOrSalary",
+            "minimumCgpa",
+            "maximumBacklogs",
+            "minimumTenthPercentage",
+            "minimumTwelfthPercentage",
+            "eligibleBranches",
+            "applicationDeadline",
+            "joiningDate",
+            "createdAt",
+            "createdBy"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Job",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "prePersist",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "getTitle",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "setTitle",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "setCompanyName",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "getDescription",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "setDescription",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "getLocation",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "setLocation",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "getJobType",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "setJobType",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "getWorkMode",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "setWorkMode",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "getPaid",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "setPaid",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "getStipendOrSalary",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "setStipendOrSalary",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumCgpa",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumCgpa",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "getMaximumBacklogs",
+          "line": 153,
+          "isDefault": false
+        },
+        {
+          "name": "setMaximumBacklogs",
+          "line": 157,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTenthPercentage",
+          "line": 161,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumTenthPercentage",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "getMinimumTwelfthPercentage",
+          "line": 169,
+          "isDefault": false
+        },
+        {
+          "name": "setMinimumTwelfthPercentage",
+          "line": 173,
+          "isDefault": false
+        },
+        {
+          "name": "getEligibleBranches",
+          "line": 177,
+          "isDefault": false
+        },
+        {
+          "name": "setEligibleBranches",
+          "line": 181,
+          "isDefault": false
+        },
+        {
+          "name": "getApplicationDeadline",
+          "line": 185,
+          "isDefault": false
+        },
+        {
+          "name": "setApplicationDeadline",
+          "line": 189,
+          "isDefault": false
+        },
+        {
+          "name": "getJoiningDate",
+          "line": 193,
+          "isDefault": false
+        },
+        {
+          "name": "setJoiningDate",
+          "line": 197,
+          "isDefault": false
+        },
+        {
+          "name": "getCreatedAt",
+          "line": 201,
+          "isDefault": false
+        },
+        {
+          "name": "getCreatedBy",
+          "line": 205,
+          "isDefault": false
+        },
+        {
+          "name": "setCreatedBy",
+          "line": 209,
+          "isDefault": false
+        },
+        {
+          "name": "Job",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "prePersist",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 39,
+        "functionCount": 38,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "classes": [
+        {
+          "name": "JobStatus",
+          "startLine": 3,
+          "endLine": 8,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobStatus",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobType.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "classes": [
+        {
+          "name": "JobType",
+          "startLine": 3,
+          "endLine": 7,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobType",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/WorkMode.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "classes": [
+        {
+          "name": "WorkMode",
+          "startLine": 3,
+          "endLine": 7,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "WorkMode",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 11,
+      "classes": [
+        {
+          "name": "JobRepository",
+          "startLine": 9,
+          "endLine": 18,
+          "methods": [
+            "findByStatus",
+            "findAllByOrderByCreatedAtDesc",
+            "findByCreatedByOrderByCreatedAtDesc",
+            "countByStatus"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobRepository",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/EligibilityService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 105,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "check",
+          "startLine": 10,
+          "endLine": 98,
+          "params": [
+            "job",
+            "student"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "EligibilityService",
+          "startLine": 7,
+          "endLine": 105,
+          "methods": [
+            "check"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "check",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "EligibilityService",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 16
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumCgpa",
+          "lineNumber": 22
+        },
+        {
+          "caller": "check",
+          "callee": "student.getCgpa",
+          "lineNumber": 24
+        },
+        {
+          "caller": "check",
+          "callee": "student.getCgpa",
+          "lineNumber": 25
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumCgpa",
+          "lineNumber": 25
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 27
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumCgpa",
+          "lineNumber": 30
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMaximumBacklogs",
+          "lineNumber": 35
+        },
+        {
+          "caller": "check",
+          "callee": "student.getBacklogs",
+          "lineNumber": 37
+        },
+        {
+          "caller": "check",
+          "callee": "student.getBacklogs",
+          "lineNumber": 38
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMaximumBacklogs",
+          "lineNumber": 39
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 41
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMaximumBacklogs",
+          "lineNumber": 44
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTenthPercentage",
+          "lineNumber": 49
+        },
+        {
+          "caller": "check",
+          "callee": "student.getTenthPercentage",
+          "lineNumber": 51
+        },
+        {
+          "caller": "check",
+          "callee": "student.getTenthPercentage",
+          "lineNumber": 52
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTenthPercentage",
+          "lineNumber": 53
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 55
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTenthPercentage",
+          "lineNumber": 58
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTwelfthPercentage",
+          "lineNumber": 63
+        },
+        {
+          "caller": "check",
+          "callee": "student.getTwelfthPercentage",
+          "lineNumber": 65
+        },
+        {
+          "caller": "check",
+          "callee": "student.getTwelfthPercentage",
+          "lineNumber": 66
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTwelfthPercentage",
+          "lineNumber": 67
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 69
+        },
+        {
+          "caller": "check",
+          "callee": "job.getMinimumTwelfthPercentage",
+          "lineNumber": 72
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches",
+          "lineNumber": 77
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches().isBlank",
+          "lineNumber": 78
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches",
+          "lineNumber": 78
+        },
+        {
+          "caller": "check",
+          "callee": "student.getBranch",
+          "lineNumber": 80
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches()\n                            .toLowerCase().contains",
+          "lineNumber": 83
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches().toLowerCase",
+          "lineNumber": 83
+        },
+        {
+          "caller": "check",
+          "callee": "job.getEligibleBranches",
+          "lineNumber": 83
+        },
+        {
+          "caller": "check",
+          "callee": "studentBranch.toLowerCase",
+          "lineNumber": 85
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 87
+        },
+        {
+          "caller": "check",
+          "callee": "new EligibilityResult",
+          "lineNumber": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 294,
+      "nonEmptyLines": 226,
+      "functions": [
+        {
+          "name": "JobService",
+          "startLine": 25,
+          "endLine": 35,
+          "params": [
+            "jobRepository",
+            "studentProfileRepository",
+            "userRepository",
+            "eligibilityService"
+          ]
+        },
+        {
+          "name": "getPublishedJobs",
+          "startLine": 41,
+          "endLine": 77,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "getJob",
+          "startLine": 83,
+          "endLine": 130,
+          "params": [
+            "id",
+            "userDetails"
+          ]
+        },
+        {
+          "name": "createJob",
+          "startLine": 136,
+          "endLine": 192,
+          "params": [
+            "request",
+            "username"
+          ]
+        },
+        {
+          "name": "getJobsByCreator",
+          "startLine": 198,
+          "endLine": 205,
+          "params": [
+            "username"
+          ]
+        },
+        {
+          "name": "approveJob",
+          "startLine": 211,
+          "endLine": 228,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "closeJob",
+          "startLine": 234,
+          "endLine": 249,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getAllJobs",
+          "startLine": 255,
+          "endLine": 262,
+          "params": []
+        },
+        {
+          "name": "rejectJob",
+          "startLine": 269,
+          "endLine": 293,
+          "params": [
+            "id",
+            "reason"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JobService",
+          "startLine": 17,
+          "endLine": 294,
+          "methods": [
+            "JobService",
+            "getPublishedJobs",
+            "getJob",
+            "createJob",
+            "getJobsByCreator",
+            "approveJob",
+            "closeJob",
+            "getAllJobs",
+            "rejectJob"
+          ],
+          "properties": [
+            "jobRepository",
+            "studentProfileRepository",
+            "userRepository",
+            "eligibilityService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobService",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "getPublishedJobs",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "getJob",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "createJob",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "getJobsByCreator",
+          "line": 198,
+          "isDefault": false
+        },
+        {
+          "name": "approveJob",
+          "line": 211,
+          "isDefault": false
+        },
+        {
+          "name": "closeJob",
+          "line": 234,
+          "isDefault": false
+        },
+        {
+          "name": "getAllJobs",
+          "line": 255,
+          "isDefault": false
+        },
+        {
+          "name": "rejectJob",
+          "line": 269,
+          "isDefault": false
+        },
+        {
+          "name": "JobService",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getPublishedJobs",
+          "callee": "userRepository\n                .findByEmail(email).orElseThrow",
+          "lineNumber": 43
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 43
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "studentProfileRepository\n                        .findByUserId(user.getId()).orElse",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "user.getId",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "jobRepository\n                .findByStatus(JobStatus.APPROVED)\n                .stream()\n                .map(job -> {\n\n                    JobResponse response =\n                            JobResponse.from(job);\n\n                    EligibilityService.EligibilityResult result =\n                            eligibilityService.check(\n                                    job,\n                                    profile\n                            );\n\n                    response.setEligible(\n                            result.eligible()\n                    );\n\n                    response.setEligibilityReason(\n                            result.reason()\n                    );\n\n                    return response;\n                }).toList",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "jobRepository\n                .findByStatus(JobStatus.APPROVED)\n                .stream().map",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "jobRepository\n                .findByStatus(JobStatus.APPROVED).stream",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "jobRepository.findByStatus",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "JobResponse.from",
+          "lineNumber": 58
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "eligibilityService.check",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "response.setEligible",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "result.eligible",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "response.setEligibilityReason",
+          "lineNumber": 70
+        },
+        {
+          "caller": "getPublishedJobs",
+          "callee": "result.reason",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getJob",
+          "callee": "jobRepository\n                .findById(id).orElseThrow",
+          "lineNumber": 88
+        },
+        {
+          "caller": "getJob",
+          "callee": "jobRepository.findById",
+          "lineNumber": 88
+        },
+        {
+          "caller": "getJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 91
+        },
+        {
+          "caller": "getJob",
+          "callee": "job.getStatus",
+          "lineNumber": 96
+        },
+        {
+          "caller": "getJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getJob",
+          "callee": "userRepository\n                .findByEmail(userDetails.getUsername()).orElseThrow",
+          "lineNumber": 103
+        },
+        {
+          "caller": "getJob",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 103
+        },
+        {
+          "caller": "getJob",
+          "callee": "userDetails.getUsername",
+          "lineNumber": 104
+        },
+        {
+          "caller": "getJob",
+          "callee": "studentProfileRepository\n                        .findByUserId(user.getId()).orElse",
+          "lineNumber": 108
+        },
+        {
+          "caller": "getJob",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 108
+        },
+        {
+          "caller": "getJob",
+          "callee": "user.getId",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getJob",
+          "callee": "JobResponse.from",
+          "lineNumber": 113
+        },
+        {
+          "caller": "getJob",
+          "callee": "eligibilityService.check",
+          "lineNumber": 116
+        },
+        {
+          "caller": "getJob",
+          "callee": "response.setEligible",
+          "lineNumber": 121
+        },
+        {
+          "caller": "getJob",
+          "callee": "result.eligible",
+          "lineNumber": 122
+        },
+        {
+          "caller": "getJob",
+          "callee": "response.setEligibilityReason",
+          "lineNumber": 125
+        },
+        {
+          "caller": "getJob",
+          "callee": "result.reason",
+          "lineNumber": 126
+        },
+        {
+          "caller": "createJob",
+          "callee": "new Job",
+          "lineNumber": 141
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setTitle",
+          "lineNumber": 143
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getTitle",
+          "lineNumber": 143
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setCompanyName",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getCompanyName",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setDescription",
+          "lineNumber": 145
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getDescription",
+          "lineNumber": 145
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setLocation",
+          "lineNumber": 146
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getLocation",
+          "lineNumber": 146
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setJobType",
+          "lineNumber": 148
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getJobType",
+          "lineNumber": 148
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setWorkMode",
+          "lineNumber": 149
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getWorkMode",
+          "lineNumber": 149
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setPaid",
+          "lineNumber": 151
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getPaid",
+          "lineNumber": 151
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setStipendOrSalary",
+          "lineNumber": 152
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getStipendOrSalary",
+          "lineNumber": 153
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setMinimumCgpa",
+          "lineNumber": 156
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getMinimumCgpa",
+          "lineNumber": 157
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setMaximumBacklogs",
+          "lineNumber": 160
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getMaximumBacklogs",
+          "lineNumber": 161
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setMinimumTenthPercentage",
+          "lineNumber": 164
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getMinimumTenthPercentage",
+          "lineNumber": 165
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setMinimumTwelfthPercentage",
+          "lineNumber": 168
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getMinimumTwelfthPercentage",
+          "lineNumber": 169
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setEligibleBranches",
+          "lineNumber": 172
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getEligibleBranches",
+          "lineNumber": 173
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setApplicationDeadline",
+          "lineNumber": 176
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getApplicationDeadline",
+          "lineNumber": 177
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setJoiningDate",
+          "lineNumber": 180
+        },
+        {
+          "caller": "createJob",
+          "callee": "request.getJoiningDate",
+          "lineNumber": 181
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setCreatedBy",
+          "lineNumber": 184
+        },
+        {
+          "caller": "createJob",
+          "callee": "job.setStatus",
+          "lineNumber": 186
+        },
+        {
+          "caller": "createJob",
+          "callee": "jobRepository.save",
+          "lineNumber": 189
+        },
+        {
+          "caller": "createJob",
+          "callee": "JobResponse.from",
+          "lineNumber": 191
+        },
+        {
+          "caller": "getJobsByCreator",
+          "callee": "jobRepository\n                        .findByCreatedByOrderByCreatedAtDesc(username)\n                        .stream()\n                        .map(JobResponse::from).toList",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getJobsByCreator",
+          "callee": "jobRepository\n                        .findByCreatedByOrderByCreatedAtDesc(username)\n                        .stream().map",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getJobsByCreator",
+          "callee": "jobRepository\n                        .findByCreatedByOrderByCreatedAtDesc(username).stream",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getJobsByCreator",
+          "callee": "jobRepository.findByCreatedByOrderByCreatedAtDesc",
+          "lineNumber": 200
+        },
+        {
+          "caller": "approveJob",
+          "callee": "jobRepository\n                        .findById(id).orElseThrow",
+          "lineNumber": 213
+        },
+        {
+          "caller": "approveJob",
+          "callee": "jobRepository.findById",
+          "lineNumber": 213
+        },
+        {
+          "caller": "approveJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 216
+        },
+        {
+          "caller": "approveJob",
+          "callee": "job.setStatus",
+          "lineNumber": 221
+        },
+        {
+          "caller": "approveJob",
+          "callee": "JobResponse.from",
+          "lineNumber": 225
+        },
+        {
+          "caller": "approveJob",
+          "callee": "jobRepository.save",
+          "lineNumber": 226
+        },
+        {
+          "caller": "closeJob",
+          "callee": "jobRepository\n                        .findById(id).orElseThrow",
+          "lineNumber": 236
+        },
+        {
+          "caller": "closeJob",
+          "callee": "jobRepository.findById",
+          "lineNumber": 236
+        },
+        {
+          "caller": "closeJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 239
+        },
+        {
+          "caller": "closeJob",
+          "callee": "job.setStatus",
+          "lineNumber": 244
+        },
+        {
+          "caller": "closeJob",
+          "callee": "JobResponse.from",
+          "lineNumber": 246
+        },
+        {
+          "caller": "closeJob",
+          "callee": "jobRepository.save",
+          "lineNumber": 247
+        },
+        {
+          "caller": "getAllJobs",
+          "callee": "jobRepository\n                .findAllByOrderByCreatedAtDesc()\n                .stream()\n                .map(JobResponse::from).toList",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getAllJobs",
+          "callee": "jobRepository\n                .findAllByOrderByCreatedAtDesc()\n                .stream().map",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getAllJobs",
+          "callee": "jobRepository\n                .findAllByOrderByCreatedAtDesc().stream",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getAllJobs",
+          "callee": "jobRepository.findAllByOrderByCreatedAtDesc",
+          "lineNumber": 257
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "jobRepository\n                .findById(id).orElseThrow",
+          "lineNumber": 274
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "jobRepository.findById",
+          "lineNumber": 274
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 277
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "job.getStatus",
+          "lineNumber": 282
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "new RuntimeException",
+          "lineNumber": 283
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "job.setStatus",
+          "lineNumber": 288
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "JobResponse.from",
+          "lineNumber": 290
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "jobRepository.save",
+          "lineNumber": 291
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 10,
+        "functionCount": 9,
+        "classCount": 1
+      }
+    }
+  ]
+}

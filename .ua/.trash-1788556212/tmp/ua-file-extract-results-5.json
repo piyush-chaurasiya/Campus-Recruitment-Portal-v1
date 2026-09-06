@@ -1,0 +1,1887 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 10,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 10,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "PlacementApplicationController",
+          "startLine": 17,
+          "endLine": 21,
+          "params": [
+            "applicationService"
+          ]
+        },
+        {
+          "name": "getAllApplications",
+          "startLine": 23,
+          "endLine": 30,
+          "params": [
+            "jobId"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 32,
+          "endLine": 43,
+          "params": [
+            "id",
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlacementApplicationController",
+          "startLine": 11,
+          "endLine": 44,
+          "methods": [
+            "PlacementApplicationController",
+            "getAllApplications",
+            "updateStatus"
+          ],
+          "properties": [
+            "applicationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlacementApplicationController",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getAllApplications",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "PlacementApplicationController",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAllApplications",
+          "callee": "applicationService.getAllApplicationsForPlacement",
+          "lineNumber": 28
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "applicationService.updateStatus",
+          "lineNumber": 38
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "request.getStatus",
+          "lineNumber": 40
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "request.getRemarks",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "RecruiterApplicationController",
+          "startLine": 18,
+          "endLine": 22,
+          "params": [
+            "applicationService"
+          ]
+        },
+        {
+          "name": "getApplications",
+          "startLine": 24,
+          "endLine": 34,
+          "params": [
+            "jobId",
+            "authentication"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 36,
+          "endLine": 49,
+          "params": [
+            "id",
+            "request",
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RecruiterApplicationController",
+          "startLine": 12,
+          "endLine": 50,
+          "methods": [
+            "RecruiterApplicationController",
+            "getApplications",
+            "updateStatus"
+          ],
+          "properties": [
+            "applicationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RecruiterApplicationController",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getApplications",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "RecruiterApplicationController",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getApplications",
+          "callee": "applicationService.getApplicationsForRecruiter",
+          "lineNumber": 30
+        },
+        {
+          "caller": "getApplications",
+          "callee": "authentication.getName",
+          "lineNumber": 31
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "applicationService.updateStatusAsRecruiter",
+          "lineNumber": 43
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "authentication.getName",
+          "lineNumber": 44
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "request.getStatus",
+          "lineNumber": 46
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "request.getRemarks",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 35,
+      "functions": [
+        {
+          "name": "StudentApplicationController",
+          "startLine": 17,
+          "endLine": 22,
+          "params": [
+            "applicationService"
+          ]
+        },
+        {
+          "name": "apply",
+          "startLine": 24,
+          "endLine": 34,
+          "params": [
+            "jobId",
+            "authentication"
+          ]
+        },
+        {
+          "name": "getMyApplications",
+          "startLine": 36,
+          "endLine": 44,
+          "params": [
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentApplicationController",
+          "startLine": 11,
+          "endLine": 45,
+          "methods": [
+            "StudentApplicationController",
+            "apply",
+            "getMyApplications"
+          ],
+          "properties": [
+            "applicationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentApplicationController",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "apply",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "getMyApplications",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "StudentApplicationController",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "apply",
+          "callee": "applicationService.apply",
+          "lineNumber": 30
+        },
+        {
+          "caller": "apply",
+          "callee": "authentication.getName",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "applicationService.getMyApplications",
+          "lineNumber": 41
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "authentication.getName",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 90,
+      "nonEmptyLines": 62,
+      "functions": [
+        {
+          "name": "ApplicationResponse",
+          "startLine": 23,
+          "endLine": 24,
+          "params": []
+        },
+        {
+          "name": "from",
+          "startLine": 26,
+          "endLine": 57,
+          "params": [
+            "application"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 59,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "getJobId",
+          "startLine": 63,
+          "endLine": 65,
+          "params": []
+        },
+        {
+          "name": "getJobTitle",
+          "startLine": 67,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 71,
+          "endLine": 73,
+          "params": []
+        },
+        {
+          "name": "getStatus",
+          "startLine": 75,
+          "endLine": 77,
+          "params": []
+        },
+        {
+          "name": "getAppliedAt",
+          "startLine": 79,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "getUpdatedAt",
+          "startLine": 83,
+          "endLine": 85,
+          "params": []
+        },
+        {
+          "name": "getRemarks",
+          "startLine": 87,
+          "endLine": 89,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ApplicationResponse",
+          "startLine": 8,
+          "endLine": 90,
+          "methods": [
+            "ApplicationResponse",
+            "from",
+            "getId",
+            "getJobId",
+            "getJobTitle",
+            "getCompanyName",
+            "getStatus",
+            "getAppliedAt",
+            "getUpdatedAt",
+            "getRemarks"
+          ],
+          "properties": [
+            "id",
+            "jobId",
+            "jobTitle",
+            "companyName",
+            "status",
+            "appliedAt",
+            "updatedAt",
+            "remarks"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApplicationResponse",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "from",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "getJobId",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getJobTitle",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "getAppliedAt",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "getUpdatedAt",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "getRemarks",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "ApplicationResponse",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new ApplicationResponse",
+          "lineNumber": 31
+        },
+        {
+          "caller": "from",
+          "callee": "application.getId",
+          "lineNumber": 33
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getId",
+          "lineNumber": 36
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 36
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getTitle",
+          "lineNumber": 39
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 39
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getCompanyName",
+          "lineNumber": 42
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 42
+        },
+        {
+          "caller": "from",
+          "callee": "application.getStatus",
+          "lineNumber": 45
+        },
+        {
+          "caller": "from",
+          "callee": "application.getAppliedAt",
+          "lineNumber": 48
+        },
+        {
+          "caller": "from",
+          "callee": "application.getUpdatedAt",
+          "lineNumber": 51
+        },
+        {
+          "caller": "from",
+          "callee": "application.getRemarks",
+          "lineNumber": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 11,
+        "functionCount": 10,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 126,
+      "nonEmptyLines": 91,
+      "functions": [
+        {
+          "name": "PlacementApplicationResponse",
+          "startLine": 31,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "from",
+          "startLine": 34,
+          "endLine": 65,
+          "params": [
+            "application"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 67,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "getJobId",
+          "startLine": 71,
+          "endLine": 73,
+          "params": []
+        },
+        {
+          "name": "getJobTitle",
+          "startLine": 75,
+          "endLine": 77,
+          "params": []
+        },
+        {
+          "name": "getCompanyName",
+          "startLine": 79,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "getStudentId",
+          "startLine": 83,
+          "endLine": 85,
+          "params": []
+        },
+        {
+          "name": "getStudentName",
+          "startLine": 87,
+          "endLine": 89,
+          "params": []
+        },
+        {
+          "name": "getStudentEmail",
+          "startLine": 91,
+          "endLine": 93,
+          "params": []
+        },
+        {
+          "name": "getBranch",
+          "startLine": 95,
+          "endLine": 97,
+          "params": []
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 99,
+          "endLine": 101,
+          "params": []
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 103,
+          "endLine": 105,
+          "params": []
+        },
+        {
+          "name": "getHasResume",
+          "startLine": 107,
+          "endLine": 109,
+          "params": []
+        },
+        {
+          "name": "getStatus",
+          "startLine": 111,
+          "endLine": 113,
+          "params": []
+        },
+        {
+          "name": "getAppliedAt",
+          "startLine": 115,
+          "endLine": 117,
+          "params": []
+        },
+        {
+          "name": "getUpdatedAt",
+          "startLine": 119,
+          "endLine": 121,
+          "params": []
+        },
+        {
+          "name": "getRemarks",
+          "startLine": 123,
+          "endLine": 125,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlacementApplicationResponse",
+          "startLine": 8,
+          "endLine": 126,
+          "methods": [
+            "PlacementApplicationResponse",
+            "from",
+            "getId",
+            "getJobId",
+            "getJobTitle",
+            "getCompanyName",
+            "getStudentId",
+            "getStudentName",
+            "getStudentEmail",
+            "getBranch",
+            "getCgpa",
+            "getBacklogs",
+            "getHasResume",
+            "getStatus",
+            "getAppliedAt",
+            "getUpdatedAt",
+            "getRemarks"
+          ],
+          "properties": [
+            "id",
+            "jobId",
+            "jobTitle",
+            "companyName",
+            "studentId",
+            "studentName",
+            "studentEmail",
+            "branch",
+            "cgpa",
+            "backlogs",
+            "hasResume",
+            "status",
+            "appliedAt",
+            "updatedAt",
+            "remarks"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlacementApplicationResponse",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "from",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "getJobId",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "getJobTitle",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "getCompanyName",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentId",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentName",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentEmail",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "getBranch",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "getHasResume",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "getAppliedAt",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "getUpdatedAt",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "getRemarks",
+          "line": 123,
+          "isDefault": false
+        },
+        {
+          "name": "PlacementApplicationResponse",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new PlacementApplicationResponse",
+          "lineNumber": 39
+        },
+        {
+          "caller": "from",
+          "callee": "application.getId",
+          "lineNumber": 41
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getId",
+          "lineNumber": 43
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 43
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getTitle",
+          "lineNumber": 44
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 44
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob().getCompanyName",
+          "lineNumber": 45
+        },
+        {
+          "caller": "from",
+          "callee": "application.getJob",
+          "lineNumber": 45
+        },
+        {
+          "caller": "from",
+          "callee": "application.getStudent",
+          "lineNumber": 47
+        },
+        {
+          "caller": "from",
+          "callee": "student.getId",
+          "lineNumber": 49
+        },
+        {
+          "caller": "from",
+          "callee": "student.getUser().getName",
+          "lineNumber": 50
+        },
+        {
+          "caller": "from",
+          "callee": "student.getUser",
+          "lineNumber": 50
+        },
+        {
+          "caller": "from",
+          "callee": "student.getUser().getEmail",
+          "lineNumber": 51
+        },
+        {
+          "caller": "from",
+          "callee": "student.getUser",
+          "lineNumber": 51
+        },
+        {
+          "caller": "from",
+          "callee": "student.getBranch",
+          "lineNumber": 52
+        },
+        {
+          "caller": "from",
+          "callee": "student.getCgpa",
+          "lineNumber": 53
+        },
+        {
+          "caller": "from",
+          "callee": "student.getBacklogs",
+          "lineNumber": 54
+        },
+        {
+          "caller": "from",
+          "callee": "student.getResumeName",
+          "lineNumber": 55
+        },
+        {
+          "caller": "from",
+          "callee": "application.getStatus",
+          "lineNumber": 57
+        },
+        {
+          "caller": "from",
+          "callee": "application.getAppliedAt",
+          "lineNumber": 59
+        },
+        {
+          "caller": "from",
+          "callee": "application.getUpdatedAt",
+          "lineNumber": 60
+        },
+        {
+          "caller": "from",
+          "callee": "application.getRemarks",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 18,
+        "functionCount": 17,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "UpdateApplicationStatusRequest",
+          "startLine": 10,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "getStatus",
+          "startLine": 13,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 17,
+          "endLine": 19,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getRemarks",
+          "startLine": 21,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "setRemarks",
+          "startLine": 25,
+          "endLine": 27,
+          "params": [
+            "remarks"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "UpdateApplicationStatusRequest",
+          "startLine": 5,
+          "endLine": 28,
+          "methods": [
+            "UpdateApplicationStatusRequest",
+            "getStatus",
+            "setStatus",
+            "getRemarks",
+            "setRemarks"
+          ],
+          "properties": [
+            "status",
+            "remarks"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UpdateApplicationStatusRequest",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getRemarks",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "setRemarks",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "UpdateApplicationStatusRequest",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 10,
+      "classes": [
+        {
+          "name": "ApplicationStatus",
+          "startLine": 3,
+          "endLine": 12,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApplicationStatus",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "prePersist",
+          "startLine": 44,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "preUpdate",
+          "startLine": 55,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 60,
+          "endLine": 62,
+          "params": []
+        },
+        {
+          "name": "getJob",
+          "startLine": 64,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "setJob",
+          "startLine": 68,
+          "endLine": 70,
+          "params": [
+            "job"
+          ]
+        },
+        {
+          "name": "getStudent",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "setStudent",
+          "startLine": 76,
+          "endLine": 78,
+          "params": [
+            "student"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 80,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 84,
+          "endLine": 86,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getAppliedAt",
+          "startLine": 88,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "getUpdatedAt",
+          "startLine": 92,
+          "endLine": 94,
+          "params": []
+        },
+        {
+          "name": "getRemarks",
+          "startLine": 96,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "setRemarks",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "remarks"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JobApplication",
+          "startLine": 7,
+          "endLine": 103,
+          "methods": [
+            "prePersist",
+            "preUpdate",
+            "getId",
+            "getJob",
+            "setJob",
+            "getStudent",
+            "setStudent",
+            "getStatus",
+            "setStatus",
+            "getAppliedAt",
+            "getUpdatedAt",
+            "getRemarks",
+            "setRemarks"
+          ],
+          "properties": [
+            "id",
+            "job",
+            "student",
+            "status",
+            "appliedAt",
+            "updatedAt",
+            "remarks"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "prePersist",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "preUpdate",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "getJob",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "setJob",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "getStudent",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "setStudent",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "getAppliedAt",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "getUpdatedAt",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "getRemarks",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "setRemarks",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "JobApplication",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "prePersist",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 47
+        },
+        {
+          "caller": "prePersist",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 48
+        },
+        {
+          "caller": "preUpdate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 14,
+        "functionCount": 13,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 21,
+      "classes": [
+        {
+          "name": "JobApplicationRepository",
+          "startLine": 8,
+          "endLine": 29,
+          "methods": [
+            "existsByJobIdAndStudentId",
+            "findByStudentIdOrderByAppliedAtDesc",
+            "findAllByOrderByAppliedAtDesc",
+            "findByJobIdOrderByAppliedAtDesc",
+            "findByJob_CreatedByOrderByAppliedAtDesc"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobApplicationRepository",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 313,
+      "nonEmptyLines": 258,
+      "functions": [
+        {
+          "name": "JobApplicationService",
+          "startLine": 30,
+          "endLine": 45,
+          "params": [
+            "applicationRepository",
+            "jobRepository",
+            "studentProfileRepository",
+            "userRepository",
+            "eligibilityService",
+            "notificationService"
+          ]
+        },
+        {
+          "name": "apply",
+          "startLine": 51,
+          "endLine": 148,
+          "params": [
+            "jobId",
+            "email"
+          ]
+        },
+        {
+          "name": "getMyApplications",
+          "startLine": 154,
+          "endLine": 182,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "getApplicationsForRecruiter",
+          "startLine": 188,
+          "endLine": 197,
+          "params": [
+            "username"
+          ]
+        },
+        {
+          "name": "getAllApplicationsForPlacement",
+          "startLine": 203,
+          "endLine": 217,
+          "params": [
+            "jobId"
+          ]
+        },
+        {
+          "name": "getApplicationsForRecruiter",
+          "startLine": 223,
+          "endLine": 243,
+          "params": [
+            "recruiterUsername",
+            "jobId"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 249,
+          "endLine": 273,
+          "params": [
+            "applicationId",
+            "newStatus",
+            "remarks"
+          ]
+        },
+        {
+          "name": "updateStatusAsRecruiter",
+          "startLine": 279,
+          "endLine": 312,
+          "params": [
+            "recruiterUsername",
+            "applicationId",
+            "newStatus",
+            "remarks"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JobApplicationService",
+          "startLine": 20,
+          "endLine": 313,
+          "methods": [
+            "JobApplicationService",
+            "apply",
+            "getMyApplications",
+            "getApplicationsForRecruiter",
+            "getAllApplicationsForPlacement",
+            "getApplicationsForRecruiter",
+            "updateStatus",
+            "updateStatusAsRecruiter"
+          ],
+          "properties": [
+            "applicationRepository",
+            "jobRepository",
+            "studentProfileRepository",
+            "userRepository",
+            "eligibilityService",
+            "notificationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JobApplicationService",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "apply",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "getMyApplications",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "getApplicationsForRecruiter",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getAllApplicationsForPlacement",
+          "line": 203,
+          "isDefault": false
+        },
+        {
+          "name": "getApplicationsForRecruiter",
+          "line": 223,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 249,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatusAsRecruiter",
+          "line": 279,
+          "isDefault": false
+        },
+        {
+          "name": "JobApplicationService",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "apply",
+          "callee": "userRepository\n                .findByEmail(email).orElseThrow",
+          "lineNumber": 56
+        },
+        {
+          "caller": "apply",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 56
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 59
+        },
+        {
+          "caller": "apply",
+          "callee": "studentProfileRepository\n                        .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 65
+        },
+        {
+          "caller": "apply",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 65
+        },
+        {
+          "caller": "apply",
+          "callee": "user.getId",
+          "lineNumber": 66
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 68
+        },
+        {
+          "caller": "apply",
+          "callee": "jobRepository\n                .findById(jobId).orElseThrow",
+          "lineNumber": 73
+        },
+        {
+          "caller": "apply",
+          "callee": "jobRepository.findById",
+          "lineNumber": 73
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 76
+        },
+        {
+          "caller": "apply",
+          "callee": "job.getStatus",
+          "lineNumber": 81
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 83
+        },
+        {
+          "caller": "apply",
+          "callee": "applicationRepository.existsByJobIdAndStudentId",
+          "lineNumber": 88
+        },
+        {
+          "caller": "apply",
+          "callee": "profile.getId",
+          "lineNumber": 91
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 94
+        },
+        {
+          "caller": "apply",
+          "callee": "eligibilityService.check",
+          "lineNumber": 100
+        },
+        {
+          "caller": "apply",
+          "callee": "eligibility.eligible",
+          "lineNumber": 105
+        },
+        {
+          "caller": "apply",
+          "callee": "new RuntimeException",
+          "lineNumber": 107
+        },
+        {
+          "caller": "apply",
+          "callee": "eligibility.reason",
+          "lineNumber": 109
+        },
+        {
+          "caller": "apply",
+          "callee": "new JobApplication",
+          "lineNumber": 114
+        },
+        {
+          "caller": "apply",
+          "callee": "application.setJob",
+          "lineNumber": 116
+        },
+        {
+          "caller": "apply",
+          "callee": "application.setStudent",
+          "lineNumber": 117
+        },
+        {
+          "caller": "apply",
+          "callee": "application.setStatus",
+          "lineNumber": 118
+        },
+        {
+          "caller": "apply",
+          "callee": "applicationRepository.save",
+          "lineNumber": 123
+        },
+        {
+          "caller": "apply",
+          "callee": "notificationService.notifyRole",
+          "lineNumber": 127
+        },
+        {
+          "caller": "apply",
+          "callee": "profile.getUser().getName",
+          "lineNumber": 130
+        },
+        {
+          "caller": "apply",
+          "callee": "profile.getUser",
+          "lineNumber": 130
+        },
+        {
+          "caller": "apply",
+          "callee": "job.getTitle",
+          "lineNumber": 132
+        },
+        {
+          "caller": "apply",
+          "callee": "job.getCompanyName",
+          "lineNumber": 134
+        },
+        {
+          "caller": "apply",
+          "callee": "notificationService.notifyRole",
+          "lineNumber": 138
+        },
+        {
+          "caller": "apply",
+          "callee": "profile.getUser().getName",
+          "lineNumber": 141
+        },
+        {
+          "caller": "apply",
+          "callee": "profile.getUser",
+          "lineNumber": 141
+        },
+        {
+          "caller": "apply",
+          "callee": "job.getTitle",
+          "lineNumber": 143
+        },
+        {
+          "caller": "apply",
+          "callee": "ApplicationResponse.from",
+          "lineNumber": 147
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "userRepository\n                .findByEmail(email).orElseThrow",
+          "lineNumber": 158
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 158
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "new RuntimeException",
+          "lineNumber": 161
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "studentProfileRepository\n                        .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 167
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 167
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "user.getId",
+          "lineNumber": 168
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "new RuntimeException",
+          "lineNumber": 170
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "applicationRepository\n                .findByStudentIdOrderByAppliedAtDesc(\n                        profile.getId()\n                )\n                .stream()\n                .map(ApplicationResponse::from).toList",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "applicationRepository\n                .findByStudentIdOrderByAppliedAtDesc(\n                        profile.getId()\n                )\n                .stream().map",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "applicationRepository\n                .findByStudentIdOrderByAppliedAtDesc(\n                        profile.getId()\n                ).stream",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "applicationRepository.findByStudentIdOrderByAppliedAtDesc",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getMyApplications",
+          "callee": "profile.getId",
+          "lineNumber": 177
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository\n                .findByJob_CreatedByOrderByAppliedAtDesc(username)\n                .stream()\n                .map(PlacementApplicationResponse::from).toList",
+          "lineNumber": 192
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository\n                .findByJob_CreatedByOrderByAppliedAtDesc(username)\n                .stream().map",
+          "lineNumber": 192
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository\n                .findByJob_CreatedByOrderByAppliedAtDesc(username).stream",
+          "lineNumber": 192
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository.findByJob_CreatedByOrderByAppliedAtDesc",
+          "lineNumber": 192
+        },
+        {
+          "caller": "getAllApplicationsForPlacement",
+          "callee": "applicationRepository.findByJobIdOrderByAppliedAtDesc",
+          "lineNumber": 208
+        },
+        {
+          "caller": "getAllApplicationsForPlacement",
+          "callee": "applicationRepository.findAllByOrderByAppliedAtDesc",
+          "lineNumber": 210
+        },
+        {
+          "caller": "getAllApplicationsForPlacement",
+          "callee": "applications\n                .stream()\n                .map(PlacementApplicationResponse::from).toList",
+          "lineNumber": 213
+        },
+        {
+          "caller": "getAllApplicationsForPlacement",
+          "callee": "applications\n                .stream().map",
+          "lineNumber": 213
+        },
+        {
+          "caller": "getAllApplicationsForPlacement",
+          "callee": "applications.stream",
+          "lineNumber": 213
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository.findByJobIdOrderByAppliedAtDesc",
+          "lineNumber": 229
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applicationRepository.findAllByOrderByAppliedAtDesc",
+          "lineNumber": 231
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applications\n                .stream()\n                .filter(a ->\n                        recruiterUsername.equals(\n                                a.getJob().getCreatedBy()\n                        )\n                )\n                .map(PlacementApplicationResponse::from).toList",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applications\n                .stream()\n                .filter(a ->\n                        recruiterUsername.equals(\n                                a.getJob().getCreatedBy()\n                        )\n                ).map",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applications\n                .stream().filter",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "applications.stream",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "recruiterUsername.equals",
+          "lineNumber": 237
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "a.getJob().getCreatedBy",
+          "lineNumber": 238
+        },
+        {
+          "caller": "getApplicationsForRecruiter",
+          "callee": "a.getJob",
+          "lineNumber": 238
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "applicationRepository\n                .findById(applicationId).orElseThrow",
+          "lineNumber": 255
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "applicationRepository.findById",
+          "lineNumber": 255
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "new RuntimeException",
+          "lineNumber": 258
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "application.setStatus",
+          "lineNumber": 263
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "remarks.isBlank",
+          "lineNumber": 265
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "application.setRemarks",
+          "lineNumber": 266
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "applicationRepository.save",
+          "lineNumber": 270
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "PlacementApplicationResponse.from",
+          "lineNumber": 272
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "applicationRepository\n                .findById(applicationId).orElseThrow",
+          "lineNumber": 286
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "applicationRepository.findById",
+          "lineNumber": 286
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "new RuntimeException",
+          "lineNumber": 289
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "recruiterUsername.equals",
+          "lineNumber": 294
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "application.getJob().getCreatedBy",
+          "lineNumber": 295
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "application.getJob",
+          "lineNumber": 295
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "new RuntimeException",
+          "lineNumber": 297
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "application.setStatus",
+          "lineNumber": 302
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "remarks.isBlank",
+          "lineNumber": 304
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "application.setRemarks",
+          "lineNumber": 305
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "applicationRepository.save",
+          "lineNumber": 309
+        },
+        {
+          "caller": "updateStatusAsRecruiter",
+          "callee": "PlacementApplicationResponse.from",
+          "lineNumber": 311
+        }
+      ],
+      "metrics": {
+        "importCount": 12,
+        "exportCount": 9,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    }
+  ]
+}

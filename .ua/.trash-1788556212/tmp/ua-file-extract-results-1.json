@@ -1,0 +1,3500 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 21,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 21,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 21,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/App.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 230,
+      "nonEmptyLines": 196,
+      "functions": [
+        {
+          "name": "Unauthorized",
+          "startLine": 39,
+          "endLine": 51,
+          "params": []
+        },
+        {
+          "name": "App",
+          "startLine": 53,
+          "endLine": 228,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 31,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/axios.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ProtectedRoute.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "ProtectedRoute",
+          "startLine": 3,
+          "endLine": 18,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ProtectedRoute",
+          "callee": "localStorage.getItem",
+          "lineNumber": 4
+        },
+        {
+          "caller": "ProtectedRoute",
+          "callee": "localStorage.getItem",
+          "lineNumber": 5
+        },
+        {
+          "caller": "ProtectedRoute",
+          "callee": "JSON.parse",
+          "lineNumber": 11
+        },
+        {
+          "caller": "ProtectedRoute",
+          "callee": "allowedRoles.includes",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/common/ThemeToggle.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "functions": [
+        {
+          "name": "ThemeToggle",
+          "startLine": 3,
+          "endLine": 22,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ThemeToggle",
+          "line": 3,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ThemeToggle",
+          "callee": "useTheme",
+          "lineNumber": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/context/ThemeContext.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "ThemeProvider",
+          "startLine": 10,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "useTheme",
+          "startLine": 46,
+          "endLine": 48,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ThemeProvider",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "useTheme",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ThemeProvider",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.getItem",
+          "lineNumber": 12
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useEffect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "root.classList.add",
+          "lineNumber": 19
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "root.classList.remove",
+          "lineNumber": 21
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.setItem",
+          "lineNumber": 24
+        },
+        {
+          "caller": "toggleTheme",
+          "callee": "setTheme",
+          "lineNumber": 28
+        },
+        {
+          "caller": "useTheme",
+          "callee": "useContext",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 755,
+      "nonEmptyLines": 575,
+      "functions": [
+        {
+          "name": "AdminAcademicVerification",
+          "startLine": 4,
+          "endLine": 420,
+          "params": []
+        },
+        {
+          "name": "ReviewModal",
+          "startLine": 426,
+          "endLine": 551,
+          "params": []
+        },
+        {
+          "name": "RejectModal",
+          "startLine": 557,
+          "endLine": 658,
+          "params": []
+        },
+        {
+          "name": "SummaryCard",
+          "startLine": 664,
+          "endLine": 686,
+          "params": []
+        },
+        {
+          "name": "AcademicValue",
+          "startLine": 688,
+          "endLine": 705,
+          "params": []
+        },
+        {
+          "name": "Detail",
+          "startLine": 707,
+          "endLine": 724,
+          "params": []
+        },
+        {
+          "name": "Alert",
+          "startLine": 726,
+          "endLine": 743,
+          "params": []
+        },
+        {
+          "name": "formatDate",
+          "startLine": 745,
+          "endLine": 753,
+          "params": [
+            "value"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 7
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 14
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useEffect",
+          "lineNumber": 18
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "loadRequests",
+          "lineNumber": 19
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "setLoading",
+          "lineNumber": 24
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "setError",
+          "lineNumber": 25
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "api.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "setRequests",
+          "lineNumber": 31
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "setError",
+          "lineNumber": 33
+        },
+        {
+          "caller": "loadRequests",
+          "callee": "setLoading",
+          "lineNumber": 38
+        },
+        {
+          "caller": "approve",
+          "callee": "window.confirm",
+          "lineNumber": 43
+        },
+        {
+          "caller": "approve",
+          "callee": "setProcessing",
+          "lineNumber": 50
+        },
+        {
+          "caller": "approve",
+          "callee": "setError",
+          "lineNumber": 51
+        },
+        {
+          "caller": "approve",
+          "callee": "setSuccess",
+          "lineNumber": 52
+        },
+        {
+          "caller": "approve",
+          "callee": "api.put",
+          "lineNumber": 54
+        },
+        {
+          "caller": "approve",
+          "callee": "setSuccess",
+          "lineNumber": 58
+        },
+        {
+          "caller": "approve",
+          "callee": "setSelected",
+          "lineNumber": 62
+        },
+        {
+          "caller": "approve",
+          "callee": "loadRequests",
+          "lineNumber": 64
+        },
+        {
+          "caller": "approve",
+          "callee": "setError",
+          "lineNumber": 66
+        },
+        {
+          "caller": "approve",
+          "callee": "setProcessing",
+          "lineNumber": 71
+        },
+        {
+          "caller": "reject",
+          "callee": "e.preventDefault",
+          "lineNumber": 76
+        },
+        {
+          "caller": "reject",
+          "callee": "reason.trim",
+          "lineNumber": 80
+        },
+        {
+          "caller": "reject",
+          "callee": "setError",
+          "lineNumber": 81
+        },
+        {
+          "caller": "reject",
+          "callee": "setProcessing",
+          "lineNumber": 86
+        },
+        {
+          "caller": "reject",
+          "callee": "setError",
+          "lineNumber": 87
+        },
+        {
+          "caller": "reject",
+          "callee": "setSuccess",
+          "lineNumber": 88
+        },
+        {
+          "caller": "reject",
+          "callee": "api.put",
+          "lineNumber": 90
+        },
+        {
+          "caller": "reject",
+          "callee": "reason.trim",
+          "lineNumber": 93
+        },
+        {
+          "caller": "reject",
+          "callee": "setSuccess",
+          "lineNumber": 97
+        },
+        {
+          "caller": "reject",
+          "callee": "setRejecting",
+          "lineNumber": 101
+        },
+        {
+          "caller": "reject",
+          "callee": "setReason",
+          "lineNumber": 102
+        },
+        {
+          "caller": "reject",
+          "callee": "setSelected",
+          "lineNumber": 103
+        },
+        {
+          "caller": "reject",
+          "callee": "loadRequests",
+          "lineNumber": 105
+        },
+        {
+          "caller": "reject",
+          "callee": "setError",
+          "lineNumber": 107
+        },
+        {
+          "caller": "reject",
+          "callee": "setProcessing",
+          "lineNumber": 112
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "useMemo",
+          "lineNumber": 116
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "search.toLowerCase().trim",
+          "lineNumber": 117
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "search.toLowerCase",
+          "lineNumber": 117
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "requests.filter",
+          "lineNumber": 121
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "item.studentName\n          ?.toLowerCase()\n          .includes",
+          "lineNumber": 123
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "item.studentName\n          ?.toLowerCase",
+          "lineNumber": 123
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "item.studentEmail\n          ?.toLowerCase()\n          .includes",
+          "lineNumber": 126
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "item.studentEmail\n          ?.toLowerCase",
+          "lineNumber": 126
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setSearch",
+          "lineNumber": 209
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 237
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "filteredRequests.map",
+          "lineNumber": 268
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "request.studentName\n                        ?.charAt(0)\n                        ?.toUpperCase",
+          "lineNumber": 282
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "request.studentName\n                        ?.charAt",
+          "lineNumber": 282
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setSelected",
+          "lineNumber": 341
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "approve",
+          "lineNumber": 351
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setReason",
+          "lineNumber": 361
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setRejecting",
+          "lineNumber": 362
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setSelected",
+          "lineNumber": 390
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "approve",
+          "lineNumber": 393
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setReason",
+          "lineNumber": 396
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setRejecting",
+          "lineNumber": 397
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setRejecting",
+          "lineNumber": 411
+        },
+        {
+          "caller": "AdminAcademicVerification",
+          "callee": "setReason",
+          "lineNumber": 412
+        },
+        {
+          "caller": "ReviewModal",
+          "callee": "formatDate",
+          "lineNumber": 501
+        },
+        {
+          "caller": "RejectModal",
+          "callee": "setReason",
+          "lineNumber": 621
+        },
+        {
+          "caller": "formatDate",
+          "callee": "new Date(value).toLocaleString",
+          "lineNumber": 749
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 89,
+      "nonEmptyLines": 69,
+      "functions": [
+        {
+          "name": "AdminAuditLogs",
+          "startLine": 1,
+          "endLine": 87,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminAuditLogs",
+          "callee": "logs.map",
+          "lineNumber": 50
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 610,
+      "nonEmptyLines": 461,
+      "functions": [
+        {
+          "name": "AdminDashboard",
+          "startLine": 4,
+          "endLine": 322,
+          "params": []
+        },
+        {
+          "name": "Header",
+          "startLine": 328,
+          "endLine": 360,
+          "params": []
+        },
+        {
+          "name": "StatCard",
+          "startLine": 366,
+          "endLine": 401,
+          "params": []
+        },
+        {
+          "name": "MiniCard",
+          "startLine": 407,
+          "endLine": 433,
+          "params": []
+        },
+        {
+          "name": "ProgressRow",
+          "startLine": 439,
+          "endLine": 477,
+          "params": []
+        },
+        {
+          "name": "HealthItem",
+          "startLine": 483,
+          "endLine": 506,
+          "params": []
+        },
+        {
+          "name": "ActivityCard",
+          "startLine": 512,
+          "endLine": 539,
+          "params": []
+        },
+        {
+          "name": "QuickAction",
+          "startLine": 545,
+          "endLine": 575,
+          "params": []
+        },
+        {
+          "name": "DashboardSkeleton",
+          "startLine": 581,
+          "endLine": 608,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminDashboard",
+          "callee": "JSON.parse",
+          "lineNumber": 5
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "localStorage.getItem",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AdminDashboard",
+          "callee": "loadDashboard",
+          "lineNumber": 14
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "setLoading",
+          "lineNumber": 19
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "setError",
+          "lineNumber": 20
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "api.get",
+          "lineNumber": 22
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "setData",
+          "lineNumber": 26
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "setError",
+          "lineNumber": 28
+        },
+        {
+          "caller": "loadDashboard",
+          "callee": "setLoading",
+          "lineNumber": 33
+        },
+        {
+          "caller": "ProgressRow",
+          "callee": "Math.round",
+          "lineNumber": 446
+        },
+        {
+          "caller": "DashboardSkeleton",
+          "callee": "[1, 2, 3, 4].map",
+          "lineNumber": 595
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 555,
+      "nonEmptyLines": 435,
+      "functions": [
+        {
+          "name": "AdminJobVerification",
+          "startLine": 4,
+          "endLine": 359,
+          "params": []
+        },
+        {
+          "name": "JobCard",
+          "startLine": 361,
+          "endLine": 482,
+          "params": []
+        },
+        {
+          "name": "Tag",
+          "startLine": 484,
+          "endLine": 490,
+          "params": []
+        },
+        {
+          "name": "StatusTag",
+          "startLine": 492,
+          "endLine": 513,
+          "params": []
+        },
+        {
+          "name": "Info",
+          "startLine": 515,
+          "endLine": 529,
+          "params": []
+        },
+        {
+          "name": "Stat",
+          "startLine": 531,
+          "endLine": 553,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 15
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useEffect",
+          "lineNumber": 18
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "loadJobs",
+          "lineNumber": 19
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setLoading",
+          "lineNumber": 24
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setError",
+          "lineNumber": 25
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "api.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setJobs",
+          "lineNumber": 31
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setError",
+          "lineNumber": 33
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setLoading",
+          "lineNumber": 39
+        },
+        {
+          "caller": "approveJob",
+          "callee": "window.confirm",
+          "lineNumber": 45
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setError",
+          "lineNumber": 53
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setMessage",
+          "lineNumber": 54
+        },
+        {
+          "caller": "approveJob",
+          "callee": "api.put",
+          "lineNumber": 56
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setMessage",
+          "lineNumber": 60
+        },
+        {
+          "caller": "approveJob",
+          "callee": "loadJobs",
+          "lineNumber": 64
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setError",
+          "lineNumber": 66
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "e.preventDefault",
+          "lineNumber": 75
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "reason.trim",
+          "lineNumber": 79
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 80
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 85
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setMessage",
+          "lineNumber": 86
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "api.put",
+          "lineNumber": 88
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "reason.trim",
+          "lineNumber": 93
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setMessage",
+          "lineNumber": 98
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setShowReject",
+          "lineNumber": 102
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setSelectedJob",
+          "lineNumber": 103
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setReason",
+          "lineNumber": 104
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "loadJobs",
+          "lineNumber": 106
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 108
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "useMemo",
+          "lineNumber": 116
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "jobs.filter",
+          "lineNumber": 117
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "search\n        .toLowerCase()\n        .trim",
+          "lineNumber": 119
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "search\n        .toLowerCase",
+          "lineNumber": 119
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "job.title\n          ?.toLowerCase()\n          .includes",
+          "lineNumber": 125
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "job.title\n          ?.toLowerCase",
+          "lineNumber": 125
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "job.companyName\n          ?.toLowerCase()\n          .includes",
+          "lineNumber": 128
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "job.companyName\n          ?.toLowerCase",
+          "lineNumber": 128
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "jobs.filter",
+          "lineNumber": 143
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "jobs.filter",
+          "lineNumber": 147
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "jobs.filter",
+          "lineNumber": 151
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setSearch",
+          "lineNumber": 217
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setStatus",
+          "lineNumber": 226
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 255
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "filteredJobs.map",
+          "lineNumber": 282
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setSelectedJob",
+          "lineNumber": 288
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setReason",
+          "lineNumber": 289
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setError",
+          "lineNumber": 290
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setShowReject",
+          "lineNumber": 291
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setReason",
+          "lineNumber": 323
+        },
+        {
+          "caller": "AdminJobVerification",
+          "callee": "setShowReject",
+          "lineNumber": 334
+        },
+        {
+          "caller": "JobCard",
+          "callee": "onReject",
+          "lineNumber": 415
+        },
+        {
+          "caller": "JobCard",
+          "callee": "onApprove",
+          "lineNumber": 422
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminLayout.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 252,
+      "nonEmptyLines": 191,
+      "functions": [
+        {
+          "name": "AdminLayout",
+          "startLine": 9,
+          "endLine": 250,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminLayout",
+          "callee": "useNavigate",
+          "lineNumber": 10
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "useTheme",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "JSON.parse",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "localStorage.getItem",
+          "lineNumber": 14
+        },
+        {
+          "caller": "logout",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 71
+        },
+        {
+          "caller": "logout",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 72
+        },
+        {
+          "caller": "logout",
+          "callee": "navigate",
+          "lineNumber": 74
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "links.map",
+          "lineNumber": 114
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "[\n                  \"group flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200\",\n                  isActive\n                    ? \"bg-blue-600 text-white shadow-lg shadow-blue-600/20\"\n                    : \"text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-slate-950 dark:hover:text-white\",\n                ].join",
+          "lineNumber": 120
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "user.name\n                ?.charAt(0)\n                ?.toUpperCase",
+          "lineNumber": 149
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "user.name\n                ?.charAt",
+          "lineNumber": 149
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "user.name\n                    ?.charAt(0)\n                    ?.toUpperCase",
+          "lineNumber": 223
+        },
+        {
+          "caller": "AdminLayout",
+          "callee": "user.name\n                    ?.charAt",
+          "lineNumber": 223
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 87,
+      "nonEmptyLines": 65,
+      "functions": [
+        {
+          "name": "AdminNotifications",
+          "startLine": 1,
+          "endLine": 85,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminNotifications",
+          "callee": "notifications.map",
+          "lineNumber": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "AdminSettings",
+          "startLine": 3,
+          "endLine": 97,
+          "params": []
+        },
+        {
+          "name": "Setting",
+          "startLine": 99,
+          "endLine": 132,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminSettings",
+          "callee": "useTheme",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 978,
+      "nonEmptyLines": 784,
+      "functions": [
+        {
+          "name": "AdminUsers",
+          "startLine": 4,
+          "endLine": 496,
+          "params": []
+        },
+        {
+          "name": "UserRow",
+          "startLine": 502,
+          "endLine": 593,
+          "params": []
+        },
+        {
+          "name": "CreateUserModal",
+          "startLine": 599,
+          "endLine": 752,
+          "params": []
+        },
+        {
+          "name": "PasswordModal",
+          "startLine": 758,
+          "endLine": 856,
+          "params": []
+        },
+        {
+          "name": "Input",
+          "startLine": 862,
+          "endLine": 887,
+          "params": []
+        },
+        {
+          "name": "Badge",
+          "startLine": 893,
+          "endLine": 910,
+          "params": []
+        },
+        {
+          "name": "MiniStat",
+          "startLine": 916,
+          "endLine": 938,
+          "params": []
+        },
+        {
+          "name": "Alert",
+          "startLine": 944,
+          "endLine": 961,
+          "params": []
+        },
+        {
+          "name": "formatRole",
+          "startLine": 967,
+          "endLine": 976,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 7
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 14
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useEffect",
+          "lineNumber": 28
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setRole",
+          "lineNumber": 29
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useEffect",
+          "lineNumber": 32
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "loadUsers",
+          "lineNumber": 33
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "setLoading",
+          "lineNumber": 38
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "setError",
+          "lineNumber": 39
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "api.get",
+          "lineNumber": 41
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "setUsers",
+          "lineNumber": 43
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "setError",
+          "lineNumber": 45
+        },
+        {
+          "caller": "loadUsers",
+          "callee": "setLoading",
+          "lineNumber": 50
+        },
+        {
+          "caller": "createUser",
+          "callee": "e.preventDefault",
+          "lineNumber": 57
+        },
+        {
+          "caller": "createUser",
+          "callee": "setCreating",
+          "lineNumber": 60
+        },
+        {
+          "caller": "createUser",
+          "callee": "setError",
+          "lineNumber": 61
+        },
+        {
+          "caller": "createUser",
+          "callee": "setSuccess",
+          "lineNumber": 62
+        },
+        {
+          "caller": "createUser",
+          "callee": "api.post",
+          "lineNumber": 64
+        },
+        {
+          "caller": "createUser",
+          "callee": "setSuccess",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createUser",
+          "callee": "form.role.replaceAll",
+          "lineNumber": 67
+        },
+        {
+          "caller": "createUser",
+          "callee": "setForm",
+          "lineNumber": 70
+        },
+        {
+          "caller": "createUser",
+          "callee": "setShowCreate",
+          "lineNumber": 77
+        },
+        {
+          "caller": "createUser",
+          "callee": "loadUsers",
+          "lineNumber": 79
+        },
+        {
+          "caller": "createUser",
+          "callee": "setError",
+          "lineNumber": 81
+        },
+        {
+          "caller": "createUser",
+          "callee": "setCreating",
+          "lineNumber": 86
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "setError",
+          "lineNumber": 94
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "setError",
+          "lineNumber": 99
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "setSuccess",
+          "lineNumber": 100
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "api.put",
+          "lineNumber": 102
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "setSuccess",
+          "lineNumber": 112
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "loadUsers",
+          "lineNumber": 118
+        },
+        {
+          "caller": "changeStatus",
+          "callee": "setError",
+          "lineNumber": 120
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "e.preventDefault",
+          "lineNumber": 130
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setError",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setError",
+          "lineNumber": 142
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setUpdatingPassword",
+          "lineNumber": 149
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setError",
+          "lineNumber": 150
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setSuccess",
+          "lineNumber": 151
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "api.put",
+          "lineNumber": 153
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setSuccess",
+          "lineNumber": 160
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setShowPassword",
+          "lineNumber": 164
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setNewPassword",
+          "lineNumber": 165
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setError",
+          "lineNumber": 167
+        },
+        {
+          "caller": "updatePassword",
+          "callee": "setUpdatingPassword",
+          "lineNumber": 172
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "setError",
+          "lineNumber": 180
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "window.confirm",
+          "lineNumber": 184
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "setError",
+          "lineNumber": 191
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "setSuccess",
+          "lineNumber": 192
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "api.delete",
+          "lineNumber": 194
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "setSuccess",
+          "lineNumber": 198
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "loadUsers",
+          "lineNumber": 202
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "setError",
+          "lineNumber": 204
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "useMemo",
+          "lineNumber": 213
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "search.toLowerCase().trim",
+          "lineNumber": 214
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "search.toLowerCase",
+          "lineNumber": 214
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "users.filter",
+          "lineNumber": 216
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "user.name?.toLowerCase().includes",
+          "lineNumber": 219
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "user.name?.toLowerCase",
+          "lineNumber": 219
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "user.email?.toLowerCase().includes",
+          "lineNumber": 220
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "user.email?.toLowerCase",
+          "lineNumber": 220
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "users.filter",
+          "lineNumber": 244
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "users.filter",
+          "lineNumber": 248
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "users.filter",
+          "lineNumber": 252
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "users.filter",
+          "lineNumber": 256
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setError",
+          "lineNumber": 284
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setShowCreate",
+          "lineNumber": 285
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setSearch",
+          "lineNumber": 355
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setRole",
+          "lineNumber": 364
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setStatus",
+          "lineNumber": 380
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "[1, 2, 3, 4].map",
+          "lineNumber": 421
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "filteredUsers.map",
+          "lineNumber": 447
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setError",
+          "lineNumber": 453
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setNewPassword",
+          "lineNumber": 454
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setShowPassword",
+          "lineNumber": 455
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setShowCreate",
+          "lineNumber": 473
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setShowPassword",
+          "lineNumber": 487
+        },
+        {
+          "caller": "AdminUsers",
+          "callee": "setNewPassword",
+          "lineNumber": 488
+        },
+        {
+          "caller": "UserRow",
+          "callee": "user.name?.charAt(0)?.toUpperCase",
+          "lineNumber": 516
+        },
+        {
+          "caller": "UserRow",
+          "callee": "user.name?.charAt",
+          "lineNumber": 516
+        },
+        {
+          "caller": "UserRow",
+          "callee": "formatRole",
+          "lineNumber": 545
+        },
+        {
+          "caller": "UserRow",
+          "callee": "onStatusChange",
+          "lineNumber": 556
+        },
+        {
+          "caller": "UserRow",
+          "callee": "onPasswordChange",
+          "lineNumber": 565
+        },
+        {
+          "caller": "UserRow",
+          "callee": "onDelete",
+          "lineNumber": 574
+        },
+        {
+          "caller": "CreateUserModal",
+          "callee": "setForm",
+          "lineNumber": 646
+        },
+        {
+          "caller": "CreateUserModal",
+          "callee": "setForm",
+          "lineNumber": 658
+        },
+        {
+          "caller": "CreateUserModal",
+          "callee": "setForm",
+          "lineNumber": 670
+        },
+        {
+          "caller": "CreateUserModal",
+          "callee": "setForm",
+          "lineNumber": 686
+        },
+        {
+          "caller": "PasswordModal",
+          "callee": "setPassword",
+          "lineNumber": 818
+        },
+        {
+          "caller": "Input",
+          "callee": "onChange",
+          "lineNumber": 880
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Login.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 492,
+      "nonEmptyLines": 387,
+      "functions": [
+        {
+          "name": "Login",
+          "startLine": 32,
+          "endLine": 490,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Login",
+          "callee": "useNavigate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "Login",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "Login",
+          "callee": "localStorage.getItem",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Login",
+          "callee": "useEffect",
+          "lineNumber": 46
+        },
+        {
+          "caller": "Login",
+          "callee": "document.documentElement.classList.toggle",
+          "lineNumber": 47
+        },
+        {
+          "caller": "toggleTheme",
+          "callee": "setDarkMode",
+          "lineNumber": 53
+        },
+        {
+          "caller": "toggleTheme",
+          "callee": "localStorage.setItem",
+          "lineNumber": 54
+        },
+        {
+          "caller": "toggleTheme",
+          "callee": "document.documentElement.classList.toggle",
+          "lineNumber": 55
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "e.preventDefault",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setError",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setError",
+          "lineNumber": 63
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setLoading",
+          "lineNumber": 68
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "api.post",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setError",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "localStorage.setItem",
+          "lineNumber": 82
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "localStorage.setItem",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "JSON.stringify",
+          "lineNumber": 86
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "navigate",
+          "lineNumber": 100
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setError",
+          "lineNumber": 103
+        },
+        {
+          "caller": "handleLogin",
+          "callee": "setLoading",
+          "lineNumber": 108
+        },
+        {
+          "caller": "Login",
+          "callee": "[\n                \"Discover relevant placement opportunities\",\n                \"Track applications and interviews\",\n                \"Connect students with leading recruiters\",\n              ].map",
+          "lineNumber": 189
+        },
+        {
+          "caller": "Login",
+          "callee": "roles.map",
+          "lineNumber": 260
+        },
+        {
+          "caller": "Login",
+          "callee": "setRole",
+          "lineNumber": 268
+        },
+        {
+          "caller": "Login",
+          "callee": "setError",
+          "lineNumber": 269
+        },
+        {
+          "caller": "Login",
+          "callee": "setEmail",
+          "lineNumber": 348
+        },
+        {
+          "caller": "Login",
+          "callee": "setError",
+          "lineNumber": 349
+        },
+        {
+          "caller": "Login",
+          "callee": "setPassword",
+          "lineNumber": 385
+        },
+        {
+          "caller": "Login",
+          "callee": "setError",
+          "lineNumber": 386
+        },
+        {
+          "caller": "Login",
+          "callee": "setShowPassword",
+          "lineNumber": 403
+        },
+        {
+          "caller": "Login",
+          "callee": "roles.find",
+          "lineNumber": 466
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 359,
+      "nonEmptyLines": 321,
+      "functions": [
+        {
+          "name": "PlacementApplications",
+          "startLine": 24,
+          "endLine": 357,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useEffect",
+          "lineNumber": 37
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "loadApplications",
+          "lineNumber": 38
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "setLoading",
+          "lineNumber": 43
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "setError",
+          "lineNumber": 44
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "api.get",
+          "lineNumber": 46
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "setApplications",
+          "lineNumber": 47
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "setError",
+          "lineNumber": 49
+        },
+        {
+          "caller": "loadApplications",
+          "callee": "setLoading",
+          "lineNumber": 54
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useMemo",
+          "lineNumber": 58
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "applications.forEach",
+          "lineNumber": 60
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "map.has",
+          "lineNumber": 61
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "map.set",
+          "lineNumber": 62
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "Array.from",
+          "lineNumber": 65
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "map.entries",
+          "lineNumber": 65
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useMemo",
+          "lineNumber": 68
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "search.toLowerCase().trim",
+          "lineNumber": 69
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "search.toLowerCase",
+          "lineNumber": 69
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "applications.filter",
+          "lineNumber": 71
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.studentName?.toLowerCase().includes",
+          "lineNumber": 74
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.studentName?.toLowerCase",
+          "lineNumber": 74
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.studentEmail?.toLowerCase().includes",
+          "lineNumber": 75
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.studentEmail?.toLowerCase",
+          "lineNumber": 75
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.jobTitle?.toLowerCase().includes",
+          "lineNumber": 76
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.jobTitle?.toLowerCase",
+          "lineNumber": 76
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.companyName?.toLowerCase().includes",
+          "lineNumber": 77
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.companyName?.toLowerCase",
+          "lineNumber": 77
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "String",
+          "lineNumber": 83
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "String",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setSavingId",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setError",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setMessage",
+          "lineNumber": 92
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "api.put",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setMessage",
+          "lineNumber": 103
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "newStatus.replaceAll",
+          "lineNumber": 104
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "loadApplications",
+          "lineNumber": 110
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setError",
+          "lineNumber": 112
+        },
+        {
+          "caller": "handleStatusChange",
+          "callee": "setSavingId",
+          "lineNumber": 117
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setSavingId",
+          "lineNumber": 122
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setError",
+          "lineNumber": 123
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setMessage",
+          "lineNumber": 124
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "api.put",
+          "lineNumber": 127
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setMessage",
+          "lineNumber": 135
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "loadApplications",
+          "lineNumber": 136
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setError",
+          "lineNumber": 138
+        },
+        {
+          "caller": "saveRemarks",
+          "callee": "setSavingId",
+          "lineNumber": 142
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "useMemo",
+          "lineNumber": 146
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "Object.fromEntries",
+          "lineNumber": 147
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "STATUS_OPTIONS.map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "applications.forEach",
+          "lineNumber": 148
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "STATUS_OPTIONS.map",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "s.replaceAll",
+          "lineNumber": 188
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "setSearch",
+          "lineNumber": 198
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "setJobFilter",
+          "lineNumber": 205
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "jobOptions.map",
+          "lineNumber": 209
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "setStatusFilter",
+          "lineNumber": 218
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "STATUS_OPTIONS.map",
+          "lineNumber": 222
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "s.replaceAll",
+          "lineNumber": 224
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 232
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "filtered.map",
+          "lineNumber": 250
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "a.status?.replaceAll",
+          "lineNumber": 267
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "new Date(a.appliedAt).toLocaleDateString",
+          "lineNumber": 296
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "handleStatusChange",
+          "lineNumber": 310
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "STATUS_OPTIONS.map",
+          "lineNumber": 314
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "s.replaceAll",
+          "lineNumber": 316
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "setRemarksDraft",
+          "lineNumber": 334
+        },
+        {
+          "caller": "PlacementApplications",
+          "callee": "saveRemarks",
+          "lineNumber": 343
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 195,
+      "nonEmptyLines": 177,
+      "functions": [
+        {
+          "name": "PlacementCompanies",
+          "startLine": 4,
+          "endLine": 193,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useState",
+          "lineNumber": 7
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useEffect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "loadData",
+          "lineNumber": 12
+        },
+        {
+          "caller": "loadData",
+          "callee": "setLoading",
+          "lineNumber": 17
+        },
+        {
+          "caller": "loadData",
+          "callee": "setError",
+          "lineNumber": 18
+        },
+        {
+          "caller": "loadData",
+          "callee": "Promise.all",
+          "lineNumber": 20
+        },
+        {
+          "caller": "loadData",
+          "callee": "api.get",
+          "lineNumber": 21
+        },
+        {
+          "caller": "loadData",
+          "callee": "api.get",
+          "lineNumber": 22
+        },
+        {
+          "caller": "loadData",
+          "callee": "setDrives",
+          "lineNumber": 25
+        },
+        {
+          "caller": "loadData",
+          "callee": "setApplications",
+          "lineNumber": 26
+        },
+        {
+          "caller": "loadData",
+          "callee": "setError",
+          "lineNumber": 28
+        },
+        {
+          "caller": "loadData",
+          "callee": "setLoading",
+          "lineNumber": 32
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useMemo",
+          "lineNumber": 36
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "drives.forEach",
+          "lineNumber": 39
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.has",
+          "lineNumber": 40
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.set",
+          "lineNumber": 41
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.get(d.companyName).drives.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.get",
+          "lineNumber": 48
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "applications.forEach",
+          "lineNumber": 51
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.get",
+          "lineNumber": 52
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "Array.from(map.values()).sort",
+          "lineNumber": 59
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "Array.from",
+          "lineNumber": 59
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "map.values",
+          "lineNumber": 59
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "a.name.localeCompare",
+          "lineNumber": 60
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "useMemo",
+          "lineNumber": 64
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "search.toLowerCase().trim",
+          "lineNumber": 65
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "search.toLowerCase",
+          "lineNumber": 65
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "companies.filter",
+          "lineNumber": 67
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "c.name.toLowerCase().includes",
+          "lineNumber": 67
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "c.name.toLowerCase",
+          "lineNumber": 67
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "applications.filter",
+          "lineNumber": 102
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "setSearch",
+          "lineNumber": 110
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "[1, 2, 3, 4].map",
+          "lineNumber": 118
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "filtered.map",
+          "lineNumber": 135
+        },
+        {
+          "caller": "PlacementCompanies",
+          "callee": "c.drives.map",
+          "lineNumber": 167
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "PlacementDashboard",
+          "startLine": 1,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "Stat",
+          "startLine": 42,
+          "endLine": 60,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementDashboard",
+          "callee": "JSON.parse",
+          "lineNumber": 2
+        },
+        {
+          "caller": "PlacementDashboard",
+          "callee": "localStorage.getItem",
+          "lineNumber": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 698,
+      "nonEmptyLines": 611,
+      "functions": [
+        {
+          "name": "PlacementDrives",
+          "startLine": 22,
+          "endLine": 564,
+          "params": []
+        },
+        {
+          "name": "Field",
+          "startLine": 566,
+          "endLine": 575,
+          "params": []
+        },
+        {
+          "name": "JobCard",
+          "startLine": 577,
+          "endLine": 650,
+          "params": []
+        },
+        {
+          "name": "Tag",
+          "startLine": 652,
+          "endLine": 658,
+          "params": []
+        },
+        {
+          "name": "StatusTag",
+          "startLine": 660,
+          "endLine": 677,
+          "params": []
+        },
+        {
+          "name": "Info",
+          "startLine": 679,
+          "endLine": 686,
+          "params": []
+        },
+        {
+          "name": "Stat",
+          "startLine": 688,
+          "endLine": 696,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 33
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useEffect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "loadJobs",
+          "lineNumber": 41
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setLoading",
+          "lineNumber": 46
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setError",
+          "lineNumber": 47
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "api.get",
+          "lineNumber": 49
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setJobs",
+          "lineNumber": 51
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setError",
+          "lineNumber": 53
+        },
+        {
+          "caller": "loadJobs",
+          "callee": "setLoading",
+          "lineNumber": 58
+        },
+        {
+          "caller": "updateField",
+          "callee": "setForm",
+          "lineNumber": 63
+        },
+        {
+          "caller": "createDrive",
+          "callee": "e.preventDefault",
+          "lineNumber": 67
+        },
+        {
+          "caller": "createDrive",
+          "callee": "form.title.trim",
+          "lineNumber": 69
+        },
+        {
+          "caller": "createDrive",
+          "callee": "form.companyName.trim",
+          "lineNumber": 69
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setError",
+          "lineNumber": 70
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setSubmitting",
+          "lineNumber": 75
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setError",
+          "lineNumber": 76
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setMessage",
+          "lineNumber": 77
+        },
+        {
+          "caller": "createDrive",
+          "callee": "Number",
+          "lineNumber": 82
+        },
+        {
+          "caller": "createDrive",
+          "callee": "Number",
+          "lineNumber": 85
+        },
+        {
+          "caller": "createDrive",
+          "callee": "Number",
+          "lineNumber": 88
+        },
+        {
+          "caller": "createDrive",
+          "callee": "Number",
+          "lineNumber": 91
+        },
+        {
+          "caller": "createDrive",
+          "callee": "Number",
+          "lineNumber": 94
+        },
+        {
+          "caller": "createDrive",
+          "callee": "api.post",
+          "lineNumber": 100
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setMessage",
+          "lineNumber": 102
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setForm",
+          "lineNumber": 106
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setShowCreate",
+          "lineNumber": 107
+        },
+        {
+          "caller": "createDrive",
+          "callee": "loadJobs",
+          "lineNumber": 109
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setError",
+          "lineNumber": 111
+        },
+        {
+          "caller": "createDrive",
+          "callee": "setSubmitting",
+          "lineNumber": 116
+        },
+        {
+          "caller": "approveJob",
+          "callee": "window.confirm",
+          "lineNumber": 122
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setError",
+          "lineNumber": 130
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setMessage",
+          "lineNumber": 131
+        },
+        {
+          "caller": "approveJob",
+          "callee": "api.put",
+          "lineNumber": 133
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setMessage",
+          "lineNumber": 135
+        },
+        {
+          "caller": "approveJob",
+          "callee": "loadJobs",
+          "lineNumber": 139
+        },
+        {
+          "caller": "approveJob",
+          "callee": "setError",
+          "lineNumber": 141
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "e.preventDefault",
+          "lineNumber": 149
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "reason.trim",
+          "lineNumber": 153
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 154
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 159
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setMessage",
+          "lineNumber": 160
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "api.put",
+          "lineNumber": 162
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "reason.trim",
+          "lineNumber": 165
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setMessage",
+          "lineNumber": 168
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setShowReject",
+          "lineNumber": 170
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setSelectedJob",
+          "lineNumber": 171
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setReason",
+          "lineNumber": 172
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "loadJobs",
+          "lineNumber": 174
+        },
+        {
+          "caller": "rejectJob",
+          "callee": "setError",
+          "lineNumber": 176
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "useMemo",
+          "lineNumber": 183
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "jobs.filter",
+          "lineNumber": 184
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "search.toLowerCase().trim",
+          "lineNumber": 185
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "search.toLowerCase",
+          "lineNumber": 185
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "job.title?.toLowerCase().includes",
+          "lineNumber": 189
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "job.title?.toLowerCase",
+          "lineNumber": 189
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "job.companyName?.toLowerCase().includes",
+          "lineNumber": 190
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "job.companyName?.toLowerCase",
+          "lineNumber": 190
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "jobs.filter",
+          "lineNumber": 199
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "jobs.filter",
+          "lineNumber": 200
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "jobs.filter",
+          "lineNumber": 201
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setForm",
+          "lineNumber": 223
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setError",
+          "lineNumber": 224
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setShowCreate",
+          "lineNumber": 225
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setSearch",
+          "lineNumber": 258
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setStatus",
+          "lineNumber": 265
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 279
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "filteredJobs.map",
+          "lineNumber": 300
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setSelectedJob",
+          "lineNumber": 306
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setReason",
+          "lineNumber": 307
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setError",
+          "lineNumber": 308
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setShowReject",
+          "lineNumber": 309
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 332
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 342
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 354
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 365
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 375
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 391
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 405
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 420
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 437
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 448
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 461
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 480
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "updateField",
+          "lineNumber": 494
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setShowCreate",
+          "lineNumber": 504
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setReason",
+          "lineNumber": 537
+        },
+        {
+          "caller": "PlacementDrives",
+          "callee": "setShowReject",
+          "lineNumber": 545
+        },
+        {
+          "caller": "JobCard",
+          "callee": "onReject",
+          "lineNumber": 605
+        },
+        {
+          "caller": "JobCard",
+          "callee": "onApprove",
+          "lineNumber": 612
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 107,
+      "nonEmptyLines": 84,
+      "functions": [
+        {
+          "name": "PlacementLayout",
+          "startLine": 3,
+          "endLine": 105,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementLayout",
+          "callee": "useNavigate",
+          "lineNumber": 4
+        },
+        {
+          "caller": "PlacementLayout",
+          "callee": "JSON.parse",
+          "lineNumber": 5
+        },
+        {
+          "caller": "PlacementLayout",
+          "callee": "localStorage.getItem",
+          "lineNumber": 5
+        },
+        {
+          "caller": "logout",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 19
+        },
+        {
+          "caller": "logout",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 20
+        },
+        {
+          "caller": "logout",
+          "callee": "navigate",
+          "lineNumber": 21
+        },
+        {
+          "caller": "PlacementLayout",
+          "callee": "links.map",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 137,
+      "functions": [
+        {
+          "name": "PlacementNotifications",
+          "startLine": 4,
+          "endLine": 148,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlacementNotifications",
+          "callee": "useState",
+          "lineNumber": 5
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "useState",
+          "lineNumber": 7
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "useEffect",
+          "lineNumber": 9
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "loadNotifications",
+          "lineNumber": 10
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "setLoading",
+          "lineNumber": 15
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "setError",
+          "lineNumber": 16
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "api.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "setNotifications",
+          "lineNumber": 19
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "setError",
+          "lineNumber": 21
+        },
+        {
+          "caller": "loadNotifications",
+          "callee": "setLoading",
+          "lineNumber": 25
+        },
+        {
+          "caller": "markAsRead",
+          "callee": "api.put",
+          "lineNumber": 31
+        },
+        {
+          "caller": "markAsRead",
+          "callee": "setNotifications",
+          "lineNumber": 32
+        },
+        {
+          "caller": "markAsRead",
+          "callee": "prev.map",
+          "lineNumber": 33
+        },
+        {
+          "caller": "markAsRead",
+          "callee": "setError",
+          "lineNumber": 36
+        },
+        {
+          "caller": "markAllAsRead",
+          "callee": "api.put",
+          "lineNumber": 44
+        },
+        {
+          "caller": "markAllAsRead",
+          "callee": "setNotifications",
+          "lineNumber": 45
+        },
+        {
+          "caller": "markAllAsRead",
+          "callee": "prev.map",
+          "lineNumber": 46
+        },
+        {
+          "caller": "markAllAsRead",
+          "callee": "setError",
+          "lineNumber": 49
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "notifications.filter",
+          "lineNumber": 56
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 91
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "notifications.map",
+          "lineNumber": 108
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "new Date(n.createdAt).toLocaleString",
+          "lineNumber": 128
+        },
+        {
+          "caller": "PlacementNotifications",
+          "callee": "markAsRead",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

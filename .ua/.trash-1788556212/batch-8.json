@@ -1,0 +1,887 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "type": "file",
+      "name": "RecruiterProfileController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "summary": "RecruiterProfileController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:RecruiterProfileController",
+      "type": "function",
+      "name": "RecruiterProfileController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "summary": "Function RecruiterProfileController in RecruiterProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:getProfile",
+      "type": "function",
+      "name": "getProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "summary": "Function getProfile in RecruiterProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:updateProfile",
+      "type": "function",
+      "name": "updateProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "summary": "Function updateProfile in RecruiterProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:RecruiterProfileController",
+      "type": "class",
+      "name": "RecruiterProfileController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "summary": "Class RecruiterProfileController in RecruiterProfileController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "type": "file",
+      "name": "RecruiterProfileRepository.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "summary": "RecruiterProfileRepository class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java providing core application logic.",
+      "tags": [
+        "code",
+        "database",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java:RecruiterProfileRepository",
+      "type": "class",
+      "name": "RecruiterProfileRepository",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "summary": "Class RecruiterProfileRepository in RecruiterProfileRepository.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "type": "file",
+      "name": "UpdateRecruiterProfileRequest.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "UpdateRecruiterProfileRequest class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:UpdateRecruiterProfileRequest",
+      "type": "function",
+      "name": "UpdateRecruiterProfileRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function UpdateRecruiterProfileRequest in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getCompanyName",
+      "type": "function",
+      "name": "getCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function getCompanyName in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setCompanyName",
+      "type": "function",
+      "name": "setCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function setCompanyName in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getWebsite",
+      "type": "function",
+      "name": "getWebsite",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function getWebsite in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setWebsite",
+      "type": "function",
+      "name": "setWebsite",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function setWebsite in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getIndustry",
+      "type": "function",
+      "name": "getIndustry",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function getIndustry in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setIndustry",
+      "type": "function",
+      "name": "setIndustry",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function setIndustry in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getLocation",
+      "type": "function",
+      "name": "getLocation",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function getLocation in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setLocation",
+      "type": "function",
+      "name": "setLocation",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function setLocation in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getDescription",
+      "type": "function",
+      "name": "getDescription",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function getDescription in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setDescription",
+      "type": "function",
+      "name": "setDescription",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Function setDescription in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:UpdateRecruiterProfileRequest",
+      "type": "class",
+      "name": "UpdateRecruiterProfileRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "summary": "Class UpdateRecruiterProfileRequest in UpdateRecruiterProfileRequest.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "type": "file",
+      "name": "RecruiterProfile.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "RecruiterProfile class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getId in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getUser",
+      "type": "function",
+      "name": "getUser",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getUser in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setUser",
+      "type": "function",
+      "name": "setUser",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setUser in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getCompanyName",
+      "type": "function",
+      "name": "getCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getCompanyName in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setCompanyName",
+      "type": "function",
+      "name": "setCompanyName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setCompanyName in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getWebsite",
+      "type": "function",
+      "name": "getWebsite",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getWebsite in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setWebsite",
+      "type": "function",
+      "name": "setWebsite",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setWebsite in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getIndustry",
+      "type": "function",
+      "name": "getIndustry",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getIndustry in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setIndustry",
+      "type": "function",
+      "name": "setIndustry",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setIndustry in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getLocation",
+      "type": "function",
+      "name": "getLocation",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getLocation in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setLocation",
+      "type": "function",
+      "name": "setLocation",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setLocation in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getDescription",
+      "type": "function",
+      "name": "getDescription",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function getDescription in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setDescription",
+      "type": "function",
+      "name": "setDescription",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Function setDescription in RecruiterProfile.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:RecruiterProfile",
+      "type": "class",
+      "name": "RecruiterProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "summary": "Class RecruiterProfile in RecruiterProfile.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "type": "file",
+      "name": "RecruiterProfileRepository.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "summary": "RecruiterProfileRepository class in backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java providing core application logic.",
+      "tags": [
+        "code",
+        "database",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java:RecruiterProfileRepository",
+      "type": "class",
+      "name": "RecruiterProfileRepository",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "summary": "Class RecruiterProfileRepository in RecruiterProfileRepository.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "type": "file",
+      "name": "RecruiterProfileService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "RecruiterProfileService class in backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:RecruiterProfileService",
+      "type": "function",
+      "name": "RecruiterProfileService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "Function RecruiterProfileService in RecruiterProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:getProfile",
+      "type": "function",
+      "name": "getProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "Function getProfile in RecruiterProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:updateProfile",
+      "type": "function",
+      "name": "updateProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "Function updateProfile in RecruiterProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:getOrCreate",
+      "type": "function",
+      "name": "getOrCreate",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "Function getOrCreate in RecruiterProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:RecruiterProfileService",
+      "type": "class",
+      "name": "RecruiterProfileService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "summary": "Class RecruiterProfileService in RecruiterProfileService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:RecruiterProfileController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:getProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:updateProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java:RecruiterProfileController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java:RecruiterProfileRepository",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:UpdateRecruiterProfileRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getWebsite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setWebsite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getIndustry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setIndustry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getLocation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setLocation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:getDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:setDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java:UpdateRecruiterProfileRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setCompanyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getWebsite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setWebsite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getIndustry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setIndustry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getLocation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setLocation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:getDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:setDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java:RecruiterProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java:RecruiterProfileRepository",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:RecruiterProfileService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:getProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:updateProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:getOrCreate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java:RecruiterProfileService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,4946 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 20,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 20,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 59,
+      "functions": [
+        {
+          "name": "AdminAcademicVerificationController",
+          "startLine": 21,
+          "endLine": 25,
+          "params": [
+            "verificationService"
+          ]
+        },
+        {
+          "name": "getPendingVerifications",
+          "startLine": 27,
+          "endLine": 34,
+          "params": []
+        },
+        {
+          "name": "getVerificationById",
+          "startLine": 36,
+          "endLine": 44,
+          "params": [
+            "requestId"
+          ]
+        },
+        {
+          "name": "approveVerification",
+          "startLine": 46,
+          "endLine": 58,
+          "params": [
+            "requestId",
+            "authentication"
+          ]
+        },
+        {
+          "name": "rejectVerification",
+          "startLine": 59,
+          "endLine": 73,
+          "params": [
+            "requestId",
+            "request",
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AdminAcademicVerificationController",
+          "startLine": 15,
+          "endLine": 74,
+          "methods": [
+            "AdminAcademicVerificationController",
+            "getPendingVerifications",
+            "getVerificationById",
+            "approveVerification",
+            "rejectVerification"
+          ],
+          "properties": [
+            "verificationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminAcademicVerificationController",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "getPendingVerifications",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getVerificationById",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "approveVerification",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "rejectVerification",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "AdminAcademicVerificationController",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getPendingVerifications",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 31
+        },
+        {
+          "caller": "getPendingVerifications",
+          "callee": "verificationService.getPendingRequests",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getVerificationById",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 41
+        },
+        {
+          "caller": "getVerificationById",
+          "callee": "verificationService.getRequestById",
+          "lineNumber": 42
+        },
+        {
+          "caller": "approveVerification",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 52
+        },
+        {
+          "caller": "approveVerification",
+          "callee": "verificationService.approveRequest",
+          "lineNumber": 53
+        },
+        {
+          "caller": "approveVerification",
+          "callee": "authentication.getName",
+          "lineNumber": 55
+        },
+        {
+          "caller": "rejectVerification",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 66
+        },
+        {
+          "caller": "rejectVerification",
+          "callee": "verificationService.rejectRequest",
+          "lineNumber": 67
+        },
+        {
+          "caller": "rejectVerification",
+          "callee": "authentication.getName",
+          "lineNumber": 69
+        },
+        {
+          "caller": "rejectVerification",
+          "callee": "request.getReason",
+          "lineNumber": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentAcademicController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 46,
+      "functions": [
+        {
+          "name": "StudentAcademicController",
+          "startLine": 18,
+          "endLine": 22,
+          "params": [
+            "verificationService"
+          ]
+        },
+        {
+          "name": "submitVerification",
+          "startLine": 24,
+          "endLine": 45,
+          "params": [
+            "authentication",
+            "request"
+          ]
+        },
+        {
+          "name": "getVerificationStatus",
+          "startLine": 47,
+          "endLine": 57,
+          "params": [
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentAcademicController",
+          "startLine": 12,
+          "endLine": 58,
+          "methods": [
+            "StudentAcademicController",
+            "submitVerification",
+            "getVerificationStatus"
+          ],
+          "properties": [
+            "verificationService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentAcademicController",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "submitVerification",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "getVerificationStatus",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "StudentAcademicController",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "submitVerification",
+          "callee": "verificationService.submitRequest",
+          "lineNumber": 30
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "authentication.getName",
+          "lineNumber": 31
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "response.getMessage",
+          "lineNumber": 35
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "ResponseEntity\n                    .status(HttpStatus.CONFLICT).body",
+          "lineNumber": 37
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 37
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "ResponseEntity\n                .status(HttpStatus.CREATED).body",
+          "lineNumber": 42
+        },
+        {
+          "caller": "submitVerification",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 42
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "verificationService\n                .getLatestRequest(authentication.getName())\n                .map(ResponseEntity::ok).orElseGet",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "verificationService\n                .getLatestRequest(authentication.getName()).map",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "verificationService.getLatestRequest",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "authentication.getName",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "ResponseEntity.notFound().build",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getVerificationStatus",
+          "callee": "ResponseEntity.notFound",
+          "lineNumber": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentResumeController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 243,
+      "nonEmptyLines": 193,
+      "functions": [
+        {
+          "name": "StudentResumeController",
+          "startLine": 29,
+          "endLine": 35,
+          "params": [
+            "userRepository",
+            "profileRepository"
+          ]
+        },
+        {
+          "name": "uploadResume",
+          "startLine": 37,
+          "endLine": 160,
+          "params": [
+            "authentication",
+            "file"
+          ]
+        },
+        {
+          "name": "getResume",
+          "startLine": 162,
+          "endLine": 209,
+          "params": [
+            "authentication"
+          ]
+        },
+        {
+          "name": "deleteResume",
+          "startLine": 211,
+          "endLine": 242,
+          "params": [
+            "authentication"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentResumeController",
+          "startLine": 22,
+          "endLine": 243,
+          "methods": [
+            "StudentResumeController",
+            "uploadResume",
+            "getResume",
+            "deleteResume"
+          ],
+          "properties": [
+            "userRepository",
+            "profileRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentResumeController",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "uploadResume",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "getResume",
+          "line": 162,
+          "isDefault": false
+        },
+        {
+          "name": "deleteResume",
+          "line": 211,
+          "isDefault": false
+        },
+        {
+          "name": "StudentResumeController",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "uploadResume",
+          "callee": "authentication.getName",
+          "lineNumber": 45
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.status(HttpStatus.UNAUTHORIZED).body",
+          "lineNumber": 47
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 47
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 48
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "file.isEmpty",
+          "lineNumber": 54
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 56
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 56
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 57
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "file.getSize",
+          "lineNumber": 63
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 65
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 65
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 66
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "file.getOriginalFilename",
+          "lineNumber": 72
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "filename.trim().isEmpty",
+          "lineNumber": 75
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "filename.trim",
+          "lineNumber": 75
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 77
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 77
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 78
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "filename.toLowerCase().endsWith",
+          "lineNumber": 84
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "filename.toLowerCase",
+          "lineNumber": 84
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest().body",
+          "lineNumber": 86
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.badRequest",
+          "lineNumber": 86
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 87
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "authentication.getName",
+          "lineNumber": 93
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "System.out.println",
+          "lineNumber": 95
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "userRepository\n                    .findByEmail(email).orElseThrow",
+          "lineNumber": 99
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 99
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 102
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profileRepository\n                            .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 108
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profileRepository.findByUserId",
+          "lineNumber": 108
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "user.getId",
+          "lineNumber": 109
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 111
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "user.getId",
+          "lineNumber": 113
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profile.setResumeData",
+          "lineNumber": 117
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "file.getBytes",
+          "lineNumber": 117
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profile.setResumeName",
+          "lineNumber": 119
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profile.setResumeContentType",
+          "lineNumber": 121
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "profileRepository.save",
+          "lineNumber": 125
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "System.out.println",
+          "lineNumber": 127
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 131
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 132
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "System.out.println",
+          "lineNumber": 142
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "e.printStackTrace",
+          "lineNumber": 146
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "System.out.println",
+          "lineNumber": 148
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity\n                    .status(HttpStatus.INTERNAL_SERVER_ERROR).body",
+          "lineNumber": 152
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "ResponseEntity.status",
+          "lineNumber": 152
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 154
+        },
+        {
+          "caller": "uploadResume",
+          "callee": "e.getMessage",
+          "lineNumber": 157
+        },
+        {
+          "caller": "getResume",
+          "callee": "userRepository\n                .findByEmail(authentication.getName()).orElseThrow",
+          "lineNumber": 166
+        },
+        {
+          "caller": "getResume",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 166
+        },
+        {
+          "caller": "getResume",
+          "callee": "authentication.getName",
+          "lineNumber": 167
+        },
+        {
+          "caller": "getResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 169
+        },
+        {
+          "caller": "getResume",
+          "callee": "profileRepository\n                        .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 174
+        },
+        {
+          "caller": "getResume",
+          "callee": "profileRepository.findByUserId",
+          "lineNumber": 174
+        },
+        {
+          "caller": "getResume",
+          "callee": "user.getId",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 177
+        },
+        {
+          "caller": "getResume",
+          "callee": "profile.getResumeData",
+          "lineNumber": 181
+        },
+        {
+          "caller": "getResume",
+          "callee": "profile.getResumeData",
+          "lineNumber": 182
+        },
+        {
+          "caller": "getResume",
+          "callee": "ResponseEntity.notFound().build",
+          "lineNumber": 184
+        },
+        {
+          "caller": "getResume",
+          "callee": "ResponseEntity.notFound",
+          "lineNumber": 184
+        },
+        {
+          "caller": "getResume",
+          "callee": "profile.getResumeName",
+          "lineNumber": 188
+        },
+        {
+          "caller": "getResume",
+          "callee": "profile.getResumeName",
+          "lineNumber": 190
+        },
+        {
+          "caller": "getResume",
+          "callee": "new HttpHeaders",
+          "lineNumber": 192
+        },
+        {
+          "caller": "getResume",
+          "callee": "headers.setContentType",
+          "lineNumber": 194
+        },
+        {
+          "caller": "getResume",
+          "callee": "headers.setContentDisposition",
+          "lineNumber": 198
+        },
+        {
+          "caller": "getResume",
+          "callee": "ContentDisposition.inline()\n                        .filename(filename).build",
+          "lineNumber": 199
+        },
+        {
+          "caller": "getResume",
+          "callee": "ContentDisposition.inline().filename",
+          "lineNumber": 199
+        },
+        {
+          "caller": "getResume",
+          "callee": "ContentDisposition.inline",
+          "lineNumber": 199
+        },
+        {
+          "caller": "getResume",
+          "callee": "new ResponseEntity<>",
+          "lineNumber": 204
+        },
+        {
+          "caller": "getResume",
+          "callee": "profile.getResumeData",
+          "lineNumber": 205
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "userRepository\n                .findByEmail(authentication.getName()).orElseThrow",
+          "lineNumber": 215
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 215
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "authentication.getName",
+          "lineNumber": 216
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 218
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profileRepository\n                        .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 223
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profileRepository.findByUserId",
+          "lineNumber": 223
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "user.getId",
+          "lineNumber": 224
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "new RuntimeException",
+          "lineNumber": 226
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profile.setResumeData",
+          "lineNumber": 230
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profile.setResumeName",
+          "lineNumber": 231
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profile.setResumeContentType",
+          "lineNumber": 232
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "profileRepository.save",
+          "lineNumber": 234
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 236
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "java.util.Map.of",
+          "lineNumber": 237
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 16,
+      "functions": [
+        {
+          "name": "AcademicVerificationRejectRequest",
+          "startLine": 12,
+          "endLine": 13,
+          "params": []
+        },
+        {
+          "name": "getReason",
+          "startLine": 15,
+          "endLine": 17,
+          "params": []
+        },
+        {
+          "name": "setReason",
+          "startLine": 19,
+          "endLine": 21,
+          "params": [
+            "reason"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AcademicVerificationRejectRequest",
+          "startLine": 6,
+          "endLine": 22,
+          "methods": [
+            "AcademicVerificationRejectRequest",
+            "getReason",
+            "setReason"
+          ],
+          "properties": [
+            "reason"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationRejectRequest",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "getReason",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "setReason",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "AcademicVerificationRejectRequest",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 89,
+      "nonEmptyLines": 68,
+      "functions": [
+        {
+          "name": "AcademicVerificationRequestDto",
+          "startLine": 39,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 42,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 46,
+          "endLine": 48,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 50,
+          "endLine": 52,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 54,
+          "endLine": 56,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 58,
+          "endLine": 60,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 62,
+          "endLine": 64,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 66,
+          "endLine": 68,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 70,
+          "endLine": 72,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 74,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 78,
+          "endLine": 80,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 82,
+          "endLine": 84,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 86,
+          "endLine": 88,
+          "params": [
+            "backlogs"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AcademicVerificationRequestDto",
+          "startLine": 8,
+          "endLine": 89,
+          "methods": [
+            "AcademicVerificationRequestDto",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs"
+          ],
+          "properties": [
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationRequestDto",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 50,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "AcademicVerificationRequestDto",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 14,
+        "functionCount": 13,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 127,
+      "nonEmptyLines": 91,
+      "functions": [
+        {
+          "name": "AcademicVerificationResponse",
+          "startLine": 29,
+          "endLine": 30,
+          "params": []
+        },
+        {
+          "name": "getRequestId",
+          "startLine": 32,
+          "endLine": 34,
+          "params": []
+        },
+        {
+          "name": "setRequestId",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "requestId"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 40,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 44,
+          "endLine": 46,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 48,
+          "endLine": 50,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 60,
+          "endLine": 62,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 64,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 68,
+          "endLine": 70,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 76,
+          "endLine": 78,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 80,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 84,
+          "endLine": 86,
+          "params": [
+            "backlogs"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 88,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 92,
+          "endLine": 94,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getRejectionReason",
+          "startLine": 96,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "setRejectionReason",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "rejectionReason"
+          ]
+        },
+        {
+          "name": "getSubmittedAt",
+          "startLine": 104,
+          "endLine": 106,
+          "params": []
+        },
+        {
+          "name": "setSubmittedAt",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "submittedAt"
+          ]
+        },
+        {
+          "name": "getReviewedAt",
+          "startLine": 112,
+          "endLine": 114,
+          "params": []
+        },
+        {
+          "name": "setReviewedAt",
+          "startLine": 116,
+          "endLine": 118,
+          "params": [
+            "reviewedAt"
+          ]
+        },
+        {
+          "name": "getMessage",
+          "startLine": 120,
+          "endLine": 122,
+          "params": []
+        },
+        {
+          "name": "setMessage",
+          "startLine": 124,
+          "endLine": 126,
+          "params": [
+            "message"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AcademicVerificationResponse",
+          "startLine": 7,
+          "endLine": 127,
+          "methods": [
+            "AcademicVerificationResponse",
+            "getRequestId",
+            "setRequestId",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs",
+            "getStatus",
+            "setStatus",
+            "getRejectionReason",
+            "setRejectionReason",
+            "getSubmittedAt",
+            "setSubmittedAt",
+            "getReviewedAt",
+            "setReviewedAt",
+            "getMessage",
+            "setMessage"
+          ],
+          "properties": [
+            "requestId",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs",
+            "status",
+            "rejectionReason",
+            "submittedAt",
+            "reviewedAt",
+            "message"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationResponse",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "getRequestId",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "setRequestId",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "getRejectionReason",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "setRejectionReason",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getSubmittedAt",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "setSubmittedAt",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "getReviewedAt",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "setReviewedAt",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "getMessage",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "setMessage",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "AcademicVerificationResponse",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 26,
+        "functionCount": 25,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 145,
+      "nonEmptyLines": 105,
+      "functions": [
+        {
+          "name": "AdminAcademicVerificationResponse",
+          "startLine": 31,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "getRequestId",
+          "startLine": 34,
+          "endLine": 36,
+          "params": []
+        },
+        {
+          "name": "setRequestId",
+          "startLine": 38,
+          "endLine": 40,
+          "params": [
+            "requestId"
+          ]
+        },
+        {
+          "name": "getStudentProfileId",
+          "startLine": 42,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "setStudentProfileId",
+          "startLine": 46,
+          "endLine": 48,
+          "params": [
+            "studentProfileId"
+          ]
+        },
+        {
+          "name": "getStudentName",
+          "startLine": 50,
+          "endLine": 52,
+          "params": []
+        },
+        {
+          "name": "setStudentName",
+          "startLine": 54,
+          "endLine": 56,
+          "params": [
+            "studentName"
+          ]
+        },
+        {
+          "name": "getStudentEmail",
+          "startLine": 58,
+          "endLine": 60,
+          "params": []
+        },
+        {
+          "name": "setStudentEmail",
+          "startLine": 62,
+          "endLine": 64,
+          "params": [
+            "studentEmail"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 66,
+          "endLine": 68,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 70,
+          "endLine": 72,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 74,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 78,
+          "endLine": 80,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 82,
+          "endLine": 84,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 86,
+          "endLine": 88,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 90,
+          "endLine": 92,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 94,
+          "endLine": 96,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 98,
+          "endLine": 100,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 102,
+          "endLine": 104,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 106,
+          "endLine": 108,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 110,
+          "endLine": 112,
+          "params": [
+            "backlogs"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 114,
+          "endLine": 116,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 118,
+          "endLine": 120,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getRejectionReason",
+          "startLine": 122,
+          "endLine": 124,
+          "params": []
+        },
+        {
+          "name": "setRejectionReason",
+          "startLine": 126,
+          "endLine": 128,
+          "params": [
+            "rejectionReason"
+          ]
+        },
+        {
+          "name": "getSubmittedAt",
+          "startLine": 130,
+          "endLine": 132,
+          "params": []
+        },
+        {
+          "name": "setSubmittedAt",
+          "startLine": 134,
+          "endLine": 136,
+          "params": [
+            "submittedAt"
+          ]
+        },
+        {
+          "name": "getReviewedAt",
+          "startLine": 138,
+          "endLine": 140,
+          "params": []
+        },
+        {
+          "name": "setReviewedAt",
+          "startLine": 142,
+          "endLine": 144,
+          "params": [
+            "reviewedAt"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AdminAcademicVerificationResponse",
+          "startLine": 7,
+          "endLine": 145,
+          "methods": [
+            "AdminAcademicVerificationResponse",
+            "getRequestId",
+            "setRequestId",
+            "getStudentProfileId",
+            "setStudentProfileId",
+            "getStudentName",
+            "setStudentName",
+            "getStudentEmail",
+            "setStudentEmail",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs",
+            "getStatus",
+            "setStatus",
+            "getRejectionReason",
+            "setRejectionReason",
+            "getSubmittedAt",
+            "setSubmittedAt",
+            "getReviewedAt",
+            "setReviewedAt"
+          ],
+          "properties": [
+            "requestId",
+            "studentProfileId",
+            "studentName",
+            "studentEmail",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs",
+            "status",
+            "rejectionReason",
+            "submittedAt",
+            "reviewedAt"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminAcademicVerificationResponse",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "getRequestId",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "setRequestId",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentProfileId",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "setStudentProfileId",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentName",
+          "line": 50,
+          "isDefault": false
+        },
+        {
+          "name": "setStudentName",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentEmail",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "setStudentEmail",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 94,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "getRejectionReason",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "setRejectionReason",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "getSubmittedAt",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "setSubmittedAt",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "getReviewedAt",
+          "line": 138,
+          "isDefault": false
+        },
+        {
+          "name": "setReviewedAt",
+          "line": 142,
+          "isDefault": false
+        },
+        {
+          "name": "AdminAcademicVerificationResponse",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 30,
+        "functionCount": 29,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminUserResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "AdminUserResponse",
+          "startLine": 13,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "AdminUserResponse",
+          "startLine": 16,
+          "endLine": 28,
+          "params": [
+            "id",
+            "name",
+            "email",
+            "role",
+            "enabled"
+          ]
+        },
+        {
+          "name": "from",
+          "startLine": 30,
+          "endLine": 38,
+          "params": [
+            "user"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 40,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "startLine": 44,
+          "endLine": 46,
+          "params": []
+        },
+        {
+          "name": "getEmail",
+          "startLine": 48,
+          "endLine": 50,
+          "params": []
+        },
+        {
+          "name": "getRole",
+          "startLine": 52,
+          "endLine": 54,
+          "params": []
+        },
+        {
+          "name": "isEnabled",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AdminUserResponse",
+          "startLine": 5,
+          "endLine": 59,
+          "methods": [
+            "AdminUserResponse",
+            "AdminUserResponse",
+            "from",
+            "getId",
+            "getName",
+            "getEmail",
+            "getRole",
+            "isEnabled"
+          ],
+          "properties": [
+            "id",
+            "name",
+            "email",
+            "role",
+            "enabled"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminUserResponse",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "AdminUserResponse",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "from",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "getEmail",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "getRole",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "isEnabled",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "AdminUserResponse",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new AdminUserResponse",
+          "lineNumber": 31
+        },
+        {
+          "caller": "from",
+          "callee": "user.getId",
+          "lineNumber": 32
+        },
+        {
+          "caller": "from",
+          "callee": "user.getName",
+          "lineNumber": 33
+        },
+        {
+          "caller": "from",
+          "callee": "user.getEmail",
+          "lineNumber": 34
+        },
+        {
+          "caller": "from",
+          "callee": "user.getRole().name",
+          "lineNumber": 35
+        },
+        {
+          "caller": "from",
+          "callee": "user.getRole",
+          "lineNumber": 35
+        },
+        {
+          "caller": "from",
+          "callee": "user.isEnabled",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 9,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 156,
+      "nonEmptyLines": 114,
+      "functions": [
+        {
+          "name": "AcademicVerificationRequest",
+          "startLine": 54,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 57,
+          "endLine": 59,
+          "params": []
+        },
+        {
+          "name": "getStudentProfile",
+          "startLine": 61,
+          "endLine": 63,
+          "params": []
+        },
+        {
+          "name": "setStudentProfile",
+          "startLine": 65,
+          "endLine": 67,
+          "params": [
+            "studentProfile"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 69,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 73,
+          "endLine": 75,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 77,
+          "endLine": 79,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 81,
+          "endLine": 83,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 85,
+          "endLine": 87,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 89,
+          "endLine": 91,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 93,
+          "endLine": 95,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 97,
+          "endLine": 99,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 101,
+          "endLine": 103,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 105,
+          "endLine": 107,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 109,
+          "endLine": 111,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 113,
+          "endLine": 115,
+          "params": [
+            "backlogs"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 117,
+          "endLine": 119,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 121,
+          "endLine": 123,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getRejectionReason",
+          "startLine": 125,
+          "endLine": 127,
+          "params": []
+        },
+        {
+          "name": "setRejectionReason",
+          "startLine": 129,
+          "endLine": 131,
+          "params": [
+            "rejectionReason"
+          ]
+        },
+        {
+          "name": "getSubmittedAt",
+          "startLine": 133,
+          "endLine": 135,
+          "params": []
+        },
+        {
+          "name": "setSubmittedAt",
+          "startLine": 137,
+          "endLine": 139,
+          "params": [
+            "submittedAt"
+          ]
+        },
+        {
+          "name": "getReviewedAt",
+          "startLine": 141,
+          "endLine": 143,
+          "params": []
+        },
+        {
+          "name": "setReviewedAt",
+          "startLine": 145,
+          "endLine": 147,
+          "params": [
+            "reviewedAt"
+          ]
+        },
+        {
+          "name": "getReviewedBy",
+          "startLine": 149,
+          "endLine": 151,
+          "params": []
+        },
+        {
+          "name": "setReviewedBy",
+          "startLine": 153,
+          "endLine": 155,
+          "params": [
+            "reviewedBy"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AcademicVerificationRequest",
+          "startLine": 7,
+          "endLine": 156,
+          "methods": [
+            "AcademicVerificationRequest",
+            "getId",
+            "getStudentProfile",
+            "setStudentProfile",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs",
+            "getStatus",
+            "setStatus",
+            "getRejectionReason",
+            "setRejectionReason",
+            "getSubmittedAt",
+            "setSubmittedAt",
+            "getReviewedAt",
+            "setReviewedAt",
+            "getReviewedBy",
+            "setReviewedBy"
+          ],
+          "properties": [
+            "id",
+            "studentProfile",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs",
+            "status",
+            "rejectionReason",
+            "submittedAt",
+            "reviewedAt",
+            "reviewedBy"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationRequest",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "getStudentProfile",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "setStudentProfile",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "getRejectionReason",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "setRejectionReason",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "getSubmittedAt",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "setSubmittedAt",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "getReviewedAt",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "setReviewedAt",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "getReviewedBy",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "setReviewedBy",
+          "line": 153,
+          "isDefault": false
+        },
+        {
+          "name": "AcademicVerificationRequest",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 27,
+        "functionCount": 26,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "classes": [
+        {
+          "name": "AcademicVerificationStatus",
+          "startLine": 3,
+          "endLine": 7,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationStatus",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 297,
+      "nonEmptyLines": 219,
+      "functions": [
+        {
+          "name": "StudentProfile",
+          "startLine": 89,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 92,
+          "endLine": 94,
+          "params": []
+        },
+        {
+          "name": "getUser",
+          "startLine": 96,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "setUser",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "user"
+          ]
+        },
+        {
+          "name": "getPhone",
+          "startLine": 104,
+          "endLine": 106,
+          "params": []
+        },
+        {
+          "name": "setPhone",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "phone"
+          ]
+        },
+        {
+          "name": "getDateOfBirth",
+          "startLine": 112,
+          "endLine": 114,
+          "params": []
+        },
+        {
+          "name": "setDateOfBirth",
+          "startLine": 116,
+          "endLine": 118,
+          "params": [
+            "dateOfBirth"
+          ]
+        },
+        {
+          "name": "getGender",
+          "startLine": 120,
+          "endLine": 122,
+          "params": []
+        },
+        {
+          "name": "setGender",
+          "startLine": 124,
+          "endLine": 126,
+          "params": [
+            "gender"
+          ]
+        },
+        {
+          "name": "getAddress",
+          "startLine": 128,
+          "endLine": 130,
+          "params": []
+        },
+        {
+          "name": "setAddress",
+          "startLine": 132,
+          "endLine": 134,
+          "params": [
+            "address"
+          ]
+        },
+        {
+          "name": "getCity",
+          "startLine": 136,
+          "endLine": 138,
+          "params": []
+        },
+        {
+          "name": "setCity",
+          "startLine": 140,
+          "endLine": 142,
+          "params": [
+            "city"
+          ]
+        },
+        {
+          "name": "getState",
+          "startLine": 144,
+          "endLine": 146,
+          "params": []
+        },
+        {
+          "name": "setState",
+          "startLine": 148,
+          "endLine": 150,
+          "params": [
+            "state"
+          ]
+        },
+        {
+          "name": "getPincode",
+          "startLine": 152,
+          "endLine": 154,
+          "params": []
+        },
+        {
+          "name": "setPincode",
+          "startLine": 156,
+          "endLine": 158,
+          "params": [
+            "pincode"
+          ]
+        },
+        {
+          "name": "getBranch",
+          "startLine": 160,
+          "endLine": 162,
+          "params": []
+        },
+        {
+          "name": "setBranch",
+          "startLine": 164,
+          "endLine": 166,
+          "params": [
+            "branch"
+          ]
+        },
+        {
+          "name": "getCourse",
+          "startLine": 168,
+          "endLine": 170,
+          "params": []
+        },
+        {
+          "name": "setCourse",
+          "startLine": 172,
+          "endLine": 174,
+          "params": [
+            "course"
+          ]
+        },
+        {
+          "name": "getPassingYear",
+          "startLine": 176,
+          "endLine": 178,
+          "params": []
+        },
+        {
+          "name": "setPassingYear",
+          "startLine": 180,
+          "endLine": 182,
+          "params": [
+            "passingYear"
+          ]
+        },
+        {
+          "name": "getSkills",
+          "startLine": 184,
+          "endLine": 186,
+          "params": []
+        },
+        {
+          "name": "setSkills",
+          "startLine": 188,
+          "endLine": 190,
+          "params": [
+            "skills"
+          ]
+        },
+        {
+          "name": "getGithubUrl",
+          "startLine": 192,
+          "endLine": 194,
+          "params": []
+        },
+        {
+          "name": "setGithubUrl",
+          "startLine": 196,
+          "endLine": 198,
+          "params": [
+            "githubUrl"
+          ]
+        },
+        {
+          "name": "getLinkedinUrl",
+          "startLine": 200,
+          "endLine": 202,
+          "params": []
+        },
+        {
+          "name": "setLinkedinUrl",
+          "startLine": 204,
+          "endLine": 206,
+          "params": [
+            "linkedinUrl"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 208,
+          "endLine": 210,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 212,
+          "endLine": 214,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 216,
+          "endLine": 218,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 220,
+          "endLine": 222,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 224,
+          "endLine": 226,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 228,
+          "endLine": 230,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 232,
+          "endLine": 234,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 236,
+          "endLine": 238,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 240,
+          "endLine": 242,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 244,
+          "endLine": 246,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 248,
+          "endLine": 250,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 252,
+          "endLine": 254,
+          "params": [
+            "backlogs"
+          ]
+        },
+        {
+          "name": "getAcademicStatus",
+          "startLine": 256,
+          "endLine": 258,
+          "params": []
+        },
+        {
+          "name": "setAcademicStatus",
+          "startLine": 260,
+          "endLine": 262,
+          "params": [
+            "academicStatus"
+          ]
+        },
+        {
+          "name": "getResumeData",
+          "startLine": 274,
+          "endLine": 276,
+          "params": []
+        },
+        {
+          "name": "setResumeData",
+          "startLine": 278,
+          "endLine": 280,
+          "params": [
+            "resumeData"
+          ]
+        },
+        {
+          "name": "getResumeName",
+          "startLine": 282,
+          "endLine": 284,
+          "params": []
+        },
+        {
+          "name": "setResumeName",
+          "startLine": 286,
+          "endLine": 288,
+          "params": [
+            "resumeName"
+          ]
+        },
+        {
+          "name": "getResumeContentType",
+          "startLine": 290,
+          "endLine": 292,
+          "params": []
+        },
+        {
+          "name": "setResumeContentType",
+          "startLine": 294,
+          "endLine": 296,
+          "params": [
+            "resumeContentType"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentProfile",
+          "startLine": 18,
+          "endLine": 297,
+          "methods": [
+            "StudentProfile",
+            "getId",
+            "getUser",
+            "setUser",
+            "getPhone",
+            "setPhone",
+            "getDateOfBirth",
+            "setDateOfBirth",
+            "getGender",
+            "setGender",
+            "getAddress",
+            "setAddress",
+            "getCity",
+            "setCity",
+            "getState",
+            "setState",
+            "getPincode",
+            "setPincode",
+            "getBranch",
+            "setBranch",
+            "getCourse",
+            "setCourse",
+            "getPassingYear",
+            "setPassingYear",
+            "getSkills",
+            "setSkills",
+            "getGithubUrl",
+            "setGithubUrl",
+            "getLinkedinUrl",
+            "setLinkedinUrl",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs",
+            "getAcademicStatus",
+            "setAcademicStatus",
+            "getResumeData",
+            "setResumeData",
+            "getResumeName",
+            "setResumeName",
+            "getResumeContentType",
+            "setResumeContentType"
+          ],
+          "properties": [
+            "id",
+            "user",
+            "phone",
+            "dateOfBirth",
+            "gender",
+            "address",
+            "city",
+            "state",
+            "pincode",
+            "branch",
+            "course",
+            "passingYear",
+            "skills",
+            "githubUrl",
+            "linkedinUrl",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs",
+            "academicStatus",
+            "resumeData",
+            "resumeName",
+            "resumeContentType"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfile",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "getUser",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "setUser",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getPhone",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "setPhone",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "getDateOfBirth",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "setDateOfBirth",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "getGender",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "setGender",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "getAddress",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "setAddress",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "getCity",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "setCity",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "getState",
+          "line": 144,
+          "isDefault": false
+        },
+        {
+          "name": "setState",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "getPincode",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "setPincode",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "getBranch",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "setBranch",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "getCourse",
+          "line": 168,
+          "isDefault": false
+        },
+        {
+          "name": "setCourse",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "getPassingYear",
+          "line": 176,
+          "isDefault": false
+        },
+        {
+          "name": "setPassingYear",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "getSkills",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "setSkills",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getGithubUrl",
+          "line": 192,
+          "isDefault": false
+        },
+        {
+          "name": "setGithubUrl",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "getLinkedinUrl",
+          "line": 200,
+          "isDefault": false
+        },
+        {
+          "name": "setLinkedinUrl",
+          "line": 204,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 208,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 212,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 216,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 220,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 224,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 228,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 232,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 236,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 240,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 244,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 248,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 252,
+          "isDefault": false
+        },
+        {
+          "name": "getAcademicStatus",
+          "line": 256,
+          "isDefault": false
+        },
+        {
+          "name": "setAcademicStatus",
+          "line": 260,
+          "isDefault": false
+        },
+        {
+          "name": "getResumeData",
+          "line": 274,
+          "isDefault": false
+        },
+        {
+          "name": "setResumeData",
+          "line": 278,
+          "isDefault": false
+        },
+        {
+          "name": "getResumeName",
+          "line": 282,
+          "isDefault": false
+        },
+        {
+          "name": "setResumeName",
+          "line": 286,
+          "isDefault": false
+        },
+        {
+          "name": "getResumeContentType",
+          "line": 290,
+          "isDefault": false
+        },
+        {
+          "name": "setResumeContentType",
+          "line": 294,
+          "isDefault": false
+        },
+        {
+          "name": "StudentProfile",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 51,
+        "functionCount": 50,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 61,
+      "functions": [
+        {
+          "name": "User",
+          "startLine": 29,
+          "endLine": 30,
+          "params": []
+        },
+        {
+          "name": "User",
+          "startLine": 32,
+          "endLine": 37,
+          "params": [
+            "name",
+            "email",
+            "password",
+            "role"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 39,
+          "endLine": 41,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "startLine": 43,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "setName",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "getEmail",
+          "startLine": 51,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "setEmail",
+          "startLine": 55,
+          "endLine": 57,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "getPassword",
+          "startLine": 59,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "setPassword",
+          "startLine": 63,
+          "endLine": 65,
+          "params": [
+            "password"
+          ]
+        },
+        {
+          "name": "getRole",
+          "startLine": 67,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "setRole",
+          "startLine": 71,
+          "endLine": 73,
+          "params": [
+            "role"
+          ]
+        },
+        {
+          "name": "isEnabled",
+          "startLine": 75,
+          "endLine": 77,
+          "params": []
+        },
+        {
+          "name": "setEnabled",
+          "startLine": 79,
+          "endLine": 81,
+          "params": [
+            "enabled"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "User",
+          "startLine": 5,
+          "endLine": 82,
+          "methods": [
+            "User",
+            "User",
+            "getId",
+            "getName",
+            "setName",
+            "getEmail",
+            "setEmail",
+            "getPassword",
+            "setPassword",
+            "getRole",
+            "setRole",
+            "isEnabled",
+            "setEnabled"
+          ],
+          "properties": [
+            "id",
+            "name",
+            "email",
+            "password",
+            "role",
+            "enabled"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "User",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "User",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "setName",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "getEmail",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "setEmail",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "getPassword",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "setPassword",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getRole",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "setRole",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "isEnabled",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "setEnabled",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "User",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 14,
+        "functionCount": 13,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "classes": [
+        {
+          "name": "AcademicVerificationRequestRepository",
+          "startLine": 10,
+          "endLine": 31,
+          "methods": [
+            "findByStudentProfileIdOrderBySubmittedAtDesc",
+            "findFirstByStudentProfileIdAndStatusOrderBySubmittedAtDesc",
+            "findByStatusOrderBySubmittedAtAsc",
+            "findByStatus"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationRequestRepository",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 11,
+      "classes": [
+        {
+          "name": "StudentProfileRepository",
+          "startLine": 9,
+          "endLine": 17,
+          "methods": [
+            "findByUser",
+            "findByUserId",
+            "existsByUserId"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfileRepository",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 8,
+      "classes": [
+        {
+          "name": "UserRepository",
+          "startLine": 8,
+          "endLine": 13,
+          "methods": [
+            "findByEmail",
+            "existsByEmail"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "UserRepository",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 107,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "JwtAuthenticationFilter",
+          "startLine": 26,
+          "endLine": 32,
+          "params": [
+            "jwtService",
+            "userRepository"
+          ]
+        },
+        {
+          "name": "doFilterInternal",
+          "startLine": 34,
+          "endLine": 106,
+          "params": [
+            "request",
+            "response",
+            "filterChain"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JwtAuthenticationFilter",
+          "startLine": 20,
+          "endLine": 107,
+          "methods": [
+            "JwtAuthenticationFilter",
+            "doFilterInternal"
+          ],
+          "properties": [
+            "jwtService",
+            "userRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JwtAuthenticationFilter",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "JwtAuthenticationFilter",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "doFilterInternal",
+          "callee": "request.getHeader",
+          "lineNumber": 41
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "authHeader.startsWith",
+          "lineNumber": 44
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "filterChain.doFilter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "authHeader.substring",
+          "lineNumber": 52
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "jwtService.extractEmail",
+          "lineNumber": 54
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "SecurityContextHolder.getContext().getAuthentication",
+          "lineNumber": 57
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "SecurityContextHolder.getContext",
+          "lineNumber": 57
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "userRepository.findByEmail(email).orElse",
+          "lineNumber": 60
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 60
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "user.isEnabled",
+          "lineNumber": 64
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "jwtService.isTokenValid",
+          "lineNumber": 65
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "new SimpleGrantedAuthority",
+          "lineNumber": 68
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "user.getRole().name",
+          "lineNumber": 69
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "user.getRole",
+          "lineNumber": 69
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "new UsernamePasswordAuthenticationToken",
+          "lineNumber": 73
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "user.getEmail",
+          "lineNumber": 74
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "List.of",
+          "lineNumber": 76
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "SecurityContextHolder.getContext().setAuthentication",
+          "lineNumber": 79
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "SecurityContextHolder.getContext",
+          "lineNumber": 79
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "System.out.println",
+          "lineNumber": 86
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "System.out.println",
+          "lineNumber": 87
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "request.getMethod",
+          "lineNumber": 89
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "request.getRequestURI",
+          "lineNumber": 91
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "System.out.println",
+          "lineNumber": 93
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "e.getClass().getName",
+          "lineNumber": 95
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "e.getClass",
+          "lineNumber": 95
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "System.out.println",
+          "lineNumber": 97
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "e.getMessage",
+          "lineNumber": 99
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "e.printStackTrace",
+          "lineNumber": 101
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "System.out.println",
+          "lineNumber": 102
+        },
+        {
+          "caller": "doFilterInternal",
+          "callee": "filterChain.doFilter",
+          "lineNumber": 105
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 212,
+      "nonEmptyLines": 167,
+      "functions": [
+        {
+          "name": "AcademicVerificationService",
+          "startLine": 27,
+          "endLine": 35,
+          "params": [
+            "userRepository",
+            "studentProfileRepository",
+            "verificationRepository"
+          ]
+        },
+        {
+          "name": "submitRequest",
+          "startLine": 37,
+          "endLine": 130,
+          "params": [
+            "email",
+            "dto"
+          ]
+        },
+        {
+          "name": "getLatestRequest",
+          "startLine": 132,
+          "endLine": 158,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "toResponse",
+          "startLine": 160,
+          "endLine": 211,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AcademicVerificationService",
+          "startLine": 20,
+          "endLine": 212,
+          "methods": [
+            "AcademicVerificationService",
+            "submitRequest",
+            "getLatestRequest",
+            "toResponse"
+          ],
+          "properties": [
+            "userRepository",
+            "studentProfileRepository",
+            "verificationRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicVerificationService",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "submitRequest",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "getLatestRequest",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "AcademicVerificationService",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "submitRequest",
+          "callee": "userRepository.findByEmail(email).orElseThrow",
+          "lineNumber": 42
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 42
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 44
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "studentProfileRepository\n                .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 49
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 49
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "user.getId",
+          "lineNumber": 50
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 52
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "verificationRepository\n                        .findFirstByStudentProfileIdAndStatusOrderBySubmittedAtDesc(\n                                profile.getId(),\n                                AcademicVerificationStatus.PENDING\n                        ).isPresent",
+          "lineNumber": 62
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "verificationRepository.findFirstByStudentProfileIdAndStatusOrderBySubmittedAtDesc",
+          "lineNumber": 62
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "profile.getId",
+          "lineNumber": 64
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "new AcademicVerificationResponse",
+          "lineNumber": 72
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "response.setStatus",
+          "lineNumber": 74
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "response.setMessage",
+          "lineNumber": 78
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "new AcademicVerificationRequest",
+          "lineNumber": 90
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setStudentProfile",
+          "lineNumber": 92
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setTenthPercentage",
+          "lineNumber": 94
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getTenthPercentage",
+          "lineNumber": 95
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setTenthMathPercentage",
+          "lineNumber": 98
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getTenthMathPercentage",
+          "lineNumber": 99
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setTwelfthPercentage",
+          "lineNumber": 102
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getTwelfthPercentage",
+          "lineNumber": 103
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setTwelfthMathPercentage",
+          "lineNumber": 106
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getTwelfthMathPercentage",
+          "lineNumber": 107
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setCgpa",
+          "lineNumber": 110
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getCgpa",
+          "lineNumber": 111
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setBacklogs",
+          "lineNumber": 114
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "dto.getBacklogs",
+          "lineNumber": 115
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setStatus",
+          "lineNumber": 118
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "request.setSubmittedAt",
+          "lineNumber": 122
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 123
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "verificationRepository.save",
+          "lineNumber": 127
+        },
+        {
+          "caller": "submitRequest",
+          "callee": "toResponse",
+          "lineNumber": 129
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "userRepository.findByEmail(email).orElseThrow",
+          "lineNumber": 136
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 136
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 138
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "studentProfileRepository\n                .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 143
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "studentProfileRepository.findByUserId",
+          "lineNumber": 143
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "user.getId",
+          "lineNumber": 144
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 146
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "verificationRepository\n                .findByStudentProfileIdOrderBySubmittedAtDesc(\n                        profile.getId()\n                )\n                .stream()\n                .findFirst().map",
+          "lineNumber": 151
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "verificationRepository\n                .findByStudentProfileIdOrderBySubmittedAtDesc(\n                        profile.getId()\n                )\n                .stream().findFirst",
+          "lineNumber": 151
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "verificationRepository\n                .findByStudentProfileIdOrderBySubmittedAtDesc(\n                        profile.getId()\n                ).stream",
+          "lineNumber": 151
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "verificationRepository.findByStudentProfileIdOrderBySubmittedAtDesc",
+          "lineNumber": 151
+        },
+        {
+          "caller": "getLatestRequest",
+          "callee": "profile.getId",
+          "lineNumber": 153
+        },
+        {
+          "caller": "toResponse",
+          "callee": "new AcademicVerificationResponse",
+          "lineNumber": 164
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setRequestId",
+          "lineNumber": 166
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getId",
+          "lineNumber": 167
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthPercentage",
+          "lineNumber": 170
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTenthPercentage",
+          "lineNumber": 171
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthMathPercentage",
+          "lineNumber": 174
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTenthMathPercentage",
+          "lineNumber": 175
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthPercentage",
+          "lineNumber": 178
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTwelfthPercentage",
+          "lineNumber": 179
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthMathPercentage",
+          "lineNumber": 182
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTwelfthMathPercentage",
+          "lineNumber": 183
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setCgpa",
+          "lineNumber": 186
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getCgpa",
+          "lineNumber": 187
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setBacklogs",
+          "lineNumber": 190
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getBacklogs",
+          "lineNumber": 191
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setStatus",
+          "lineNumber": 194
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getStatus",
+          "lineNumber": 195
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setRejectionReason",
+          "lineNumber": 198
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getRejectionReason",
+          "lineNumber": 199
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setSubmittedAt",
+          "lineNumber": 202
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getSubmittedAt",
+          "lineNumber": 203
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setReviewedAt",
+          "lineNumber": 206
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getReviewedAt",
+          "lineNumber": 207
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 281,
+      "nonEmptyLines": 217,
+      "functions": [
+        {
+          "name": "AdminAcademicVerificationService",
+          "startLine": 27,
+          "endLine": 35,
+          "params": [
+            "verificationRepository",
+            "studentProfileRepository",
+            "userRepository"
+          ]
+        },
+        {
+          "name": "getPendingRequests",
+          "startLine": 37,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "getRequestById",
+          "startLine": 49,
+          "endLine": 62,
+          "params": [
+            "requestId"
+          ]
+        },
+        {
+          "name": "approveRequest",
+          "startLine": 64,
+          "endLine": 143,
+          "params": [
+            "requestId",
+            "adminEmail"
+          ]
+        },
+        {
+          "name": "rejectRequest",
+          "startLine": 145,
+          "endLine": 209,
+          "params": [
+            "requestId",
+            "adminEmail",
+            "reason"
+          ]
+        },
+        {
+          "name": "toResponse",
+          "startLine": 211,
+          "endLine": 280,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AdminAcademicVerificationService",
+          "startLine": 20,
+          "endLine": 281,
+          "methods": [
+            "AdminAcademicVerificationService",
+            "getPendingRequests",
+            "getRequestById",
+            "approveRequest",
+            "rejectRequest",
+            "toResponse"
+          ],
+          "properties": [
+            "verificationRepository",
+            "studentProfileRepository",
+            "userRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminAcademicVerificationService",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getPendingRequests",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "getRequestById",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "approveRequest",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "rejectRequest",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "AdminAcademicVerificationService",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getPendingRequests",
+          "callee": "verificationRepository\n                .findByStatusOrderBySubmittedAtAsc(\n                        AcademicVerificationStatus.PENDING\n                )\n                .stream()\n                .map(this::toResponse).toList",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getPendingRequests",
+          "callee": "verificationRepository\n                .findByStatusOrderBySubmittedAtAsc(\n                        AcademicVerificationStatus.PENDING\n                )\n                .stream().map",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getPendingRequests",
+          "callee": "verificationRepository\n                .findByStatusOrderBySubmittedAtAsc(\n                        AcademicVerificationStatus.PENDING\n                ).stream",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getPendingRequests",
+          "callee": "verificationRepository.findByStatusOrderBySubmittedAtAsc",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getRequestById",
+          "callee": "verificationRepository.findById(requestId).orElseThrow",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getRequestById",
+          "callee": "verificationRepository.findById",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getRequestById",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 56
+        },
+        {
+          "caller": "getRequestById",
+          "callee": "toResponse",
+          "lineNumber": 61
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "verificationRepository.findById(requestId).orElseThrow",
+          "lineNumber": 70
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "verificationRepository.findById",
+          "lineNumber": 70
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 72
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getStatus",
+          "lineNumber": 78
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 81
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "userRepository.findByEmail(adminEmail).orElseThrow",
+          "lineNumber": 87
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 87
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 89
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getStudentProfile",
+          "lineNumber": 95
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setTenthPercentage",
+          "lineNumber": 98
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getTenthPercentage",
+          "lineNumber": 99
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setTenthMathPercentage",
+          "lineNumber": 102
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getTenthMathPercentage",
+          "lineNumber": 103
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setTwelfthPercentage",
+          "lineNumber": 106
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getTwelfthPercentage",
+          "lineNumber": 107
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setTwelfthMathPercentage",
+          "lineNumber": 110
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getTwelfthMathPercentage",
+          "lineNumber": 111
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setCgpa",
+          "lineNumber": 114
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getCgpa",
+          "lineNumber": 115
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setBacklogs",
+          "lineNumber": 118
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.getBacklogs",
+          "lineNumber": 119
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "profile.setAcademicStatus",
+          "lineNumber": 122
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "studentProfileRepository.save",
+          "lineNumber": 126
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.setStatus",
+          "lineNumber": 129
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.setReviewedAt",
+          "lineNumber": 133
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 134
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "request.setReviewedBy",
+          "lineNumber": 137
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "verificationRepository.save",
+          "lineNumber": 140
+        },
+        {
+          "caller": "approveRequest",
+          "callee": "toResponse",
+          "lineNumber": 142
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "verificationRepository.findById(requestId).orElseThrow",
+          "lineNumber": 152
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "verificationRepository.findById",
+          "lineNumber": 152
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 154
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.getStatus",
+          "lineNumber": 159
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 162
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "userRepository.findByEmail(adminEmail).orElseThrow",
+          "lineNumber": 168
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 168
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "new ResponseStatusException",
+          "lineNumber": 170
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.getStudentProfile",
+          "lineNumber": 176
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "profile.setAcademicStatus",
+          "lineNumber": 183
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "studentProfileRepository.save",
+          "lineNumber": 187
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.setStatus",
+          "lineNumber": 189
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.setRejectionReason",
+          "lineNumber": 193
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "reason.trim",
+          "lineNumber": 194
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.setReviewedAt",
+          "lineNumber": 197
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 198
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "request.setReviewedBy",
+          "lineNumber": 201
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "verificationRepository.save",
+          "lineNumber": 206
+        },
+        {
+          "caller": "rejectRequest",
+          "callee": "toResponse",
+          "lineNumber": 208
+        },
+        {
+          "caller": "toResponse",
+          "callee": "new AdminAcademicVerificationResponse",
+          "lineNumber": 215
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getStudentProfile",
+          "lineNumber": 218
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setRequestId",
+          "lineNumber": 220
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getId",
+          "lineNumber": 221
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setStudentProfileId",
+          "lineNumber": 224
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getId",
+          "lineNumber": 225
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser",
+          "lineNumber": 228
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setStudentName",
+          "lineNumber": 230
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser().getName",
+          "lineNumber": 231
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser",
+          "lineNumber": 231
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setStudentEmail",
+          "lineNumber": 234
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser().getEmail",
+          "lineNumber": 235
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser",
+          "lineNumber": 235
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthPercentage",
+          "lineNumber": 239
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTenthPercentage",
+          "lineNumber": 240
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthMathPercentage",
+          "lineNumber": 243
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTenthMathPercentage",
+          "lineNumber": 244
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthPercentage",
+          "lineNumber": 247
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTwelfthPercentage",
+          "lineNumber": 248
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthMathPercentage",
+          "lineNumber": 251
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getTwelfthMathPercentage",
+          "lineNumber": 252
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setCgpa",
+          "lineNumber": 255
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getCgpa",
+          "lineNumber": 256
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setBacklogs",
+          "lineNumber": 259
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getBacklogs",
+          "lineNumber": 260
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setStatus",
+          "lineNumber": 263
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getStatus",
+          "lineNumber": 264
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setRejectionReason",
+          "lineNumber": 267
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getRejectionReason",
+          "lineNumber": 268
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setSubmittedAt",
+          "lineNumber": 271
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getSubmittedAt",
+          "lineNumber": 272
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setReviewedAt",
+          "lineNumber": 275
+        },
+        {
+          "caller": "toResponse",
+          "callee": "request.getReviewedAt",
+          "lineNumber": 276
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/DataInitializer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "createUsers",
+          "startLine": 14,
+          "endLine": 45,
+          "params": [
+            "userRepository",
+            "passwordEncoder"
+          ]
+        },
+        {
+          "name": "createUser",
+          "startLine": 47,
+          "endLine": 65,
+          "params": [
+            "repository",
+            "encoder",
+            "name",
+            "email",
+            "password",
+            "role"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "DataInitializer",
+          "startLine": 11,
+          "endLine": 66,
+          "methods": [
+            "createUsers",
+            "createUser"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataInitializer",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createUsers",
+          "callee": "createUser",
+          "lineNumber": 21
+        },
+        {
+          "caller": "createUsers",
+          "callee": "createUser",
+          "lineNumber": 27
+        },
+        {
+          "caller": "createUsers",
+          "callee": "createUser",
+          "lineNumber": 33
+        },
+        {
+          "caller": "createUsers",
+          "callee": "createUser",
+          "lineNumber": 39
+        },
+        {
+          "caller": "createUser",
+          "callee": "repository.existsByEmail",
+          "lineNumber": 55
+        },
+        {
+          "caller": "createUser",
+          "callee": "new User",
+          "lineNumber": 56
+        },
+        {
+          "caller": "createUser",
+          "callee": "encoder.encode",
+          "lineNumber": 59
+        },
+        {
+          "caller": "createUser",
+          "callee": "repository.save",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileInitializer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "StudentProfileInitializer",
+          "startLine": 17,
+          "endLine": 23,
+          "params": [
+            "userRepository",
+            "studentProfileRepository"
+          ]
+        },
+        {
+          "name": "run",
+          "startLine": 25,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "createProfileIfMissing",
+          "startLine": 34,
+          "endLine": 44,
+          "params": [
+            "user"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentProfileInitializer",
+          "startLine": 11,
+          "endLine": 45,
+          "methods": [
+            "StudentProfileInitializer",
+            "run",
+            "createProfileIfMissing"
+          ],
+          "properties": [
+            "userRepository",
+            "studentProfileRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfileInitializer",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "run",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "StudentProfileInitializer",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "run",
+          "callee": "userRepository.findAll()\n                .stream()\n                .filter(user -> user.getRole() == Role.STUDENT).forEach",
+          "lineNumber": 28
+        },
+        {
+          "caller": "run",
+          "callee": "userRepository.findAll()\n                .stream().filter",
+          "lineNumber": 28
+        },
+        {
+          "caller": "run",
+          "callee": "userRepository.findAll().stream",
+          "lineNumber": 28
+        },
+        {
+          "caller": "run",
+          "callee": "userRepository.findAll",
+          "lineNumber": 28
+        },
+        {
+          "caller": "run",
+          "callee": "user.getRole",
+          "lineNumber": 30
+        },
+        {
+          "caller": "createProfileIfMissing",
+          "callee": "studentProfileRepository.existsByUserId",
+          "lineNumber": 36
+        },
+        {
+          "caller": "createProfileIfMissing",
+          "callee": "user.getId",
+          "lineNumber": 36
+        },
+        {
+          "caller": "createProfileIfMissing",
+          "callee": "new StudentProfile",
+          "lineNumber": 38
+        },
+        {
+          "caller": "createProfileIfMissing",
+          "callee": "profile.setUser",
+          "lineNumber": 40
+        },
+        {
+          "caller": "createProfileIfMissing",
+          "callee": "studentProfileRepository.save",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    }
+  ]
+}

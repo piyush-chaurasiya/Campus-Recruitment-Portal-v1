@@ -1,0 +1,1759 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/App.jsx",
+      "type": "file",
+      "name": "App.jsx",
+      "filePath": "frontend/src/App.jsx",
+      "summary": "App.jsx implements Unauthorized, App functionality.",
+      "tags": [
+        "code",
+        "component",
+        "entry-point",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/App.jsx:Unauthorized",
+      "type": "function",
+      "name": "Unauthorized",
+      "filePath": "frontend/src/App.jsx",
+      "summary": "Function Unauthorized in App.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.jsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "frontend/src/App.jsx",
+      "summary": "Function App in App.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/api/axios.jsx",
+      "type": "file",
+      "name": "axios.jsx",
+      "filePath": "frontend/src/api/axios.jsx",
+      "summary": "Source file axios.jsx handling javascript logic.",
+      "tags": [
+        "code",
+        "component",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ProtectedRoute.jsx",
+      "type": "file",
+      "name": "ProtectedRoute.jsx",
+      "filePath": "frontend/src/components/ProtectedRoute.jsx",
+      "summary": "ProtectedRoute.jsx implements ProtectedRoute functionality.",
+      "tags": [
+        "code",
+        "api-handler",
+        "component",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ProtectedRoute.jsx:ProtectedRoute",
+      "type": "function",
+      "name": "ProtectedRoute",
+      "filePath": "frontend/src/components/ProtectedRoute.jsx",
+      "summary": "Function ProtectedRoute in ProtectedRoute.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/common/ThemeToggle.jsx",
+      "type": "file",
+      "name": "ThemeToggle.jsx",
+      "filePath": "frontend/src/components/common/ThemeToggle.jsx",
+      "summary": "ThemeToggle.jsx implements ThemeToggle functionality.",
+      "tags": [
+        "code",
+        "component",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/common/ThemeToggle.jsx:ThemeToggle",
+      "type": "function",
+      "name": "ThemeToggle",
+      "filePath": "frontend/src/components/common/ThemeToggle.jsx",
+      "summary": "Function ThemeToggle in ThemeToggle.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/context/ThemeContext.jsx",
+      "type": "file",
+      "name": "ThemeContext.jsx",
+      "filePath": "frontend/src/context/ThemeContext.jsx",
+      "summary": "ThemeContext.jsx implements ThemeProvider, useTheme functionality.",
+      "tags": [
+        "code",
+        "component",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/context/ThemeContext.jsx:ThemeProvider",
+      "type": "function",
+      "name": "ThemeProvider",
+      "filePath": "frontend/src/context/ThemeContext.jsx",
+      "summary": "Function ThemeProvider in ThemeContext.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/context/ThemeContext.jsx:useTheme",
+      "type": "function",
+      "name": "useTheme",
+      "filePath": "frontend/src/context/ThemeContext.jsx",
+      "summary": "Function useTheme in ThemeContext.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/main.jsx",
+      "type": "file",
+      "name": "main.jsx",
+      "filePath": "frontend/src/main.jsx",
+      "summary": "Source file main.jsx handling javascript logic.",
+      "tags": [
+        "code",
+        "component",
+        "entry-point",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "type": "file",
+      "name": "AdminAcademicVerification.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "AdminAcademicVerification.jsx implements AdminAcademicVerification, ReviewModal, RejectModal functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:AdminAcademicVerification",
+      "type": "function",
+      "name": "AdminAcademicVerification",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function AdminAcademicVerification in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:ReviewModal",
+      "type": "function",
+      "name": "ReviewModal",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function ReviewModal in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:RejectModal",
+      "type": "function",
+      "name": "RejectModal",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function RejectModal in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:SummaryCard",
+      "type": "function",
+      "name": "SummaryCard",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function SummaryCard in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:AcademicValue",
+      "type": "function",
+      "name": "AcademicValue",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function AcademicValue in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:Detail",
+      "type": "function",
+      "name": "Detail",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function Detail in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:Alert",
+      "type": "function",
+      "name": "Alert",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function Alert in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "summary": "Function formatDate in AdminAcademicVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "type": "file",
+      "name": "AdminAuditLogs.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "summary": "AdminAuditLogs.jsx implements AdminAuditLogs functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminAuditLogs.jsx:AdminAuditLogs",
+      "type": "function",
+      "name": "AdminAuditLogs",
+      "filePath": "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "summary": "Function AdminAuditLogs in AdminAuditLogs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "type": "file",
+      "name": "AdminDashboard.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "AdminDashboard.jsx implements AdminDashboard, Header, StatCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:AdminDashboard",
+      "type": "function",
+      "name": "AdminDashboard",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function AdminDashboard in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:Header",
+      "type": "function",
+      "name": "Header",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function Header in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function StatCard in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:MiniCard",
+      "type": "function",
+      "name": "MiniCard",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function MiniCard in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:ProgressRow",
+      "type": "function",
+      "name": "ProgressRow",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function ProgressRow in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:HealthItem",
+      "type": "function",
+      "name": "HealthItem",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function HealthItem in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:ActivityCard",
+      "type": "function",
+      "name": "ActivityCard",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function ActivityCard in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:QuickAction",
+      "type": "function",
+      "name": "QuickAction",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function QuickAction in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminDashboard.jsx:DashboardSkeleton",
+      "type": "function",
+      "name": "DashboardSkeleton",
+      "filePath": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "summary": "Function DashboardSkeleton in AdminDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "type": "file",
+      "name": "AdminJobVerification.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "AdminJobVerification.jsx implements AdminJobVerification, JobCard, Tag functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:AdminJobVerification",
+      "type": "function",
+      "name": "AdminJobVerification",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function AdminJobVerification in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:JobCard",
+      "type": "function",
+      "name": "JobCard",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function JobCard in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Tag",
+      "type": "function",
+      "name": "Tag",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function Tag in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:StatusTag",
+      "type": "function",
+      "name": "StatusTag",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function StatusTag in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Info",
+      "type": "function",
+      "name": "Info",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function Info in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "summary": "Function Stat in AdminJobVerification.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminLayout.jsx",
+      "type": "file",
+      "name": "AdminLayout.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminLayout.jsx",
+      "summary": "AdminLayout.jsx implements AdminLayout functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminLayout.jsx:AdminLayout",
+      "type": "function",
+      "name": "AdminLayout",
+      "filePath": "frontend/src/pages/Admin/AdminLayout.jsx",
+      "summary": "Function AdminLayout in AdminLayout.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminNotifications.jsx",
+      "type": "file",
+      "name": "AdminNotifications.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "summary": "AdminNotifications.jsx implements AdminNotifications functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminNotifications.jsx:AdminNotifications",
+      "type": "function",
+      "name": "AdminNotifications",
+      "filePath": "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "summary": "Function AdminNotifications in AdminNotifications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminSettings.jsx",
+      "type": "file",
+      "name": "AdminSettings.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "summary": "AdminSettings.jsx implements AdminSettings, Setting functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminSettings.jsx:AdminSettings",
+      "type": "function",
+      "name": "AdminSettings",
+      "filePath": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "summary": "Function AdminSettings in AdminSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminSettings.jsx:Setting",
+      "type": "function",
+      "name": "Setting",
+      "filePath": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "summary": "Function Setting in AdminSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "type": "file",
+      "name": "AdminUsers.jsx",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "AdminUsers.jsx implements AdminUsers, UserRow, CreateUserModal functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:AdminUsers",
+      "type": "function",
+      "name": "AdminUsers",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function AdminUsers in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:UserRow",
+      "type": "function",
+      "name": "UserRow",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function UserRow in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:CreateUserModal",
+      "type": "function",
+      "name": "CreateUserModal",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function CreateUserModal in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:PasswordModal",
+      "type": "function",
+      "name": "PasswordModal",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function PasswordModal in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function Input in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:Badge",
+      "type": "function",
+      "name": "Badge",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function Badge in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:MiniStat",
+      "type": "function",
+      "name": "MiniStat",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function MiniStat in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:Alert",
+      "type": "function",
+      "name": "Alert",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function Alert in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Admin/AdminUsers.jsx:formatRole",
+      "type": "function",
+      "name": "formatRole",
+      "filePath": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "summary": "Function formatRole in AdminUsers.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Login.jsx",
+      "type": "file",
+      "name": "Login.jsx",
+      "filePath": "frontend/src/pages/Login.jsx",
+      "summary": "Login.jsx implements Login functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Login.jsx:Login",
+      "type": "function",
+      "name": "Login",
+      "filePath": "frontend/src/pages/Login.jsx",
+      "summary": "Function Login in Login.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementApplications.jsx",
+      "type": "file",
+      "name": "PlacementApplications.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "summary": "PlacementApplications.jsx implements PlacementApplications functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementApplications.jsx:PlacementApplications",
+      "type": "function",
+      "name": "PlacementApplications",
+      "filePath": "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "summary": "Function PlacementApplications in PlacementApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "type": "file",
+      "name": "PlacementCompanies.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "summary": "PlacementCompanies.jsx implements PlacementCompanies functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementCompanies.jsx:PlacementCompanies",
+      "type": "function",
+      "name": "PlacementCompanies",
+      "filePath": "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "summary": "Function PlacementCompanies in PlacementCompanies.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "type": "file",
+      "name": "PlacementDashboard.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "summary": "PlacementDashboard.jsx implements PlacementDashboard, Stat functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDashboard.jsx:PlacementDashboard",
+      "type": "function",
+      "name": "PlacementDashboard",
+      "filePath": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "summary": "Function PlacementDashboard in PlacementDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDashboard.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "summary": "Function Stat in PlacementDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "type": "file",
+      "name": "PlacementDrives.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "PlacementDrives.jsx implements PlacementDrives, Field, JobCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:PlacementDrives",
+      "type": "function",
+      "name": "PlacementDrives",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function PlacementDrives in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Field",
+      "type": "function",
+      "name": "Field",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function Field in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:JobCard",
+      "type": "function",
+      "name": "JobCard",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function JobCard in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Tag",
+      "type": "function",
+      "name": "Tag",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function Tag in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:StatusTag",
+      "type": "function",
+      "name": "StatusTag",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function StatusTag in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Info",
+      "type": "function",
+      "name": "Info",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function Info in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "summary": "Function Stat in PlacementDrives.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementLayout.jsx",
+      "type": "file",
+      "name": "PlacementLayout.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "summary": "PlacementLayout.jsx implements PlacementLayout functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementLayout.jsx:PlacementLayout",
+      "type": "function",
+      "name": "PlacementLayout",
+      "filePath": "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "summary": "Function PlacementLayout in PlacementLayout.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "type": "file",
+      "name": "PlacementNotifications.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "summary": "PlacementNotifications.jsx implements PlacementNotifications functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementNotifications.jsx:PlacementNotifications",
+      "type": "function",
+      "name": "PlacementNotifications",
+      "filePath": "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "summary": "Function PlacementNotifications in PlacementNotifications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "function:frontend/src/App.jsx:Unauthorized",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "function:frontend/src/App.jsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/components/ProtectedRoute.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminLayout.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminNotifications.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminSettings.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Login.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementApplications.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementLayout.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementRecords.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementReports.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Placement/PlacementStudents.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/Profile.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentDashboard.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentInterviews.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentLayout.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentNotifications.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/App.jsx",
+      "target": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ProtectedRoute.jsx",
+      "target": "function:frontend/src/components/ProtectedRoute.jsx:ProtectedRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/components/common/ThemeToggle.jsx",
+      "target": "function:frontend/src/components/common/ThemeToggle.jsx:ThemeToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/components/common/ThemeToggle.jsx",
+      "target": "file:frontend/src/context/ThemeContext.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/context/ThemeContext.jsx",
+      "target": "function:frontend/src/context/ThemeContext.jsx:ThemeProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/context/ThemeContext.jsx",
+      "target": "function:frontend/src/context/ThemeContext.jsx:useTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/main.jsx",
+      "target": "file:frontend/src/App.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/main.jsx",
+      "target": "file:frontend/src/context/ThemeContext.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/main.jsx",
+      "target": "file:frontend/src/index.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:AdminAcademicVerification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:ReviewModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:RejectModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:SummaryCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:AcademicValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:Detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:Alert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAcademicVerification.jsx:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminAuditLogs.jsx:AdminAuditLogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:AdminDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:Header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:StatCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:MiniCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:ProgressRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:HealthItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:ActivityCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:QuickAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminDashboard.jsx:DashboardSkeleton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminDashboard.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:AdminJobVerification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:JobCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:StatusTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminJobVerification.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminLayout.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminLayout.jsx:AdminLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminLayout.jsx",
+      "target": "file:frontend/src/context/ThemeContext.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminNotifications.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminNotifications.jsx:AdminNotifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminSettings.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminSettings.jsx:AdminSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminSettings.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminSettings.jsx:Setting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminSettings.jsx",
+      "target": "file:frontend/src/context/ThemeContext.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:AdminUsers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:UserRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:CreateUserModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:PasswordModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:Badge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:MiniStat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:Alert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "function:frontend/src/pages/Admin/AdminUsers.jsx:formatRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Admin/AdminUsers.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Login.jsx",
+      "target": "function:frontend/src/pages/Login.jsx:Login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Login.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementApplications.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementApplications.jsx:PlacementApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementApplications.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementCompanies.jsx:PlacementCompanies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDashboard.jsx:PlacementDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDashboard.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:PlacementDrives",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:JobCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:StatusTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementDrives.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementDrives.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementLayout.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementLayout.jsx:PlacementLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementNotifications.jsx:PlacementNotifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

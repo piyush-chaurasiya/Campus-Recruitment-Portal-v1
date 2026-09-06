@@ -1,0 +1,2297 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "PlacementStudentController",
+          "startLine": 18,
+          "endLine": 22,
+          "params": [
+            "studentProfileService"
+          ]
+        },
+        {
+          "name": "getAllStudents",
+          "startLine": 24,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlacementStudentController",
+          "startLine": 12,
+          "endLine": 28,
+          "methods": [
+            "PlacementStudentController",
+            "getAllStudents"
+          ],
+          "properties": [
+            "studentProfileService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlacementStudentController",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getAllStudents",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "PlacementStudentController",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAllStudents",
+          "callee": "studentProfileService.getAllStudentsForPlacement",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "StudentProfileController",
+          "startLine": 17,
+          "endLine": 21,
+          "params": [
+            "profileService"
+          ]
+        },
+        {
+          "name": "getProfile",
+          "startLine": 23,
+          "endLine": 32,
+          "params": [
+            "authentication"
+          ]
+        },
+        {
+          "name": "updateProfile",
+          "startLine": 34,
+          "endLine": 45,
+          "params": [
+            "authentication",
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentProfileController",
+          "startLine": 11,
+          "endLine": 46,
+          "methods": [
+            "StudentProfileController",
+            "getProfile",
+            "updateProfile"
+          ],
+          "properties": [
+            "profileService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfileController",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getProfile",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "updateProfile",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "StudentProfileController",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getProfile",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 27
+        },
+        {
+          "caller": "getProfile",
+          "callee": "profileService.getProfile",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getProfile",
+          "callee": "authentication.getName",
+          "lineNumber": 29
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 39
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileService.updateProfile",
+          "lineNumber": 40
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "authentication.getName",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 104,
+      "nonEmptyLines": 77,
+      "functions": [
+        {
+          "name": "PlacementStudentResponse",
+          "startLine": 25,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "from",
+          "startLine": 28,
+          "endLine": 51,
+          "params": [
+            "profile"
+          ]
+        },
+        {
+          "name": "getId",
+          "startLine": 53,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "startLine": 57,
+          "endLine": 59,
+          "params": []
+        },
+        {
+          "name": "getEmail",
+          "startLine": 61,
+          "endLine": 63,
+          "params": []
+        },
+        {
+          "name": "getPhone",
+          "startLine": 65,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "getBranch",
+          "startLine": 69,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "getCourse",
+          "startLine": 73,
+          "endLine": 75,
+          "params": []
+        },
+        {
+          "name": "getPassingYear",
+          "startLine": 77,
+          "endLine": 79,
+          "params": []
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 81,
+          "endLine": 83,
+          "params": []
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 85,
+          "endLine": 87,
+          "params": []
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 89,
+          "endLine": 91,
+          "params": []
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 93,
+          "endLine": 95,
+          "params": []
+        },
+        {
+          "name": "getAcademicStatus",
+          "startLine": 97,
+          "endLine": 99,
+          "params": []
+        },
+        {
+          "name": "getHasResume",
+          "startLine": 101,
+          "endLine": 103,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlacementStudentResponse",
+          "startLine": 6,
+          "endLine": 104,
+          "methods": [
+            "PlacementStudentResponse",
+            "from",
+            "getId",
+            "getName",
+            "getEmail",
+            "getPhone",
+            "getBranch",
+            "getCourse",
+            "getPassingYear",
+            "getCgpa",
+            "getBacklogs",
+            "getTenthPercentage",
+            "getTwelfthPercentage",
+            "getAcademicStatus",
+            "getHasResume"
+          ],
+          "properties": [
+            "id",
+            "name",
+            "email",
+            "phone",
+            "branch",
+            "course",
+            "passingYear",
+            "cgpa",
+            "backlogs",
+            "tenthPercentage",
+            "twelfthPercentage",
+            "academicStatus",
+            "hasResume"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlacementStudentResponse",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "from",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "getId",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "getEmail",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "getPhone",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "getBranch",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "getCourse",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "getPassingYear",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "getAcademicStatus",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "getHasResume",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "PlacementStudentResponse",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new PlacementStudentResponse",
+          "lineNumber": 31
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getId",
+          "lineNumber": 33
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getUser().getName",
+          "lineNumber": 34
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getUser",
+          "lineNumber": 34
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getUser().getEmail",
+          "lineNumber": 35
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getUser",
+          "lineNumber": 35
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getPhone",
+          "lineNumber": 36
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getBranch",
+          "lineNumber": 38
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getCourse",
+          "lineNumber": 39
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getPassingYear",
+          "lineNumber": 40
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getCgpa",
+          "lineNumber": 42
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getBacklogs",
+          "lineNumber": 43
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getTenthPercentage",
+          "lineNumber": 44
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getTwelfthPercentage",
+          "lineNumber": 45
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getAcademicStatus",
+          "lineNumber": 47
+        },
+        {
+          "caller": "from",
+          "callee": "profile.getResumeName",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 16,
+        "functionCount": 15,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 215,
+      "nonEmptyLines": 161,
+      "functions": [
+        {
+          "name": "StudentProfileResponse",
+          "startLine": 37,
+          "endLine": 38,
+          "params": []
+        },
+        {
+          "name": "getName",
+          "startLine": 40,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "setName",
+          "startLine": 44,
+          "endLine": 46,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "getEmail",
+          "startLine": 48,
+          "endLine": 50,
+          "params": []
+        },
+        {
+          "name": "setEmail",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "getPhone",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "setPhone",
+          "startLine": 60,
+          "endLine": 62,
+          "params": [
+            "phone"
+          ]
+        },
+        {
+          "name": "getDateOfBirth",
+          "startLine": 64,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "setDateOfBirth",
+          "startLine": 68,
+          "endLine": 70,
+          "params": [
+            "dateOfBirth"
+          ]
+        },
+        {
+          "name": "getGender",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "setGender",
+          "startLine": 76,
+          "endLine": 78,
+          "params": [
+            "gender"
+          ]
+        },
+        {
+          "name": "getAddress",
+          "startLine": 80,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "setAddress",
+          "startLine": 84,
+          "endLine": 86,
+          "params": [
+            "address"
+          ]
+        },
+        {
+          "name": "getCity",
+          "startLine": 88,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "setCity",
+          "startLine": 92,
+          "endLine": 94,
+          "params": [
+            "city"
+          ]
+        },
+        {
+          "name": "getState",
+          "startLine": 96,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "setState",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "state"
+          ]
+        },
+        {
+          "name": "getPincode",
+          "startLine": 104,
+          "endLine": 106,
+          "params": []
+        },
+        {
+          "name": "setPincode",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "pincode"
+          ]
+        },
+        {
+          "name": "getBranch",
+          "startLine": 112,
+          "endLine": 114,
+          "params": []
+        },
+        {
+          "name": "setBranch",
+          "startLine": 116,
+          "endLine": 118,
+          "params": [
+            "branch"
+          ]
+        },
+        {
+          "name": "getCourse",
+          "startLine": 120,
+          "endLine": 122,
+          "params": []
+        },
+        {
+          "name": "setCourse",
+          "startLine": 124,
+          "endLine": 126,
+          "params": [
+            "course"
+          ]
+        },
+        {
+          "name": "getPassingYear",
+          "startLine": 128,
+          "endLine": 130,
+          "params": []
+        },
+        {
+          "name": "setPassingYear",
+          "startLine": 132,
+          "endLine": 134,
+          "params": [
+            "passingYear"
+          ]
+        },
+        {
+          "name": "getSkills",
+          "startLine": 136,
+          "endLine": 138,
+          "params": []
+        },
+        {
+          "name": "setSkills",
+          "startLine": 140,
+          "endLine": 142,
+          "params": [
+            "skills"
+          ]
+        },
+        {
+          "name": "getGithubUrl",
+          "startLine": 144,
+          "endLine": 146,
+          "params": []
+        },
+        {
+          "name": "setGithubUrl",
+          "startLine": 148,
+          "endLine": 150,
+          "params": [
+            "githubUrl"
+          ]
+        },
+        {
+          "name": "getLinkedinUrl",
+          "startLine": 152,
+          "endLine": 154,
+          "params": []
+        },
+        {
+          "name": "setLinkedinUrl",
+          "startLine": 156,
+          "endLine": 158,
+          "params": [
+            "linkedinUrl"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 160,
+          "endLine": 162,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 164,
+          "endLine": 166,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 168,
+          "endLine": 170,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 172,
+          "endLine": 174,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 176,
+          "endLine": 178,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 180,
+          "endLine": 182,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 184,
+          "endLine": 186,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 188,
+          "endLine": 190,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 192,
+          "endLine": 194,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 196,
+          "endLine": 198,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 200,
+          "endLine": 202,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 204,
+          "endLine": 206,
+          "params": [
+            "backlogs"
+          ]
+        },
+        {
+          "name": "getAcademicStatus",
+          "startLine": 208,
+          "endLine": 210,
+          "params": []
+        },
+        {
+          "name": "setAcademicStatus",
+          "startLine": 212,
+          "endLine": 214,
+          "params": [
+            "academicStatus"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentProfileResponse",
+          "startLine": 7,
+          "endLine": 215,
+          "methods": [
+            "StudentProfileResponse",
+            "getName",
+            "setName",
+            "getEmail",
+            "setEmail",
+            "getPhone",
+            "setPhone",
+            "getDateOfBirth",
+            "setDateOfBirth",
+            "getGender",
+            "setGender",
+            "getAddress",
+            "setAddress",
+            "getCity",
+            "setCity",
+            "getState",
+            "setState",
+            "getPincode",
+            "setPincode",
+            "getBranch",
+            "setBranch",
+            "getCourse",
+            "setCourse",
+            "getPassingYear",
+            "setPassingYear",
+            "getSkills",
+            "setSkills",
+            "getGithubUrl",
+            "setGithubUrl",
+            "getLinkedinUrl",
+            "setLinkedinUrl",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs",
+            "getAcademicStatus",
+            "setAcademicStatus"
+          ],
+          "properties": [
+            "name",
+            "email",
+            "phone",
+            "dateOfBirth",
+            "gender",
+            "address",
+            "city",
+            "state",
+            "pincode",
+            "branch",
+            "course",
+            "passingYear",
+            "skills",
+            "githubUrl",
+            "linkedinUrl",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs",
+            "academicStatus"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfileResponse",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "setName",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "getEmail",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "setEmail",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "getPhone",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "setPhone",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "getDateOfBirth",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "setDateOfBirth",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "getGender",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "setGender",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "getAddress",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "setAddress",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "getCity",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "setCity",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "getState",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "setState",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getPincode",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "setPincode",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "getBranch",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "setBranch",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "getCourse",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "setCourse",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "getPassingYear",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "setPassingYear",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "getSkills",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "setSkills",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "getGithubUrl",
+          "line": 144,
+          "isDefault": false
+        },
+        {
+          "name": "setGithubUrl",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "getLinkedinUrl",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "setLinkedinUrl",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 168,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 176,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 192,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 200,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 204,
+          "isDefault": false
+        },
+        {
+          "name": "getAcademicStatus",
+          "line": 208,
+          "isDefault": false
+        },
+        {
+          "name": "setAcademicStatus",
+          "line": 212,
+          "isDefault": false
+        },
+        {
+          "name": "StudentProfileResponse",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 46,
+        "functionCount": 45,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 223,
+      "nonEmptyLines": 162,
+      "functions": [
+        {
+          "name": "UpdateStudentProfileRequest",
+          "startLine": 69,
+          "endLine": 70,
+          "params": []
+        },
+        {
+          "name": "getPhone",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "setPhone",
+          "startLine": 76,
+          "endLine": 78,
+          "params": [
+            "phone"
+          ]
+        },
+        {
+          "name": "getDateOfBirth",
+          "startLine": 80,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "setDateOfBirth",
+          "startLine": 84,
+          "endLine": 86,
+          "params": [
+            "dateOfBirth"
+          ]
+        },
+        {
+          "name": "getGender",
+          "startLine": 88,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "setGender",
+          "startLine": 92,
+          "endLine": 94,
+          "params": [
+            "gender"
+          ]
+        },
+        {
+          "name": "getAddress",
+          "startLine": 96,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "setAddress",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "address"
+          ]
+        },
+        {
+          "name": "getCity",
+          "startLine": 104,
+          "endLine": 106,
+          "params": []
+        },
+        {
+          "name": "setCity",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "city"
+          ]
+        },
+        {
+          "name": "getState",
+          "startLine": 112,
+          "endLine": 114,
+          "params": []
+        },
+        {
+          "name": "setState",
+          "startLine": 116,
+          "endLine": 118,
+          "params": [
+            "state"
+          ]
+        },
+        {
+          "name": "getPincode",
+          "startLine": 120,
+          "endLine": 122,
+          "params": []
+        },
+        {
+          "name": "setPincode",
+          "startLine": 124,
+          "endLine": 126,
+          "params": [
+            "pincode"
+          ]
+        },
+        {
+          "name": "getBranch",
+          "startLine": 128,
+          "endLine": 130,
+          "params": []
+        },
+        {
+          "name": "setBranch",
+          "startLine": 132,
+          "endLine": 134,
+          "params": [
+            "branch"
+          ]
+        },
+        {
+          "name": "getCourse",
+          "startLine": 136,
+          "endLine": 138,
+          "params": []
+        },
+        {
+          "name": "setCourse",
+          "startLine": 140,
+          "endLine": 142,
+          "params": [
+            "course"
+          ]
+        },
+        {
+          "name": "getPassingYear",
+          "startLine": 144,
+          "endLine": 146,
+          "params": []
+        },
+        {
+          "name": "setPassingYear",
+          "startLine": 148,
+          "endLine": 150,
+          "params": [
+            "passingYear"
+          ]
+        },
+        {
+          "name": "getSkills",
+          "startLine": 152,
+          "endLine": 154,
+          "params": []
+        },
+        {
+          "name": "setSkills",
+          "startLine": 156,
+          "endLine": 158,
+          "params": [
+            "skills"
+          ]
+        },
+        {
+          "name": "getGithubUrl",
+          "startLine": 160,
+          "endLine": 162,
+          "params": []
+        },
+        {
+          "name": "setGithubUrl",
+          "startLine": 164,
+          "endLine": 166,
+          "params": [
+            "githubUrl"
+          ]
+        },
+        {
+          "name": "getLinkedinUrl",
+          "startLine": 168,
+          "endLine": 170,
+          "params": []
+        },
+        {
+          "name": "setLinkedinUrl",
+          "startLine": 172,
+          "endLine": 174,
+          "params": [
+            "linkedinUrl"
+          ]
+        },
+        {
+          "name": "getTenthPercentage",
+          "startLine": 176,
+          "endLine": 178,
+          "params": []
+        },
+        {
+          "name": "setTenthPercentage",
+          "startLine": 180,
+          "endLine": 182,
+          "params": [
+            "tenthPercentage"
+          ]
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "startLine": 184,
+          "endLine": 186,
+          "params": []
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "startLine": 188,
+          "endLine": 190,
+          "params": [
+            "tenthMathPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "startLine": 192,
+          "endLine": 194,
+          "params": []
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "startLine": 196,
+          "endLine": 198,
+          "params": [
+            "twelfthPercentage"
+          ]
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "startLine": 200,
+          "endLine": 202,
+          "params": []
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "startLine": 204,
+          "endLine": 206,
+          "params": [
+            "twelfthMathPercentage"
+          ]
+        },
+        {
+          "name": "getCgpa",
+          "startLine": 208,
+          "endLine": 210,
+          "params": []
+        },
+        {
+          "name": "setCgpa",
+          "startLine": 212,
+          "endLine": 214,
+          "params": [
+            "cgpa"
+          ]
+        },
+        {
+          "name": "getBacklogs",
+          "startLine": 216,
+          "endLine": 218,
+          "params": []
+        },
+        {
+          "name": "setBacklogs",
+          "startLine": 220,
+          "endLine": 222,
+          "params": [
+            "backlogs"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "UpdateStudentProfileRequest",
+          "startLine": 7,
+          "endLine": 223,
+          "methods": [
+            "UpdateStudentProfileRequest",
+            "getPhone",
+            "setPhone",
+            "getDateOfBirth",
+            "setDateOfBirth",
+            "getGender",
+            "setGender",
+            "getAddress",
+            "setAddress",
+            "getCity",
+            "setCity",
+            "getState",
+            "setState",
+            "getPincode",
+            "setPincode",
+            "getBranch",
+            "setBranch",
+            "getCourse",
+            "setCourse",
+            "getPassingYear",
+            "setPassingYear",
+            "getSkills",
+            "setSkills",
+            "getGithubUrl",
+            "setGithubUrl",
+            "getLinkedinUrl",
+            "setLinkedinUrl",
+            "getTenthPercentage",
+            "setTenthPercentage",
+            "getTenthMathPercentage",
+            "setTenthMathPercentage",
+            "getTwelfthPercentage",
+            "setTwelfthPercentage",
+            "getTwelfthMathPercentage",
+            "setTwelfthMathPercentage",
+            "getCgpa",
+            "setCgpa",
+            "getBacklogs",
+            "setBacklogs"
+          ],
+          "properties": [
+            "phone",
+            "dateOfBirth",
+            "gender",
+            "address",
+            "city",
+            "state",
+            "pincode",
+            "branch",
+            "course",
+            "passingYear",
+            "skills",
+            "githubUrl",
+            "linkedinUrl",
+            "tenthPercentage",
+            "tenthMathPercentage",
+            "twelfthPercentage",
+            "twelfthMathPercentage",
+            "cgpa",
+            "backlogs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UpdateStudentProfileRequest",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "getPhone",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "setPhone",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "getDateOfBirth",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "setDateOfBirth",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "getGender",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "setGender",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "getAddress",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "setAddress",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getCity",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "setCity",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "getState",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "setState",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "getPincode",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "setPincode",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "getBranch",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "setBranch",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "getCourse",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "setCourse",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "getPassingYear",
+          "line": 144,
+          "isDefault": false
+        },
+        {
+          "name": "setPassingYear",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "getSkills",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "setSkills",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "getGithubUrl",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "setGithubUrl",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "getLinkedinUrl",
+          "line": 168,
+          "isDefault": false
+        },
+        {
+          "name": "setLinkedinUrl",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthPercentage",
+          "line": 176,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthPercentage",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "getTenthMathPercentage",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "setTenthMathPercentage",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthPercentage",
+          "line": 192,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthPercentage",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "getTwelfthMathPercentage",
+          "line": 200,
+          "isDefault": false
+        },
+        {
+          "name": "setTwelfthMathPercentage",
+          "line": 204,
+          "isDefault": false
+        },
+        {
+          "name": "getCgpa",
+          "line": 208,
+          "isDefault": false
+        },
+        {
+          "name": "setCgpa",
+          "line": 212,
+          "isDefault": false
+        },
+        {
+          "name": "getBacklogs",
+          "line": 216,
+          "isDefault": false
+        },
+        {
+          "name": "setBacklogs",
+          "line": 220,
+          "isDefault": false
+        },
+        {
+          "name": "UpdateStudentProfileRequest",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 40,
+        "functionCount": 39,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "classes": [
+        {
+          "name": "AcademicStatus",
+          "startLine": 3,
+          "endLine": 7,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AcademicStatus",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 140,
+      "nonEmptyLines": 105,
+      "functions": [
+        {
+          "name": "StudentProfileService",
+          "startLine": 21,
+          "endLine": 27,
+          "params": [
+            "userRepository",
+            "profileRepository"
+          ]
+        },
+        {
+          "name": "getProfile",
+          "startLine": 29,
+          "endLine": 42,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "updateProfile",
+          "startLine": 44,
+          "endLine": 77,
+          "params": [
+            "email",
+            "request"
+          ]
+        },
+        {
+          "name": "toResponse",
+          "startLine": 79,
+          "endLine": 125,
+          "params": [
+            "profile"
+          ]
+        },
+        {
+          "name": "getAllStudentsForPlacement",
+          "startLine": 131,
+          "endLine": 139,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "StudentProfileService",
+          "startLine": 15,
+          "endLine": 140,
+          "methods": [
+            "StudentProfileService",
+            "getProfile",
+            "updateProfile",
+            "toResponse",
+            "getAllStudentsForPlacement"
+          ],
+          "properties": [
+            "userRepository",
+            "profileRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StudentProfileService",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "getProfile",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "updateProfile",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "getAllStudentsForPlacement",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "StudentProfileService",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getProfile",
+          "callee": "userRepository.findByEmail(email).orElseThrow",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getProfile",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getProfile",
+          "callee": "new RuntimeException",
+          "lineNumber": 34
+        },
+        {
+          "caller": "getProfile",
+          "callee": "profileRepository\n                .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getProfile",
+          "callee": "profileRepository.findByUserId",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getProfile",
+          "callee": "user.getId",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getProfile",
+          "callee": "new RuntimeException",
+          "lineNumber": 39
+        },
+        {
+          "caller": "getProfile",
+          "callee": "toResponse",
+          "lineNumber": 41
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "userRepository.findByEmail(email).orElseThrow",
+          "lineNumber": 49
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "userRepository.findByEmail",
+          "lineNumber": 49
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "new RuntimeException",
+          "lineNumber": 51
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileRepository\n                .findByUserId(user.getId()).orElseThrow",
+          "lineNumber": 53
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileRepository.findByUserId",
+          "lineNumber": 53
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "user.getId",
+          "lineNumber": 54
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "new RuntimeException",
+          "lineNumber": 56
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setPhone",
+          "lineNumber": 58
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getPhone",
+          "lineNumber": 58
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setDateOfBirth",
+          "lineNumber": 59
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getDateOfBirth",
+          "lineNumber": 59
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setGender",
+          "lineNumber": 60
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getGender",
+          "lineNumber": 60
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setAddress",
+          "lineNumber": 61
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getAddress",
+          "lineNumber": 61
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setCity",
+          "lineNumber": 62
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getCity",
+          "lineNumber": 62
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setState",
+          "lineNumber": 63
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getState",
+          "lineNumber": 63
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setPincode",
+          "lineNumber": 64
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getPincode",
+          "lineNumber": 64
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setBranch",
+          "lineNumber": 65
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getBranch",
+          "lineNumber": 65
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setCourse",
+          "lineNumber": 66
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getCourse",
+          "lineNumber": 66
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setPassingYear",
+          "lineNumber": 67
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getPassingYear",
+          "lineNumber": 67
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setSkills",
+          "lineNumber": 68
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getSkills",
+          "lineNumber": 68
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setGithubUrl",
+          "lineNumber": 69
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getGithubUrl",
+          "lineNumber": 69
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profile.setLinkedinUrl",
+          "lineNumber": 70
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "request.getLinkedinUrl",
+          "lineNumber": 70
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "profileRepository.save",
+          "lineNumber": 74
+        },
+        {
+          "caller": "updateProfile",
+          "callee": "toResponse",
+          "lineNumber": 76
+        },
+        {
+          "caller": "toResponse",
+          "callee": "new StudentProfileResponse",
+          "lineNumber": 83
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getUser",
+          "lineNumber": 85
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setName",
+          "lineNumber": 87
+        },
+        {
+          "caller": "toResponse",
+          "callee": "user.getName",
+          "lineNumber": 87
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setEmail",
+          "lineNumber": 88
+        },
+        {
+          "caller": "toResponse",
+          "callee": "user.getEmail",
+          "lineNumber": 88
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setPhone",
+          "lineNumber": 90
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getPhone",
+          "lineNumber": 90
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setDateOfBirth",
+          "lineNumber": 91
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getDateOfBirth",
+          "lineNumber": 91
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setGender",
+          "lineNumber": 92
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getGender",
+          "lineNumber": 92
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setAddress",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getAddress",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setCity",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getCity",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setPincode",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getPincode",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setBranch",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getBranch",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setCourse",
+          "lineNumber": 99
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getCourse",
+          "lineNumber": 99
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setPassingYear",
+          "lineNumber": 100
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getPassingYear",
+          "lineNumber": 100
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setSkills",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getSkills",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setGithubUrl",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getGithubUrl",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setLinkedinUrl",
+          "lineNumber": 104
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getLinkedinUrl",
+          "lineNumber": 104
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthPercentage",
+          "lineNumber": 106
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getTenthPercentage",
+          "lineNumber": 107
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTenthMathPercentage",
+          "lineNumber": 109
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getTenthMathPercentage",
+          "lineNumber": 110
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthPercentage",
+          "lineNumber": 112
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getTwelfthPercentage",
+          "lineNumber": 113
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setTwelfthMathPercentage",
+          "lineNumber": 115
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getTwelfthMathPercentage",
+          "lineNumber": 116
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setCgpa",
+          "lineNumber": 118
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getCgpa",
+          "lineNumber": 118
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setBacklogs",
+          "lineNumber": 119
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getBacklogs",
+          "lineNumber": 119
+        },
+        {
+          "caller": "toResponse",
+          "callee": "response.setAcademicStatus",
+          "lineNumber": 121
+        },
+        {
+          "caller": "toResponse",
+          "callee": "profile.getAcademicStatus",
+          "lineNumber": 122
+        },
+        {
+          "caller": "getAllStudentsForPlacement",
+          "callee": "profileRepository\n                .findAll()\n                .stream()\n                .map(PlacementStudentResponse::from).toList",
+          "lineNumber": 134
+        },
+        {
+          "caller": "getAllStudentsForPlacement",
+          "callee": "profileRepository\n                .findAll()\n                .stream().map",
+          "lineNumber": 134
+        },
+        {
+          "caller": "getAllStudentsForPlacement",
+          "callee": "profileRepository\n                .findAll().stream",
+          "lineNumber": 134
+        },
+        {
+          "caller": "getAllStudentsForPlacement",
+          "callee": "profileRepository.findAll",
+          "lineNumber": 134
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    }
+  ]
+}

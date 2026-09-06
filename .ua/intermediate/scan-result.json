@@ -1,0 +1,1286 @@
+{
+  "name": "campus-placement-portal",
+  "description": "Campus Placement Portal with Spring Boot backend (sandboxpro) and React/Vite/Tailwind frontend. Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+  "languages": [
+    "batch",
+    "css",
+    "html",
+    "java",
+    "javascript",
+    "json",
+    "markdown",
+    "properties",
+    "unknown",
+    "xml"
+  ],
+  "frameworks": [
+    "React",
+    "Vite",
+    "TailwindCSS",
+    "Spring Boot",
+    "Spring Data",
+    "Spring Web"
+  ],
+  "files": [
+    {
+      "path": ".DS_Store",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.gitattributes",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/.mvn/wrapper/maven-wrapper.properties",
+      "language": "properties",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/mvnw",
+      "language": "unknown",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/mvnw.cmd",
+      "language": "batch",
+      "sizeLines": 189,
+      "fileCategory": "script"
+    },
+    {
+      "path": "backEnd/pom.xml",
+      "language": "xml",
+      "sizeLines": 104,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/src/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminController.java",
+      "language": "java",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "language": "java",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/JobController.java",
+      "language": "java",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementJobController.java",
+      "language": "java",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "language": "java",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java",
+      "language": "java",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterJobController.java",
+      "language": "java",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "language": "java",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentAcademicController.java",
+      "language": "java",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentJobController.java",
+      "language": "java",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "language": "java",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentResumeController.java",
+      "language": "java",
+      "sizeLines": 242,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "language": "java",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "language": "java",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "language": "java",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminUserResponse.java",
+      "language": "java",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "language": "java",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java",
+      "language": "java",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "language": "java",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "language": "java",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "language": "java",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "language": "java",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "language": "java",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "language": "java",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "language": "java",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "language": "java",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "language": "java",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "language": "java",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "language": "java",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "language": "java",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "language": "java",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobType.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "language": "java",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "language": "java",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "language": "java",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "language": "java",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "language": "java",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/WorkMode.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "language": "java",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "language": "java",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java",
+      "language": "java",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "language": "java",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java",
+      "language": "java",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java",
+      "language": "java",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java",
+      "language": "java",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "language": "java",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/DataInitializer.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/EligibilityService.java",
+      "language": "java",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java",
+      "language": "java",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java",
+      "language": "java",
+      "sizeLines": 293,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java",
+      "language": "java",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileInitializer.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "language": "java",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/resources/application.properties",
+      "language": "properties",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/README.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/index.html",
+      "language": "html",
+      "sizeLines": 13,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/package.json",
+      "language": "json",
+      "sizeLines": 31,
+      "fileCategory": "config"
+    },
+    {
+      "path": "frontend/src/App.css",
+      "language": "css",
+      "sizeLines": 184,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/src/App.jsx",
+      "language": "javascript",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/axios.jsx",
+      "language": "javascript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/ProtectedRoute.jsx",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/common/ThemeToggle.jsx",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/context/ThemeContext.jsx",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "language": "css",
+      "sizeLines": 8,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "language": "javascript",
+      "sizeLines": 754,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "language": "javascript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "language": "javascript",
+      "sizeLines": 554,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminSettings.jsx",
+      "language": "javascript",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Admin/AdminUsers.jsx",
+      "language": "javascript",
+      "sizeLines": 977,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Login.jsx",
+      "language": "javascript",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "language": "javascript",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "language": "javascript",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "language": "javascript",
+      "sizeLines": 698,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "language": "javascript",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementReports.jsx",
+      "language": "javascript",
+      "sizeLines": 248,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "language": "javascript",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Applicants.jsx",
+      "language": "javascript",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "language": "javascript",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/CreateJob.jsx",
+      "language": "javascript",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Interviews.jsx",
+      "language": "javascript",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "language": "javascript",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/Notifications.jsx",
+      "language": "javascript",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/Profile.jsx",
+      "language": "javascript",
+      "sizeLines": 671,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentApplications.jsx",
+      "language": "javascript",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "language": "javascript",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentInterviews.jsx",
+      "language": "javascript",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "language": "javascript",
+      "sizeLines": 400,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentJobs.jsx",
+      "language": "javascript",
+      "sizeLines": 597,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentLayout.jsx",
+      "language": "javascript",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentNotifications.jsx",
+      "language": "javascript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentResume.jsx",
+      "language": "javascript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/Student/StudentSettings.jsx",
+      "language": "javascript",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "language": "javascript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 138,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "importMap": {
+    ".DS_Store": [],
+    "backEnd/.DS_Store": [],
+    "backEnd/.gitattributes": [],
+    "backEnd/.mvn/wrapper/maven-wrapper.properties": [],
+    "backEnd/mvnw": [],
+    "backEnd/mvnw.cmd": [],
+    "backEnd/pom.xml": [],
+    "backEnd/src/.DS_Store": [],
+    "backEnd/src/main/.DS_Store": [],
+    "backEnd/src/main/java/.DS_Store": [],
+    "backEnd/src/main/java/com/.DS_Store": [],
+    "backEnd/src/main/java/com/myanatomy/.DS_Store": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/SandboxproApplication.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminAcademicVerificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AdminController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/JobController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementJobController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterJobController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterProfileController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentAcademicController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentApplicationController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentController.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentJobController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentResumeController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRejectRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminUserResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobType.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/WorkMode.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobType.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/WorkMode.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/RecruiterProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateApplicationStatusRequest.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/exception/GlobalExceptionHandler.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobType.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/WorkMode.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtAuthenticationFilter.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/PasswordConfig.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/security/SecurityConfig.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AcademicVerificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationRequestDto.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AdminAcademicVerificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/AdminAcademicVerificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicVerificationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/AcademicVerificationRequestRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/DataInitializer.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/EligibilityService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobApplicationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/ApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementApplicationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/ApplicationStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobApplication.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobApplicationRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/JobService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateJobRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/JobResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Job.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/JobStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/JobRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/RecruiterProfileService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateRecruiterProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/RecruiterProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/RecruiterProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileInitializer.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ],
+    "backEnd/src/main/resources/application.properties": [],
+    "backEnd/src/test/java/com/myanatomy/sandboxpro/SandboxproApplicationTests.java": [],
+    "frontend/README.md": [],
+    "frontend/eslint.config.js": [],
+    "frontend/index.html": [],
+    "frontend/package.json": [],
+    "frontend/src/App.css": [],
+    "frontend/src/App.jsx": [
+      "frontend/src/components/ProtectedRoute.jsx",
+      "frontend/src/pages/Admin/AdminAcademicVerification.jsx",
+      "frontend/src/pages/Admin/AdminAuditLogs.jsx",
+      "frontend/src/pages/Admin/AdminDashboard.jsx",
+      "frontend/src/pages/Admin/AdminJobVerification.jsx",
+      "frontend/src/pages/Admin/AdminLayout.jsx",
+      "frontend/src/pages/Admin/AdminNotifications.jsx",
+      "frontend/src/pages/Admin/AdminSettings.jsx",
+      "frontend/src/pages/Admin/AdminUsers.jsx",
+      "frontend/src/pages/Login.jsx",
+      "frontend/src/pages/Placement/PlacementApplications.jsx",
+      "frontend/src/pages/Placement/PlacementCompanies.jsx",
+      "frontend/src/pages/Placement/PlacementDashboard.jsx",
+      "frontend/src/pages/Placement/PlacementDrives.jsx",
+      "frontend/src/pages/Placement/PlacementLayout.jsx",
+      "frontend/src/pages/Placement/PlacementNotifications.jsx",
+      "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "frontend/src/pages/Placement/PlacementReports.jsx",
+      "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "frontend/src/pages/Student/Profile.jsx",
+      "frontend/src/pages/Student/StudentApplications.jsx",
+      "frontend/src/pages/Student/StudentDashboard.jsx",
+      "frontend/src/pages/Student/StudentInterviews.jsx",
+      "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "frontend/src/pages/Student/StudentJobs.jsx",
+      "frontend/src/pages/Student/StudentLayout.jsx",
+      "frontend/src/pages/Student/StudentNotifications.jsx",
+      "frontend/src/pages/Student/StudentResume.jsx",
+      "frontend/src/pages/Student/StudentSettings.jsx"
+    ],
+    "frontend/src/api/axios.jsx": [],
+    "frontend/src/components/ProtectedRoute.jsx": [],
+    "frontend/src/components/common/ThemeToggle.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/context/ThemeContext.jsx": [],
+    "frontend/src/index.css": [],
+    "frontend/src/main.jsx": [
+      "frontend/src/App.jsx",
+      "frontend/src/context/ThemeContext.jsx",
+      "frontend/src/index.css"
+    ],
+    "frontend/src/pages/Admin/AdminAcademicVerification.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminAuditLogs.jsx": [],
+    "frontend/src/pages/Admin/AdminDashboard.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminJobVerification.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminLayout.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminNotifications.jsx": [],
+    "frontend/src/pages/Admin/AdminSettings.jsx": [
+      "frontend/src/context/ThemeContext.jsx"
+    ],
+    "frontend/src/pages/Admin/AdminUsers.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Login.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementApplications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementCompanies.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementDashboard.jsx": [],
+    "frontend/src/pages/Placement/PlacementDrives.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementLayout.jsx": [],
+    "frontend/src/pages/Placement/PlacementNotifications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementRecords.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementReports.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Placement/PlacementStudents.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/Applicants.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/CompanyProfile.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/CreateJob.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/Interviews.jsx": [],
+    "frontend/src/pages/Recruiter/ManageJobs.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/Notifications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Recruiter/RecruiterDashboard.jsx": [],
+    "frontend/src/pages/Recruiter/RecruiterLayout.jsx": [],
+    "frontend/src/pages/Student/Profile.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentApplications.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentDashboard.jsx": [],
+    "frontend/src/pages/Student/StudentInterviews.jsx": [],
+    "frontend/src/pages/Student/StudentJobDetails.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentJobs.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentLayout.jsx": [],
+    "frontend/src/pages/Student/StudentNotifications.jsx": [],
+    "frontend/src/pages/Student/StudentResume.jsx": [
+      "frontend/src/api/axios.jsx"
+    ],
+    "frontend/src/pages/Student/StudentSettings.jsx": [],
+    "frontend/vite.config.js": []
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "type": "file",
+      "name": "AuthController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "summary": "AuthController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "security",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:AuthController",
+      "type": "function",
+      "name": "AuthController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "summary": "Function AuthController in AuthController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "summary": "Function login in AuthController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:AuthController",
+      "type": "class",
+      "name": "AuthController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "summary": "Class AuthController in AuthController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "type": "file",
+      "name": "LoginRequest.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "LoginRequest class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:getEmail",
+      "type": "function",
+      "name": "getEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "Function getEmail in LoginRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:setEmail",
+      "type": "function",
+      "name": "setEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "Function setEmail in LoginRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:getPassword",
+      "type": "function",
+      "name": "getPassword",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "Function getPassword in LoginRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:setPassword",
+      "type": "function",
+      "name": "setPassword",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "Function setPassword in LoginRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:LoginRequest",
+      "type": "class",
+      "name": "LoginRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "summary": "Class LoginRequest in LoginRequest.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "type": "file",
+      "name": "LoginResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "LoginResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:LoginResponse",
+      "type": "function",
+      "name": "LoginResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Function LoginResponse in LoginResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getToken",
+      "type": "function",
+      "name": "getToken",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Function getToken in LoginResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Function getName in LoginResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getEmail",
+      "type": "function",
+      "name": "getEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Function getEmail in LoginResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getRole",
+      "type": "function",
+      "name": "getRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Function getRole in LoginResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:LoginResponse",
+      "type": "class",
+      "name": "LoginResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "summary": "Class LoginResponse in LoginResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "type": "file",
+      "name": "JwtService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "JwtService class in backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "security",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:getKey",
+      "type": "function",
+      "name": "getKey",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function getKey in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:generateToken",
+      "type": "function",
+      "name": "generateToken",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function generateToken in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:extractEmail",
+      "type": "function",
+      "name": "extractEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function extractEmail in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:isTokenValid",
+      "type": "function",
+      "name": "isTokenValid",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function isTokenValid in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:isTokenExpired",
+      "type": "function",
+      "name": "isTokenExpired",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function isTokenExpired in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:getClaims",
+      "type": "function",
+      "name": "getClaims",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Function getClaims in JwtService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:JwtService",
+      "type": "class",
+      "name": "JwtService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "summary": "Class JwtService in JwtService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "type": "file",
+      "name": "AuthService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "summary": "AuthService class in backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "security",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:AuthService",
+      "type": "function",
+      "name": "AuthService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "summary": "Function AuthService in AuthService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "summary": "Function login in AuthService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:AuthService",
+      "type": "class",
+      "name": "AuthService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "summary": "Class AuthService in AuthService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:AuthController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java:AuthController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/AuthController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:getEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:setEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:getPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:setPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java:LoginRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:LoginResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:getRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java:LoginResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:getKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:generateToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:extractEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:isTokenValid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:isTokenExpired",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:getClaims",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java:JwtService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:AuthService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java:AuthService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/LoginResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/AuthService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/security/JwtService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

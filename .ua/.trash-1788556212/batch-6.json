@@ -1,0 +1,1228 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "type": "file",
+      "name": "PlacementNotificationController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "PlacementNotificationController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:PlacementNotificationController",
+      "type": "function",
+      "name": "PlacementNotificationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Function PlacementNotificationController in PlacementNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:getNotifications",
+      "type": "function",
+      "name": "getNotifications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Function getNotifications in PlacementNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:getUnreadCount",
+      "type": "function",
+      "name": "getUnreadCount",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Function getUnreadCount in PlacementNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:markAsRead",
+      "type": "function",
+      "name": "markAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Function markAsRead in PlacementNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:markAllAsRead",
+      "type": "function",
+      "name": "markAllAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Function markAllAsRead in PlacementNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:PlacementNotificationController",
+      "type": "class",
+      "name": "PlacementNotificationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "summary": "Class PlacementNotificationController in PlacementNotificationController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "type": "file",
+      "name": "RecruiterNotificationController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "RecruiterNotificationController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:RecruiterNotificationController",
+      "type": "function",
+      "name": "RecruiterNotificationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Function RecruiterNotificationController in RecruiterNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:getNotifications",
+      "type": "function",
+      "name": "getNotifications",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Function getNotifications in RecruiterNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:getUnreadCount",
+      "type": "function",
+      "name": "getUnreadCount",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Function getUnreadCount in RecruiterNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:markAsRead",
+      "type": "function",
+      "name": "markAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Function markAsRead in RecruiterNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:markAllAsRead",
+      "type": "function",
+      "name": "markAllAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Function markAllAsRead in RecruiterNotificationController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:RecruiterNotificationController",
+      "type": "class",
+      "name": "RecruiterNotificationController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "summary": "Class RecruiterNotificationController in RecruiterNotificationController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "type": "file",
+      "name": "CreateUserRequest.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "CreateUserRequest class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:CreateUserRequest",
+      "type": "function",
+      "name": "CreateUserRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function CreateUserRequest in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function getName in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function setName in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getEmail",
+      "type": "function",
+      "name": "getEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function getEmail in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setEmail",
+      "type": "function",
+      "name": "setEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function setEmail in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getPassword",
+      "type": "function",
+      "name": "getPassword",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function getPassword in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setPassword",
+      "type": "function",
+      "name": "setPassword",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function setPassword in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getRole",
+      "type": "function",
+      "name": "getRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function getRole in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setRole",
+      "type": "function",
+      "name": "setRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Function setRole in CreateUserRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:CreateUserRequest",
+      "type": "class",
+      "name": "CreateUserRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "summary": "Class CreateUserRequest in CreateUserRequest.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "type": "file",
+      "name": "NotificationResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "NotificationResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:NotificationResponse",
+      "type": "function",
+      "name": "NotificationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function NotificationResponse in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:from",
+      "type": "function",
+      "name": "from",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function from in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function getId in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getTitle",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function getTitle in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getMessage",
+      "type": "function",
+      "name": "getMessage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function getMessage in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:isRead",
+      "type": "function",
+      "name": "isRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function isRead in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getCreatedAt",
+      "type": "function",
+      "name": "getCreatedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Function getCreatedAt in NotificationResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:NotificationResponse",
+      "type": "class",
+      "name": "NotificationResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "summary": "Class NotificationResponse in NotificationResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "type": "file",
+      "name": "Notification.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Notification class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:prePersist",
+      "type": "function",
+      "name": "prePersist",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function prePersist in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function getId in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getTargetRole",
+      "type": "function",
+      "name": "getTargetRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function getTargetRole in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setTargetRole",
+      "type": "function",
+      "name": "setTargetRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function setTargetRole in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getTitle",
+      "type": "function",
+      "name": "getTitle",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function getTitle in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setTitle",
+      "type": "function",
+      "name": "setTitle",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function setTitle in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getMessage",
+      "type": "function",
+      "name": "getMessage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function getMessage in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setMessage",
+      "type": "function",
+      "name": "setMessage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function setMessage in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:isRead",
+      "type": "function",
+      "name": "isRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function isRead in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setRead",
+      "type": "function",
+      "name": "setRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function setRead in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getCreatedAt",
+      "type": "function",
+      "name": "getCreatedAt",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Function getCreatedAt in Notification.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:Notification",
+      "type": "class",
+      "name": "Notification",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "summary": "Class Notification in Notification.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "file",
+      "name": "Role.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "summary": "Role class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java:Role",
+      "type": "class",
+      "name": "Role",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "summary": "Class Role in Role.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "type": "file",
+      "name": "NotificationRepository.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "summary": "NotificationRepository class in backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java providing core application logic.",
+      "tags": [
+        "code",
+        "database",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java:NotificationRepository",
+      "type": "class",
+      "name": "NotificationRepository",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "summary": "Class NotificationRepository in NotificationRepository.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "type": "file",
+      "name": "NotificationService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "NotificationService class in backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:NotificationService",
+      "type": "function",
+      "name": "NotificationService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function NotificationService in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:notifyRole",
+      "type": "function",
+      "name": "notifyRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function notifyRole in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:getForRole",
+      "type": "function",
+      "name": "getForRole",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function getForRole in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:getUnreadCount",
+      "type": "function",
+      "name": "getUnreadCount",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function getUnreadCount in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:markAsRead",
+      "type": "function",
+      "name": "markAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function markAsRead in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:markAllAsRead",
+      "type": "function",
+      "name": "markAllAsRead",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Function markAllAsRead in NotificationService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:NotificationService",
+      "type": "class",
+      "name": "NotificationService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "summary": "Class NotificationService in NotificationService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:PlacementNotificationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:getNotifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:getUnreadCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:markAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:markAllAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java:PlacementNotificationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:RecruiterNotificationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:getNotifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:getUnreadCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:markAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:markAllAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java:RecruiterNotificationController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/RecruiterNotificationController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:CreateUserRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:getRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:setRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java:CreateUserRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/CreateUserRequest.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:NotificationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:from",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:isRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:getCreatedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java:NotificationResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:prePersist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getTargetRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setTargetRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:isRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:setRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:getCreatedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java:Notification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java:Role",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java:NotificationRepository",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:NotificationService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:notifyRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:getForRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:getUnreadCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:markAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:markAllAsRead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java:NotificationService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/NotificationResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Notification.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/Role.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/NotificationService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/NotificationRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

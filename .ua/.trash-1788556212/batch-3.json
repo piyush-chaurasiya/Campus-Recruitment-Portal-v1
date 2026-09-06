@@ -1,0 +1,1298 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementRecords.jsx",
+      "type": "file",
+      "name": "PlacementRecords.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "summary": "PlacementRecords.jsx implements PlacementRecords functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementRecords.jsx:PlacementRecords",
+      "type": "function",
+      "name": "PlacementRecords",
+      "filePath": "frontend/src/pages/Placement/PlacementRecords.jsx",
+      "summary": "Function PlacementRecords in PlacementRecords.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementReports.jsx",
+      "type": "file",
+      "name": "PlacementReports.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementReports.jsx",
+      "summary": "PlacementReports.jsx implements PlacementReports functionality.",
+      "tags": [
+        "code",
+        "database",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementReports.jsx:PlacementReports",
+      "type": "function",
+      "name": "PlacementReports",
+      "filePath": "frontend/src/pages/Placement/PlacementReports.jsx",
+      "summary": "Function PlacementReports in PlacementReports.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Placement/PlacementStudents.jsx",
+      "type": "file",
+      "name": "PlacementStudents.jsx",
+      "filePath": "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "summary": "PlacementStudents.jsx implements PlacementStudents functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Placement/PlacementStudents.jsx:PlacementStudents",
+      "type": "function",
+      "name": "PlacementStudents",
+      "filePath": "frontend/src/pages/Placement/PlacementStudents.jsx",
+      "summary": "Function PlacementStudents in PlacementStudents.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/Applicants.jsx",
+      "type": "file",
+      "name": "Applicants.jsx",
+      "filePath": "frontend/src/pages/Recruiter/Applicants.jsx",
+      "summary": "Applicants.jsx implements Applicants functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/Applicants.jsx:Applicants",
+      "type": "function",
+      "name": "Applicants",
+      "filePath": "frontend/src/pages/Recruiter/Applicants.jsx",
+      "summary": "Function Applicants in Applicants.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "type": "file",
+      "name": "CompanyProfile.jsx",
+      "filePath": "frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "summary": "CompanyProfile.jsx implements CompanyProfile functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/CompanyProfile.jsx:CompanyProfile",
+      "type": "function",
+      "name": "CompanyProfile",
+      "filePath": "frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "summary": "Function CompanyProfile in CompanyProfile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/CreateJob.jsx",
+      "type": "file",
+      "name": "CreateJob.jsx",
+      "filePath": "frontend/src/pages/Recruiter/CreateJob.jsx",
+      "summary": "CreateJob.jsx implements CreateJob, Input functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/CreateJob.jsx:CreateJob",
+      "type": "function",
+      "name": "CreateJob",
+      "filePath": "frontend/src/pages/Recruiter/CreateJob.jsx",
+      "summary": "Function CreateJob in CreateJob.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/CreateJob.jsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "frontend/src/pages/Recruiter/CreateJob.jsx",
+      "summary": "Function Input in CreateJob.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "type": "file",
+      "name": "ManageJobs.jsx",
+      "filePath": "frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "summary": "ManageJobs.jsx implements ManageJobs functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/ManageJobs.jsx:ManageJobs",
+      "type": "function",
+      "name": "ManageJobs",
+      "filePath": "frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "summary": "Function ManageJobs in ManageJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/Notifications.jsx",
+      "type": "file",
+      "name": "Notifications.jsx",
+      "filePath": "frontend/src/pages/Recruiter/Notifications.jsx",
+      "summary": "Notifications.jsx implements Notifications functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/Notifications.jsx:Notifications",
+      "type": "function",
+      "name": "Notifications",
+      "filePath": "frontend/src/pages/Recruiter/Notifications.jsx",
+      "summary": "Function Notifications in Notifications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "type": "file",
+      "name": "RecruiterDashboard.jsx",
+      "filePath": "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "summary": "RecruiterDashboard.jsx implements RecruiterDashboard, Stat functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/RecruiterDashboard.jsx:RecruiterDashboard",
+      "type": "function",
+      "name": "RecruiterDashboard",
+      "filePath": "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "summary": "Function RecruiterDashboard in RecruiterDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/RecruiterDashboard.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "summary": "Function Stat in RecruiterDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "type": "file",
+      "name": "RecruiterLayout.jsx",
+      "filePath": "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "summary": "RecruiterLayout.jsx implements RecruiterLayout functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Recruiter/RecruiterLayout.jsx:RecruiterLayout",
+      "type": "function",
+      "name": "RecruiterLayout",
+      "filePath": "frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "summary": "Function RecruiterLayout in RecruiterLayout.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/Profile.jsx",
+      "type": "file",
+      "name": "Profile.jsx",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Profile.jsx implements Profile, Field, Input functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/Profile.jsx:Profile",
+      "type": "function",
+      "name": "Profile",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Function Profile in Profile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/Profile.jsx:Field",
+      "type": "function",
+      "name": "Field",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Function Field in Profile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/Profile.jsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Function Input in Profile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/Profile.jsx:Select",
+      "type": "function",
+      "name": "Select",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Function Select in Profile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/Profile.jsx:AcademicInput",
+      "type": "function",
+      "name": "AcademicInput",
+      "filePath": "frontend/src/pages/Student/Profile.jsx",
+      "summary": "Function AcademicInput in Profile.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "type": "file",
+      "name": "StudentApplications.jsx",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "StudentApplications.jsx implements StudentApplications, Stat, ApplicationCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentApplications.jsx:StudentApplications",
+      "type": "function",
+      "name": "StudentApplications",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "Function StudentApplications in StudentApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentApplications.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "Function Stat in StudentApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentApplications.jsx:ApplicationCard",
+      "type": "function",
+      "name": "ApplicationCard",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "Function ApplicationCard in StudentApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentApplications.jsx:StatusBadge",
+      "type": "function",
+      "name": "StatusBadge",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "Function StatusBadge in StudentApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentApplications.jsx:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "frontend/src/pages/Student/StudentApplications.jsx",
+      "summary": "Function formatDate in StudentApplications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentDashboard.jsx",
+      "type": "file",
+      "name": "StudentDashboard.jsx",
+      "filePath": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "summary": "StudentDashboard.jsx implements StudentDashboard, StatCard, ActionCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentDashboard.jsx:StudentDashboard",
+      "type": "function",
+      "name": "StudentDashboard",
+      "filePath": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "summary": "Function StudentDashboard in StudentDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentDashboard.jsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "summary": "Function StatCard in StudentDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentDashboard.jsx:ActionCard",
+      "type": "function",
+      "name": "ActionCard",
+      "filePath": "frontend/src/pages/Student/StudentDashboard.jsx",
+      "summary": "Function ActionCard in StudentDashboard.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentInterviews.jsx",
+      "type": "file",
+      "name": "StudentInterviews.jsx",
+      "filePath": "frontend/src/pages/Student/StudentInterviews.jsx",
+      "summary": "StudentInterviews.jsx implements StudentInterviews, Stat functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentInterviews.jsx:StudentInterviews",
+      "type": "function",
+      "name": "StudentInterviews",
+      "filePath": "frontend/src/pages/Student/StudentInterviews.jsx",
+      "summary": "Function StudentInterviews in StudentInterviews.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentInterviews.jsx:Stat",
+      "type": "function",
+      "name": "Stat",
+      "filePath": "frontend/src/pages/Student/StudentInterviews.jsx",
+      "summary": "Function Stat in StudentInterviews.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "type": "file",
+      "name": "StudentJobDetails.jsx",
+      "filePath": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "summary": "StudentJobDetails.jsx implements StudentJobDetails, Requirement, Detail functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobDetails.jsx:StudentJobDetails",
+      "type": "function",
+      "name": "StudentJobDetails",
+      "filePath": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "summary": "Function StudentJobDetails in StudentJobDetails.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobDetails.jsx:Requirement",
+      "type": "function",
+      "name": "Requirement",
+      "filePath": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "summary": "Function Requirement in StudentJobDetails.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobDetails.jsx:Detail",
+      "type": "function",
+      "name": "Detail",
+      "filePath": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "summary": "Function Detail in StudentJobDetails.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobDetails.jsx:format",
+      "type": "function",
+      "name": "format",
+      "filePath": "frontend/src/pages/Student/StudentJobDetails.jsx",
+      "summary": "Function format in StudentJobDetails.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "type": "file",
+      "name": "StudentJobs.jsx",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "StudentJobs.jsx implements StudentJobs, Filter, JobCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:StudentJobs",
+      "type": "function",
+      "name": "StudentJobs",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function StudentJobs in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:Filter",
+      "type": "function",
+      "name": "Filter",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function Filter in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:JobCard",
+      "type": "function",
+      "name": "JobCard",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function JobCard in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:Tag",
+      "type": "function",
+      "name": "Tag",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function Tag in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:formatJobType",
+      "type": "function",
+      "name": "formatJobType",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function formatJobType in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentJobs.jsx:formatWorkMode",
+      "type": "function",
+      "name": "formatWorkMode",
+      "filePath": "frontend/src/pages/Student/StudentJobs.jsx",
+      "summary": "Function formatWorkMode in StudentJobs.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentLayout.jsx",
+      "type": "file",
+      "name": "StudentLayout.jsx",
+      "filePath": "frontend/src/pages/Student/StudentLayout.jsx",
+      "summary": "StudentLayout.jsx implements StudentLayout functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentLayout.jsx:StudentLayout",
+      "type": "function",
+      "name": "StudentLayout",
+      "filePath": "frontend/src/pages/Student/StudentLayout.jsx",
+      "summary": "Function StudentLayout in StudentLayout.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentNotifications.jsx",
+      "type": "file",
+      "name": "StudentNotifications.jsx",
+      "filePath": "frontend/src/pages/Student/StudentNotifications.jsx",
+      "summary": "StudentNotifications.jsx implements StudentNotifications functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentNotifications.jsx:StudentNotifications",
+      "type": "function",
+      "name": "StudentNotifications",
+      "filePath": "frontend/src/pages/Student/StudentNotifications.jsx",
+      "summary": "Function StudentNotifications in StudentNotifications.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "type": "file",
+      "name": "StudentResume.jsx",
+      "filePath": "frontend/src/pages/Student/StudentResume.jsx",
+      "summary": "StudentResume.jsx implements StudentResume, getFilename, InfoCard functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentResume.jsx:StudentResume",
+      "type": "function",
+      "name": "StudentResume",
+      "filePath": "frontend/src/pages/Student/StudentResume.jsx",
+      "summary": "Function StudentResume in StudentResume.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentResume.jsx:getFilename",
+      "type": "function",
+      "name": "getFilename",
+      "filePath": "frontend/src/pages/Student/StudentResume.jsx",
+      "summary": "Function getFilename in StudentResume.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentResume.jsx:InfoCard",
+      "type": "function",
+      "name": "InfoCard",
+      "filePath": "frontend/src/pages/Student/StudentResume.jsx",
+      "summary": "Function InfoCard in StudentResume.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "type": "file",
+      "name": "StudentSettings.jsx",
+      "filePath": "frontend/src/pages/Student/StudentSettings.jsx",
+      "summary": "StudentSettings.jsx implements StudentSettings, Section, SettingRow functionality.",
+      "tags": [
+        "code",
+        "component",
+        "ui-view",
+        "javascript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentSettings.jsx:StudentSettings",
+      "type": "function",
+      "name": "StudentSettings",
+      "filePath": "frontend/src/pages/Student/StudentSettings.jsx",
+      "summary": "Function StudentSettings in StudentSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentSettings.jsx:Section",
+      "type": "function",
+      "name": "Section",
+      "filePath": "frontend/src/pages/Student/StudentSettings.jsx",
+      "summary": "Function Section in StudentSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentSettings.jsx:SettingRow",
+      "type": "function",
+      "name": "SettingRow",
+      "filePath": "frontend/src/pages/Student/StudentSettings.jsx",
+      "summary": "Function SettingRow in StudentSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/Student/StudentSettings.jsx:Toggle",
+      "type": "function",
+      "name": "Toggle",
+      "filePath": "frontend/src/pages/Student/StudentSettings.jsx",
+      "summary": "Function Toggle in StudentSettings.jsx",
+      "tags": [
+        "function",
+        "javascript",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementRecords.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementRecords.jsx:PlacementRecords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementRecords.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementReports.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementReports.jsx:PlacementReports",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementReports.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementStudents.jsx",
+      "target": "function:frontend/src/pages/Placement/PlacementStudents.jsx:PlacementStudents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Placement/PlacementStudents.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Applicants.jsx",
+      "target": "function:frontend/src/pages/Recruiter/Applicants.jsx:Applicants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Applicants.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "target": "function:frontend/src/pages/Recruiter/CompanyProfile.jsx:CompanyProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/CompanyProfile.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/CreateJob.jsx",
+      "target": "function:frontend/src/pages/Recruiter/CreateJob.jsx:CreateJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/CreateJob.jsx",
+      "target": "function:frontend/src/pages/Recruiter/CreateJob.jsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/CreateJob.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "target": "function:frontend/src/pages/Recruiter/ManageJobs.jsx:ManageJobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/ManageJobs.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Notifications.jsx",
+      "target": "function:frontend/src/pages/Recruiter/Notifications.jsx:Notifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/Notifications.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "target": "function:frontend/src/pages/Recruiter/RecruiterDashboard.jsx:RecruiterDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/RecruiterDashboard.jsx",
+      "target": "function:frontend/src/pages/Recruiter/RecruiterDashboard.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Recruiter/RecruiterLayout.jsx",
+      "target": "function:frontend/src/pages/Recruiter/RecruiterLayout.jsx:RecruiterLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "function:frontend/src/pages/Student/Profile.jsx:Profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "function:frontend/src/pages/Student/Profile.jsx:Field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "function:frontend/src/pages/Student/Profile.jsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "function:frontend/src/pages/Student/Profile.jsx:Select",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "function:frontend/src/pages/Student/Profile.jsx:AcademicInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/Profile.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentApplications.jsx:StudentApplications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentApplications.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentApplications.jsx:ApplicationCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentApplications.jsx:StatusBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentApplications.jsx:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentApplications.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentDashboard.jsx",
+      "target": "function:frontend/src/pages/Student/StudentDashboard.jsx:StudentDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentDashboard.jsx",
+      "target": "function:frontend/src/pages/Student/StudentDashboard.jsx:StatCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentDashboard.jsx",
+      "target": "function:frontend/src/pages/Student/StudentDashboard.jsx:ActionCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentInterviews.jsx",
+      "target": "function:frontend/src/pages/Student/StudentInterviews.jsx:StudentInterviews",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentInterviews.jsx",
+      "target": "function:frontend/src/pages/Student/StudentInterviews.jsx:Stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobDetails.jsx:StudentJobDetails",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobDetails.jsx:Requirement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobDetails.jsx:Detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobDetails.jsx:format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobDetails.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:StudentJobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:Filter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:JobCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:Tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:formatJobType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "function:frontend/src/pages/Student/StudentJobs.jsx:formatWorkMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentJobs.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentLayout.jsx",
+      "target": "function:frontend/src/pages/Student/StudentLayout.jsx:StudentLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentNotifications.jsx",
+      "target": "function:frontend/src/pages/Student/StudentNotifications.jsx:StudentNotifications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "target": "function:frontend/src/pages/Student/StudentResume.jsx:StudentResume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "target": "function:frontend/src/pages/Student/StudentResume.jsx:getFilename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "target": "function:frontend/src/pages/Student/StudentResume.jsx:InfoCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentResume.jsx",
+      "target": "file:frontend/src/api/axios.jsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "target": "function:frontend/src/pages/Student/StudentSettings.jsx:StudentSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "target": "function:frontend/src/pages/Student/StudentSettings.jsx:Section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "target": "function:frontend/src/pages/Student/StudentSettings.jsx:SettingRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:frontend/src/pages/Student/StudentSettings.jsx",
+      "target": "function:frontend/src/pages/Student/StudentSettings.jsx:Toggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

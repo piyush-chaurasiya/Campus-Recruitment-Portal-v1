@@ -1,0 +1,76 @@
+{
+  "projectRoot": "D:/latest/campus-placement-portal",
+  "batchFiles": [
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "language": "java",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "language": "java",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "language": "java",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "language": "java",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "language": "java",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "language": "java",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java"
+    ],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java": [],
+    "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java": [
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java"
+    ]
+  }
+}

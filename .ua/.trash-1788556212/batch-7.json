@@ -1,0 +1,2522 @@
+{
+  "nodes": [
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "type": "file",
+      "name": "PlacementStudentController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "summary": "PlacementStudentController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:PlacementStudentController",
+      "type": "function",
+      "name": "PlacementStudentController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "summary": "Function PlacementStudentController in PlacementStudentController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:getAllStudents",
+      "type": "function",
+      "name": "getAllStudents",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "summary": "Function getAllStudents in PlacementStudentController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:PlacementStudentController",
+      "type": "class",
+      "name": "PlacementStudentController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "summary": "Class PlacementStudentController in PlacementStudentController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "type": "file",
+      "name": "StudentProfileController.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "summary": "StudentProfileController class in backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java providing core application logic.",
+      "tags": [
+        "code",
+        "api-handler",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:StudentProfileController",
+      "type": "function",
+      "name": "StudentProfileController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "summary": "Function StudentProfileController in StudentProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:getProfile",
+      "type": "function",
+      "name": "getProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "summary": "Function getProfile in StudentProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:updateProfile",
+      "type": "function",
+      "name": "updateProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "summary": "Function updateProfile in StudentProfileController.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:StudentProfileController",
+      "type": "class",
+      "name": "StudentProfileController",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "summary": "Class StudentProfileController in StudentProfileController.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "type": "file",
+      "name": "PlacementStudentResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "PlacementStudentResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:PlacementStudentResponse",
+      "type": "function",
+      "name": "PlacementStudentResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function PlacementStudentResponse in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:from",
+      "type": "function",
+      "name": "from",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function from in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getId in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getName in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getEmail",
+      "type": "function",
+      "name": "getEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getEmail in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getPhone",
+      "type": "function",
+      "name": "getPhone",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getPhone in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getBranch",
+      "type": "function",
+      "name": "getBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getBranch in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getCourse",
+      "type": "function",
+      "name": "getCourse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getCourse in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getPassingYear",
+      "type": "function",
+      "name": "getPassingYear",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getPassingYear in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getCgpa",
+      "type": "function",
+      "name": "getCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getCgpa in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getBacklogs",
+      "type": "function",
+      "name": "getBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getBacklogs in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getTenthPercentage",
+      "type": "function",
+      "name": "getTenthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getTenthPercentage in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getTwelfthPercentage",
+      "type": "function",
+      "name": "getTwelfthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getTwelfthPercentage in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getAcademicStatus",
+      "type": "function",
+      "name": "getAcademicStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getAcademicStatus in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getHasResume",
+      "type": "function",
+      "name": "getHasResume",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Function getHasResume in PlacementStudentResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:PlacementStudentResponse",
+      "type": "class",
+      "name": "PlacementStudentResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "summary": "Class PlacementStudentResponse in PlacementStudentResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "type": "file",
+      "name": "StudentProfileResponse.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "StudentProfileResponse class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:StudentProfileResponse",
+      "type": "function",
+      "name": "StudentProfileResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function StudentProfileResponse in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getName in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setName in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getEmail",
+      "type": "function",
+      "name": "getEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getEmail in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setEmail",
+      "type": "function",
+      "name": "setEmail",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setEmail in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPhone",
+      "type": "function",
+      "name": "getPhone",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getPhone in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPhone",
+      "type": "function",
+      "name": "setPhone",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setPhone in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getDateOfBirth",
+      "type": "function",
+      "name": "getDateOfBirth",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getDateOfBirth in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setDateOfBirth",
+      "type": "function",
+      "name": "setDateOfBirth",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setDateOfBirth in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getGender",
+      "type": "function",
+      "name": "getGender",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getGender in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setGender",
+      "type": "function",
+      "name": "setGender",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setGender in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getAddress",
+      "type": "function",
+      "name": "getAddress",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getAddress in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setAddress",
+      "type": "function",
+      "name": "setAddress",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setAddress in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCity",
+      "type": "function",
+      "name": "getCity",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getCity in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCity",
+      "type": "function",
+      "name": "setCity",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setCity in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getState",
+      "type": "function",
+      "name": "getState",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getState in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setState",
+      "type": "function",
+      "name": "setState",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setState in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPincode",
+      "type": "function",
+      "name": "getPincode",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getPincode in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPincode",
+      "type": "function",
+      "name": "setPincode",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setPincode in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getBranch",
+      "type": "function",
+      "name": "getBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getBranch in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setBranch",
+      "type": "function",
+      "name": "setBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setBranch in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCourse",
+      "type": "function",
+      "name": "getCourse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getCourse in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCourse",
+      "type": "function",
+      "name": "setCourse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setCourse in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPassingYear",
+      "type": "function",
+      "name": "getPassingYear",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getPassingYear in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPassingYear",
+      "type": "function",
+      "name": "setPassingYear",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setPassingYear in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getSkills",
+      "type": "function",
+      "name": "getSkills",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getSkills in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setSkills",
+      "type": "function",
+      "name": "setSkills",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setSkills in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getGithubUrl",
+      "type": "function",
+      "name": "getGithubUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getGithubUrl in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setGithubUrl",
+      "type": "function",
+      "name": "setGithubUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setGithubUrl in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getLinkedinUrl",
+      "type": "function",
+      "name": "getLinkedinUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getLinkedinUrl in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setLinkedinUrl",
+      "type": "function",
+      "name": "setLinkedinUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setLinkedinUrl in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTenthPercentage",
+      "type": "function",
+      "name": "getTenthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getTenthPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTenthPercentage",
+      "type": "function",
+      "name": "setTenthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setTenthPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTenthMathPercentage",
+      "type": "function",
+      "name": "getTenthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getTenthMathPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTenthMathPercentage",
+      "type": "function",
+      "name": "setTenthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setTenthMathPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTwelfthPercentage",
+      "type": "function",
+      "name": "getTwelfthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getTwelfthPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTwelfthPercentage",
+      "type": "function",
+      "name": "setTwelfthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setTwelfthPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTwelfthMathPercentage",
+      "type": "function",
+      "name": "getTwelfthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getTwelfthMathPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTwelfthMathPercentage",
+      "type": "function",
+      "name": "setTwelfthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setTwelfthMathPercentage in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCgpa",
+      "type": "function",
+      "name": "getCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getCgpa in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCgpa",
+      "type": "function",
+      "name": "setCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setCgpa in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getBacklogs",
+      "type": "function",
+      "name": "getBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getBacklogs in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setBacklogs",
+      "type": "function",
+      "name": "setBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setBacklogs in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getAcademicStatus",
+      "type": "function",
+      "name": "getAcademicStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function getAcademicStatus in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setAcademicStatus",
+      "type": "function",
+      "name": "setAcademicStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Function setAcademicStatus in StudentProfileResponse.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:StudentProfileResponse",
+      "type": "class",
+      "name": "StudentProfileResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "summary": "Class StudentProfileResponse in StudentProfileResponse.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "type": "file",
+      "name": "UpdateStudentProfileRequest.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "UpdateStudentProfileRequest class in backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:UpdateStudentProfileRequest",
+      "type": "function",
+      "name": "UpdateStudentProfileRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function UpdateStudentProfileRequest in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPhone",
+      "type": "function",
+      "name": "getPhone",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getPhone in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPhone",
+      "type": "function",
+      "name": "setPhone",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setPhone in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getDateOfBirth",
+      "type": "function",
+      "name": "getDateOfBirth",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getDateOfBirth in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setDateOfBirth",
+      "type": "function",
+      "name": "setDateOfBirth",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setDateOfBirth in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getGender",
+      "type": "function",
+      "name": "getGender",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getGender in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setGender",
+      "type": "function",
+      "name": "setGender",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setGender in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getAddress",
+      "type": "function",
+      "name": "getAddress",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getAddress in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setAddress",
+      "type": "function",
+      "name": "setAddress",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setAddress in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCity",
+      "type": "function",
+      "name": "getCity",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getCity in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCity",
+      "type": "function",
+      "name": "setCity",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setCity in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getState",
+      "type": "function",
+      "name": "getState",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getState in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setState",
+      "type": "function",
+      "name": "setState",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setState in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPincode",
+      "type": "function",
+      "name": "getPincode",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getPincode in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPincode",
+      "type": "function",
+      "name": "setPincode",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setPincode in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getBranch",
+      "type": "function",
+      "name": "getBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getBranch in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setBranch",
+      "type": "function",
+      "name": "setBranch",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setBranch in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCourse",
+      "type": "function",
+      "name": "getCourse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getCourse in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCourse",
+      "type": "function",
+      "name": "setCourse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setCourse in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPassingYear",
+      "type": "function",
+      "name": "getPassingYear",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getPassingYear in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPassingYear",
+      "type": "function",
+      "name": "setPassingYear",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setPassingYear in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getSkills",
+      "type": "function",
+      "name": "getSkills",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getSkills in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setSkills",
+      "type": "function",
+      "name": "setSkills",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setSkills in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getGithubUrl",
+      "type": "function",
+      "name": "getGithubUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getGithubUrl in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setGithubUrl",
+      "type": "function",
+      "name": "setGithubUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setGithubUrl in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getLinkedinUrl",
+      "type": "function",
+      "name": "getLinkedinUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getLinkedinUrl in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setLinkedinUrl",
+      "type": "function",
+      "name": "setLinkedinUrl",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setLinkedinUrl in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTenthPercentage",
+      "type": "function",
+      "name": "getTenthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getTenthPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTenthPercentage",
+      "type": "function",
+      "name": "setTenthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setTenthPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTenthMathPercentage",
+      "type": "function",
+      "name": "getTenthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getTenthMathPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTenthMathPercentage",
+      "type": "function",
+      "name": "setTenthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setTenthMathPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTwelfthPercentage",
+      "type": "function",
+      "name": "getTwelfthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getTwelfthPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTwelfthPercentage",
+      "type": "function",
+      "name": "setTwelfthPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setTwelfthPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTwelfthMathPercentage",
+      "type": "function",
+      "name": "getTwelfthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getTwelfthMathPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTwelfthMathPercentage",
+      "type": "function",
+      "name": "setTwelfthMathPercentage",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setTwelfthMathPercentage in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCgpa",
+      "type": "function",
+      "name": "getCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getCgpa in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCgpa",
+      "type": "function",
+      "name": "setCgpa",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setCgpa in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getBacklogs",
+      "type": "function",
+      "name": "getBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function getBacklogs in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setBacklogs",
+      "type": "function",
+      "name": "setBacklogs",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Function setBacklogs in UpdateStudentProfileRequest.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:UpdateStudentProfileRequest",
+      "type": "class",
+      "name": "UpdateStudentProfileRequest",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "summary": "Class UpdateStudentProfileRequest in UpdateStudentProfileRequest.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "type": "file",
+      "name": "AcademicStatus.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "summary": "AcademicStatus class in backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java providing core application logic.",
+      "tags": [
+        "code",
+        "java",
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java:AcademicStatus",
+      "type": "class",
+      "name": "AcademicStatus",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "summary": "Class AcademicStatus in AcademicStatus.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "type": "file",
+      "name": "StudentProfileService.java",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "StudentProfileService class in backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java providing core application logic.",
+      "tags": [
+        "code",
+        "service",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:StudentProfileService",
+      "type": "function",
+      "name": "StudentProfileService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Function StudentProfileService in StudentProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:getProfile",
+      "type": "function",
+      "name": "getProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Function getProfile in StudentProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:updateProfile",
+      "type": "function",
+      "name": "updateProfile",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Function updateProfile in StudentProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:toResponse",
+      "type": "function",
+      "name": "toResponse",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Function toResponse in StudentProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:getAllStudentsForPlacement",
+      "type": "function",
+      "name": "getAllStudentsForPlacement",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Function getAllStudentsForPlacement in StudentProfileService.java",
+      "tags": [
+        "function",
+        "java",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:StudentProfileService",
+      "type": "class",
+      "name": "StudentProfileService",
+      "filePath": "backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "summary": "Class StudentProfileService in StudentProfileService.java",
+      "tags": [
+        "class",
+        "java",
+        "component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:PlacementStudentController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:getAllStudents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java:PlacementStudentController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/PlacementStudentController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:StudentProfileController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:getProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:updateProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java:StudentProfileController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/controller/StudentProfileController.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:PlacementStudentResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:from",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getPhone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getCourse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getPassingYear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getTenthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getTwelfthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getAcademicStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:getHasResume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java:PlacementStudentResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:StudentProfileResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPhone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPhone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getDateOfBirth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setDateOfBirth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getGender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setGender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPincode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPincode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCourse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCourse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getPassingYear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setPassingYear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getGithubUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setGithubUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getLinkedinUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setLinkedinUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTenthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTenthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTenthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTenthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTwelfthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTwelfthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getTwelfthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setTwelfthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:getAcademicStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:setAcademicStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java:StudentProfileResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:UpdateStudentProfileRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPhone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPhone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getDateOfBirth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setDateOfBirth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getGender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setGender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setAddress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPincode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPincode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCourse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCourse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getPassingYear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setPassingYear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getGithubUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setGithubUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getLinkedinUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setLinkedinUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTenthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTenthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTenthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTenthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTwelfthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTwelfthPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getTwelfthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setTwelfthMathPercentage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setCgpa",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:getBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:setBacklogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java:UpdateStudentProfileRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/model/AcademicStatus.java:AcademicStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:StudentProfileService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:getProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:updateProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:toResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "function:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:getAllStudentsForPlacement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "class:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java:StudentProfileService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/PlacementStudentResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/StudentProfileResponse.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/dto/UpdateStudentProfileRequest.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/StudentProfile.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/model/User.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/StudentProfileRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/service/StudentProfileService.java",
+      "target": "file:backEnd/src/main/java/com/myanatomy/sandboxpro/repository/UserRepository.java",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}
